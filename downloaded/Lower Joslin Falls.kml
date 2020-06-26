@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lower Joslin Falls</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1391-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1391-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1391-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1391-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1391-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-6000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6000-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-6000-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>164 meters</description>
+        <styleUrl>#line-DB4436-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0263273,45.8857738,0
+            -67.025921,45.88584,0
+            -67.0257211,45.8859419,0
+            -67.025643,45.88604,0
+            -67.0255977,45.8861174,0
+            -67.025366,45.886143,0
+            -67.025238,45.886268,0
+            -67.0250988,45.8863451,0
+            -67.025109,45.886442,0
+            -67.02523,45.886467,0
+            -67.025238,45.886541,0
+            -67.0250988,45.8865953,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-6000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.025366,45.886143,0
+            -67.025198,45.8861902,0
+            -67.0250022,45.8861808,0
+            -67.0249808,45.8861155,0
+            -67.0248681,45.8861584,0
+            -67.0248252,45.8862667,0
+            -67.0247796,45.8863825,0
+            -67.0247796,45.8864926,0
+            -67.0247716,45.8866121,0
+            -67.0248038,45.8866756,0
+            -67.0249057,45.8866868,0
+            -67.0249593,45.886614,0
+            -67.0249406,45.886543,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Waterfall / Chutes</name>
+        <styleUrl>#icon-1391-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.0249593,45.8864684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

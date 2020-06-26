@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le Prospecteur - Bob-Leboeuf Trail</name>
+    <description/>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-73-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/73-hospitals.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-73-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/73-hospitals.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-73-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-73-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-73-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-77-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3333FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3333FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3333FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3333FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3333FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-996633-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-996633-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF33-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF33-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF33-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.327667,47.386699,0
+            -68.327442,47.38643,0
+            -68.327442,47.386183,0
+            -68.327302,47.386067,0
+            -68.32741,47.385762,0
+            -68.32742,47.385341,0
+            -68.327613,47.384861,0
+            -68.327345,47.384404,0
+            -68.327045,47.384149,0
+            -68.326884,47.383866,0
+            -68.326498,47.383576,0
+            -68.325811,47.383314,0
+            -68.325435,47.382987,0
+            -68.324717,47.382617,0
+            -68.324395,47.382624,0
+            -68.323901,47.382697,0
+            -68.323,47.382697,0
+            -68.321305,47.383089,0
+            -68.321316,47.38343,0
+            -68.321476,47.38359,0
+            -68.321519,47.383932,0
+            -68.321755,47.384091,0
+            -68.322002,47.384861,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mine D'or Trail continues]]></name>
+        <styleUrl>#line-FFFF33-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.325886,47.383343,0
+            -68.326058,47.383169,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[De L'Évêché Trail continues]]></name>
+        <styleUrl>#line-FFFF33-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.321927,47.382965,0
+            -68.321927,47.382697,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cascades Trail continues</name>
+        <styleUrl>#line-FFFF33-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.321303,47.383082,0
+            -68.320811,47.383263,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues</name>
+        <styleUrl>#line-FFFF33-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.327989,47.386576,0
+            -68.327291,47.386844,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>26-APR-13 5:10:16PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -68.327416,47.385803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>26-APR-13 5:03:40PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -68.326228,47.383505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Map</name>
+        <description>26-APR-13 6:13:28PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -68.322024,47.384864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Road Access Trail</name>
+        <styleUrl>#line-996633-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.327425,47.385515,0
+            -68.327108,47.385639,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Penchant de la Madoueska Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/UpperSJRiver/Edmundston/LeProspecteur/Penchant.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -68.327472,47.386772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mine D'or Trail]]></name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/UpperSJRiver/Edmundston/LeProspecteur/MineDor.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -68.326013,47.383212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les Cascades Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/UpperSJRiver/Edmundston/LeProspecteur/Cascades.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -68.321013,47.383198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[De L'Évêché Trail]]></name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/UpperSJRiver/Edmundston/LeProspecteur/Eveche.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -68.321958,47.382762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Aid / Premier Soins</name>
+        <styleUrl>#icon-73-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -68.321443,47.383154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Atlas - Back Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-009900-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009900-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009900-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Back Trail</name>
+        <styleUrl>#line-009900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76059,47.841849,0
+            -65.759997,47.842071,0
+            -65.759836,47.842071,0
+            -65.759185,47.842227,0
+            -65.758648,47.84228,0
+            -65.758243,47.842238,0
+            -65.75801,47.842278,0
+            -65.757629,47.842458,0
+            -65.75727,47.842469,0
+            -65.756803,47.842564,0
+            -65.75621,47.842758,0
+            -65.756065,47.842722,0
+            -65.756022,47.842658,0
+            -65.75613,47.842548,0
+            -65.756409,47.842519,0
+            -65.756527,47.842343,0
+            -65.75706,47.842227,0
+            -65.757203,47.842258,0
+            -65.757715,47.841817,0
+            -65.75797,47.841491,0
+            -65.758847,47.841541,0
+            -65.759574,47.841421,0
+            -65.760048,47.841147,0
+            -65.760968,47.840868,0
+            -65.761161,47.840888,0
+            -65.761271,47.840937,0
+            -65.761325,47.841061,0
+            -65.761068,47.841102,0
+            -65.760746,47.841232,0
+            -65.760097,47.841376,0
+            -65.759946,47.841441,0
+            -65.759933,47.841558,0
+            -65.75982,47.841626,0
+            -65.759759,47.841772,0
+            -65.759836,47.842071,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Sparrow Trail contines</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Sparrow.html]]></description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.761593,47.841019,0
+            -65.761325,47.841061,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sparrow Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Sparrow.html]]></description>
+        <styleUrl>#line-F4EB37-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.761566,47.840879,0
+            -65.761271,47.840937,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sparrow Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Sparrow.html]]></description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.760834,47.841921,0
+            -65.760614,47.841903,0
+            -65.76051,47.841718,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Oasapegal Heritage Park</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-149-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-149-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-149">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-77-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-93-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-93">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC6600-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0066cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC6600-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0066cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC6600-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC6600-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC6600-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>09-MAY-14 3:41:13PM</description>
+        <styleUrl>#icon-93</styleUrl>
+        <Point>
+          <coordinates>
+            -65.668298,47.527235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 3:41:36PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.668784,47.527248,13.1
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 3:44:29PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.669871,47.526825,13.82
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 3:45:31PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.670236,47.527293,17.91
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>09-MAY-14 3:47:36PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -65.670462,47.52752,16.23
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 3:47:59PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.670423,47.527581,17.91
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>09-MAY-14 3:52:12PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -65.669542,47.527236,17.43
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>09-MAY-14 3:53:01PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -65.66917,47.527308,16.47
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 4:00:21PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.67053,47.528536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 4:00:51PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.670476,47.528193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 4:06:52PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.670629,47.528864,19.59
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>09-MAY-14 4:07:35PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.670725,47.529126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.668722,47.527239,0
+            -65.668934,47.527194,0
+            -65.669098,47.527103,0
+            -65.669066,47.527081,0
+            -65.66931,47.527009,0
+            -65.669299,47.526821,0
+            -65.669741,47.526802,0
+            -65.66991,47.526841,0
+            -65.670155,47.526989,0
+            -65.670251,47.527141,0
+            -65.670267,47.527255,0
+            -65.670232,47.527295,0
+            -65.670302,47.52733,0
+            -65.670353,47.527384,0
+            -65.670417,47.527449,0
+            -65.670431,47.527493,0
+            -65.670463,47.527512,0
+            -65.670412,47.527572,0
+            -65.670562,47.527713,0
+            -65.670557,47.527898,0
+            -65.670509,47.52805,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.668824,47.527228,0
+            -65.669017,47.527226,0
+            -65.669237,47.527268,0
+            -65.66932,47.527263,0
+            -65.669428,47.527228,0
+            -65.669594,47.527167,0
+            -65.669731,47.527114,0
+            -65.669843,47.527089,0
+            -65.669996,47.527165,0
+            -65.66998,47.527228,0
+            -65.669985,47.527358,0
+            -65.670076,47.527493,0
+            -65.670151,47.527603,0
+            -65.670261,47.527768,0
+            -65.670304,47.527911,0
+            -65.670511,47.528065,0
+            -65.670576,47.528673,0
+            -65.670637,47.528851,0
+            -65.670659,47.529019,0
+            -65.670737,47.529112,0
+            -65.670844,47.529186,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATC Trail / Sentier VTT</name>
+        <styleUrl>#line-CC6600-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.668725,47.527243,0
+            -65.668862,47.527395,0
+            -65.669012,47.527518,0
+            -65.669202,47.527532,0
+            -65.669401,47.527623,0
+            -65.66942,47.52767,0
+            -65.669857,47.528027,0
+            -65.670307,47.528202,0
+            -65.670388,47.528346,0
+            -65.670415,47.528532,0
+            -65.670503,47.528643,0
+            -65.670575,47.52867,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.669994,47.527174,0
+            -65.670104,47.527197,0
+            -65.670243,47.527299,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sign / Signe</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.667826,47.52717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

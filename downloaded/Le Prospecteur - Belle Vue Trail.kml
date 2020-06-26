@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le Prospecteur - Belle Vue Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-99-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-99-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-996633-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-996633-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF33-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF33-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF33-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Belle Vue Trail</name>
+        <styleUrl>#line-996633-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.332757,47.388679,0
+            -68.332241,47.388711,0
+            -68.331668,47.388896,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues</name>
+        <styleUrl>#line-FFFF33-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.331474,47.388991,0
+            -68.331675,47.388898,0
+            -68.331501,47.388856,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Benches and Lookout</name>
+        <styleUrl>#icon-99-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -68.332751,47.388689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penchant de la Madoueska Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/UpperSJRiver/Edmundston/LeProspecteur/Penchant.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -68.331538,47.38896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

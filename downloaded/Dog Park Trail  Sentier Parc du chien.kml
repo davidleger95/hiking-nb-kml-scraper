@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Dog Park Trail / Sentier Parc du chien</name>
+    <description><![CDATA[The Dog Park Trail at Centennial Park in Moncton (Fundy Coastal East Region).<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1207-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1207-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1207-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5069-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5069-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5263-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5263-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5844-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5844-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>196 m</description>
+        <styleUrl>#line-DB4436-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8188773,46.0845559,0
+            -64.819918,46.0843196,0
+            -64.8203901,46.0840582,0
+            -64.8205188,46.0840745,0
+            -64.8206864,46.0838278,0
+            -64.8209962,46.0838675,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>202 m</description>
+        <styleUrl>#line-DB4436-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8208648,46.0835661,0
+            -64.820677,46.0836033,0
+            -64.8205161,46.0835866,0
+            -64.8202398,46.0836629,0
+            -64.8199743,46.0838471,0
+            -64.8197141,46.0839289,0
+            -64.8195398,46.0840852,0
+            -64.8192313,46.084154,0
+            -64.8190677,46.084048,0
+            -64.8188183,46.0840573,0
+            -64.8186064,46.0840945,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>28 m</description>
+        <styleUrl>#line-DB4436-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8207843,46.0838471,0
+            -64.820677,46.0836033,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>28 m</description>
+        <styleUrl>#line-DB4436-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8196203,46.0840182,0
+            -64.8193145,46.0838768,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Fire Break Road continues / Chemin Coupe-feu continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/FireBreakRoad.html)</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8207468,46.0833057,0
+            -64.8211437,46.0841447,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <styleUrl>#icon-1207-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.8189068,46.0838322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

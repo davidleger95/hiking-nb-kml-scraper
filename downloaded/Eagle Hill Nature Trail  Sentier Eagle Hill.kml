@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Eagle Hill Nature Trail / Sentier Eagle Hill</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1535-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1535-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1535-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1535-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1535-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1877-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1877-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1877-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1877-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1877-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5456-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5456-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5456-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-5456-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5844-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-5844-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>End of Wheelchair Accessible Trail</name>
+        <description>03-JUN-17 1:16:27PM</description>
+        <styleUrl>#icon-1877-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -66.9411915,44.8584155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lookout Platform / Poste d'observation]]></name>
+        <description>03-JUN-17 1:20:52PM</description>
+        <styleUrl>#icon-1535-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.940605,44.858024,33.29
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Parking</name>
+        <styleUrl>#icon-1644-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.9378036,44.861105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stairs to Eagle Hill Lookout</name>
+        <description>0.11 km</description>
+        <styleUrl>#line-E65100-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.940583,44.858,0
+            -66.940643,44.857925,0
+            -66.9406816,44.8578576,0
+            -66.9408023,44.8578519,0
+            -66.9409418,44.8579185,0
+            -66.9410357,44.8579774,0
+            -66.9411403,44.858004,0
+            -66.9412288,44.8581086,0
+            -66.941265,44.858263,0
+            -66.9412342,44.8583653,0
+            -66.9411915,44.8584155,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Boardwalk</name>
+        <description>0.24 km</description>
+        <styleUrl>#line-F9A825-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9411915,44.8584155,0
+            -66.9410866,44.8585934,0
+            -66.9410089,44.8587949,0
+            -66.9408613,44.858987,0
+            -66.9405556,44.8592037,0
+            -66.940289,44.85941,0
+            -66.9402605,44.8594851,0
+            -66.9400781,44.859622,0
+            -66.9398636,44.8597912,0
+            -66.9396892,44.859892,0
+            -66.9396034,44.8599908,0
+            -66.939575,44.86013,0
+            -66.939553,44.860192,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Boardwalk</name>
+        <description>0.39 km</description>
+        <styleUrl>#line-F9A825-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9380397,44.8611487,0
+            -66.9381872,44.861046,0
+            -66.9383159,44.8608996,0
+            -66.9383964,44.8607951,0
+            -66.9384849,44.8606829,0
+            -66.9386056,44.8605916,0
+            -66.938788,44.860489,0
+            -66.9389838,44.8603768,0
+            -66.9391662,44.8602969,0
+            -66.939413,44.8602209,0
+            -66.9395283,44.8601962,0
+            -66.9396195,44.8602133,0
+            -66.939657,44.8602646,0
+            -66.9396678,44.8603331,0
+            -66.9397375,44.8604376,0
+            -66.9397992,44.8605403,0
+            -66.9397804,44.8606677,0
+            -66.9397268,44.8607532,0
+            -66.9395283,44.8608407,0
+            -66.9394076,44.8609053,0
+            -66.9392762,44.861027,0
+            -66.9391555,44.8611335,0
+            -66.9389731,44.8612171,0
+            -66.9387504,44.8612076,0
+            -66.9386002,44.8611943,0
+            -66.9384849,44.8611525,0
+            -66.9383535,44.8611183,0
+            -66.9382274,44.8611164,0
+            -66.9381201,44.8611354,0
+            -66.9380745,44.8611468,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

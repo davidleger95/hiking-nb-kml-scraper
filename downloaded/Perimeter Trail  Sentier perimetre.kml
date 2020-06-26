@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Perimeter Trail / Sentier perimetre</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1512-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1512-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1512-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1512-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1512-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1733-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1733-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1733-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FBC02D-5650-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FBC02D-5650-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FBC02D-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FBC02D-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FBC02D-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentier</name>
+      <Placemark>
+        <name>Perimeter Trail / Sentier périphérique</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianSouth/MurrayBeachPark/PerimeterTrail.html]]></description>
+        <styleUrl>#line-FBC02D-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.97895,46.178036,0
+            -63.9787558,46.1781571,0
+            -63.9785305,46.1782054,0
+            -63.978286,46.178288,0
+            -63.9782274,46.1784914,0
+            -63.978211,46.178602,0
+            -63.978035,46.1787,0
+            -63.97801,46.178768,0
+            -63.978034,46.178807,0
+            -63.9780048,46.1788814,0
+            -63.9778116,46.1790225,0
+            -63.977758,46.1792287,0
+            -63.977639,46.179432,0
+            -63.9775756,46.179654,0
+            -63.977418,46.179935,0
+            -63.9772162,46.1803578,0
+            -63.977015,46.18072,0
+            -63.9768085,46.181201,0
+            -63.9766583,46.1815278,0
+            -63.9769667,46.1816281,0
+            -63.9773744,46.1817488,0
+            -63.9777285,46.1818714,0
+            -63.9780048,46.1820478,0
+            -63.9783776,46.1821481,0
+            -63.9787102,46.1822577,0
+            -63.979414,46.182311,0
+            -63.9795417,46.1823839,0
+            -63.9796329,46.1824081,0
+            -63.979767,46.1823746,0
+            -63.9799467,46.1822967,0
+            -63.9801827,46.1821314,0
+            -63.9803839,46.1819902,0
+            -63.9807111,46.1817061,0
+            -63.980922,46.181419,0
+            -63.981209,46.181213,0
+            -63.9815909,46.1809948,0
+            -63.981759,46.18085,0
+            -63.9818966,46.1807868,0
+            -63.9820656,46.180681,0
+            -63.9822158,46.1805547,0
+            -63.9826638,46.1804377,0
+            -63.9832297,46.1802501,0
+            -63.9838895,46.1800644,0
+            -63.9844796,46.1799158,0
+            -63.9848766,46.1797803,0
+            -63.9849892,46.1796633,0
+            -63.9849758,46.179524,0
+            -63.9848551,46.1793568,0
+            -63.9846513,46.1792435,0
+            -63.9844581,46.179108,0
+            -63.9843535,46.178991,0
+            -63.9842194,46.1788442,0
+            -63.9839914,46.1787254,0
+            -63.9835757,46.1786845,0
+            -63.9830232,46.1786232,0
+            -63.9829051,46.1786455,0
+            -63.9828354,46.178783,0
+            -63.9827308,46.1789947,0
+            -63.9825028,46.1790151,0
+            -63.9820844,46.1789928,0
+            -63.981894,46.1789575,0
+            -63.9816365,46.1789687,0
+            -63.9813253,46.1788907,0
+            -63.9810625,46.1788981,0
+            -63.980895,46.178806,0
+            -63.9807352,46.1788294,0
+            -63.9804751,46.1788405,0
+            -63.980142,46.17874,0
+            -63.9799654,46.178549,0
+            -63.979878,46.178368,0
+            -63.979884,46.178195,0
+            -63.980049,46.178055,0
+            -63.980351,46.177946,0
+            -63.9804456,46.1778469,0
+            -63.980446,46.17775,0
+            -63.9803356,46.1776928,0
+            -63.9801693,46.1777169,0
+            -63.979903,46.177769,0
+            -63.9796302,46.1777504,0
+            -63.9792493,46.1778544,0
+            -63.9790213,46.1779881,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>31-MAY-17 12:56:33PM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -63.9819911,46.1806231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -63.9785036,46.1789334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse / Toilette sèche</name>
+        <description>31-MAY-17 12:27:37PM</description>
+        <styleUrl>#icon-1733-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -63.9833276,46.1803044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse / Toilette sèche</name>
+        <description>31-MAY-17 12:41:14PM</description>
+        <styleUrl>#icon-1733-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -63.978079,46.178819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gatehouse / Guérite</name>
+        <styleUrl>#icon-1512-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -63.9790213,46.1793773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

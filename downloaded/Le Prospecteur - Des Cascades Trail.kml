@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le Prospecteur - Des Cascades Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-149-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-149-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-149">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-73-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/73-hospitals.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-73-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/73-hospitals.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-73-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-73-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-73-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-00CCCC-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffcccc00</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-00CCCC-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcccc00</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-00CCCC-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-00CCCC-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-00CCCC-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF33-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF33-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF33-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Cascades Trail</name>
+        <styleUrl>#line-00CCCC-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.321303,47.383091,0
+            -68.320043,47.38351,0
+            -68.319502,47.383895,0
+            -68.319265,47.383968,0
+            -68.319153,47.383928,0
+            -68.319072,47.383685,0
+            -68.318944,47.383561,0
+            -68.318783,47.383496,0
+            -68.318654,47.3833,0
+            -68.31852,47.383329,0
+            -68.318433,47.383341,0
+            -68.318402,47.383318,0
+            -68.31845,47.383267,0
+            -68.318455,47.383089,0
+            -68.318527,47.383011,0
+            -68.318626,47.383014,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bridge</name>
+        <description>26-APR-13 6:21:46PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -68.318424,47.383327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Picnic Tables</name>
+        <description>26-APR-13 6:20:52PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -68.31855,47.383343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lebeouf Trail continues</name>
+        <styleUrl>#line-FFFF33-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.321513,47.383043,0
+            -68.321306,47.383091,0
+            -68.321314,47.38322,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bob-Leboeuf Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/UpperSJRiver/Edmundston/LeProspecteur/Leboeuf.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -68.321303,47.383183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Aid / Premier Soins</name>
+        <styleUrl>#icon-73-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -68.321496,47.383125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

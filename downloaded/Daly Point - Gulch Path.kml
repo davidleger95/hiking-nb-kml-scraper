@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Daly Point - Gulch Path</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1523-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1523-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1523-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1523-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1523-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1528-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1528-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1528-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1874-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1874-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1874-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1874-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1874-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-B29189-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff8991b2</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-B29189-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff8991b2</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-B29189-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-B29189-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-B29189-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6038-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.038</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-6038-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9.057</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6038">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6038-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6038-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Gulch Path</name>
+        <styleUrl>#line-B29189-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.612197,47.641469,0
+            -65.612173,47.641339,0
+            -65.612331,47.640933,0
+            -65.6122,47.640754,0
+            -65.61235,47.640721,0
+            -65.612296,47.640649,0
+            -65.611966,47.64062,0
+            -65.611746,47.640537,0
+            -65.611612,47.640562,0
+            -65.611296,47.64047,0
+            -65.611084,47.64047,0
+            -65.611041,47.640511,0
+            -65.611105,47.640573,0
+            -65.611532,47.640802,0
+            -65.611588,47.640967,0
+            -65.611561,47.641102,0
+            -65.611333,47.641229,0
+            -65.611341,47.641281,0
+            -65.611521,47.641278,0
+            -65.611615,47.641312,0
+            -65.611631,47.641381,0
+            -65.61176,47.641393,0
+            -65.611808,47.641531,0
+            -65.611966,47.641487,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Field Access Trail</name>
+        <styleUrl>#line-B29189-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.611331,47.641229,0
+            -65.611196,47.641099,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Gulch Trail</name>
+        <styleUrl>#line-B29189-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.610888,47.6379524,0
+            -65.610904,47.638117,0
+            -65.610847,47.638255,0
+            -65.610817,47.638388,0
+            -65.610727,47.63839,0
+            -65.610648,47.638366,0
+            -65.610475,47.638358,0
+            -65.610365,47.638392,0
+            -65.6103462,47.6384765,0
+            -65.610016,47.638641,0
+            -65.60977,47.638683,0
+            -65.60986,47.638808,0
+            -65.609884,47.63902,0
+            -65.610186,47.639323,0
+            -65.6103194,47.6394814,0
+            -65.610491,47.6396259,0
+            -65.610567,47.639683,0
+            -65.610615,47.639805,0
+            -65.610804,47.639887,0
+            -65.611031,47.64004,0
+            -65.611219,47.640134,0
+            -65.611195,47.640224,0
+            -65.611276,47.640378,0
+            -65.6112528,47.6404681,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Lookout</name>
+        <description>24-MAR-12 4:22:30PM</description>
+        <styleUrl>#icon-1523-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.612342,47.641498,21.27
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>24-MAR-12 4:33:29PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.611637,47.641376,16.71
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>24-MAR-12 4:24:47PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.612268,47.640836,21.03
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bird Feeders and Bench</name>
+        <description>25-MAR-17 2:38:33PM</description>
+        <styleUrl>#icon-1874-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.610727,47.63839,32.81
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <styleUrl>#icon-1528-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.611183,47.6404681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <styleUrl>#icon-1528-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.6110543,47.6405332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>White Birch Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/WhiteBirch.html]]></description>
+        <styleUrl>#line-F4EB37-6038</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.6103462,47.6384765,0
+            -65.610432,47.6385362,0
+            -65.6104106,47.6386301,0
+            -65.6104723,47.6387115,0
+            -65.6105581,47.6387476,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Field Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/Field.html]]></description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.611498,47.638113,0
+            -65.611217,47.638023,0
+            -65.610967,47.637962,0
+            -65.610751,47.637927,0
+            -65.6105876,47.6378729,0
+            -65.610306,47.6377897,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Coastal Path continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/Coastal.html]]></description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.612162,47.641672,0
+            -65.611947,47.64159,0
+            -65.611966,47.641487,0
+            -65.612135,47.641451,0
+            -65.612299,47.6415,0
+            -65.612471,47.641413,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

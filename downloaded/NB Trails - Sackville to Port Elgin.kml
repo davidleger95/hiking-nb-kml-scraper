@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>NB Trails - Sackville to Port Elgin</name>
+    <description><![CDATA[www.hikingnb.ca<br>]]></description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>NB Trails - Sackville to Port Elgin</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.084604,46.048589,0
+            -64.085934,46.045193,0
+            -64.086835,46.042825,0
+            -64.087522,46.041485,0
+            -64.089947,46.03864,0
+            -64.093573,46.034871,0
+            -64.096684,46.031549,0
+            -64.100118,46.027959,0
+            -64.102478,46.025351,0
+            -64.105289,46.023221,0
+            -64.108078,46.021135,0
+            -64.110117,46.020166,0
+            -64.113293,46.019049,0
+            -64.115674,46.018497,0
+            -64.12473,46.018155,0
+            -64.128828,46.018006,0
+            -64.140415,46.017574,0
+            -64.156744,46.016963,0
+            -64.162216,46.016754,0
+            -64.170563,46.016128,0
+            -64.186206,46.014951,0
+            -64.200239,46.013818,0
+            -64.211955,46.01285,0
+            -64.227254,46.011538,0
+            -64.241481,46.010361,0
+            -64.246008,46.009974,0
+            -64.254291,46.008662,0
+            -64.258282,46.007559,0
+            -64.26693,46.005234,0
+            -64.275019,46.003103,0
+            -64.28195,46.000554,0
+            -64.2871,45.998721,0
+            -64.28931,45.99729,0
+            -64.292228,45.994219,0
+            -64.295597,45.990551,0
+            -64.300618,45.984856,0
+            -64.305875,45.979056,0
+            -64.311047,45.973345,0
+            -64.316905,45.966797,0
+            -64.321711,45.961607,0
+            -64.326968,45.955625,0
+            -64.332976,45.949061,0
+            -64.338598,45.942854,0
+            -64.340379,45.94084,0
+            -64.343405,45.937557,0
+            -64.345915,45.934781,0
+            -64.347267,45.933334,0
+            -64.353447,45.928409,0
+            -64.355314,45.926827,0
+            -64.357502,45.922304,0
+            -64.361343,45.915363,0
+            -64.36173,45.914556,0
+            -64.36439,45.906957,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Red-winged Blackbird Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.116447,46.018468,0
+            -64.115878,46.018103,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Red-winged Blackbird Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/RedwingedBlackbird.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.11605,46.018207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NB Trails Port Elgin to Cape Tormentine Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.084598,46.048593,0
+            -64.084405,46.049121,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Gaspereaux Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.084609,46.048593,0
+            -64.084319,46.048559,0
+            -64.083982,46.048395,0
+            -64.083901,46.048377,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>NB Trails - Port Elgin to Cape Tormentine Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/PortElginToCapeTormentine.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.084475,46.048939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaspereaux Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/PortElgin/Gaspereaux.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.084078,46.048444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

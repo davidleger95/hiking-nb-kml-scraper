@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pokiok - Lookout Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-117-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-117-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-117">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-149-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-149-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-149-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-183-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/183-man.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-183-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/183-man.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-183">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-183-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-183-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-199-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/199-woman.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-199-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/199-woman.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-199">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-199-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-199-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-77-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Lookout Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.240191,45.93336,0
+            -67.239933,45.933184,0
+            -67.239627,45.933072,0
+            -67.239472,45.933046,0
+            -67.2393,45.933095,0
+            -67.239134,45.93308,0
+            -67.238747,45.932934,0
+            -67.237921,45.932214,0
+            -67.237342,45.931951,0
+            -67.237278,45.931968,0
+            -67.23731,45.932054,0
+            -67.237235,45.932099,0
+            -67.237243,45.93216,0
+            -67.237347,45.932278,0
+            -67.237272,45.932403,0
+            -67.237476,45.932479,0
+            -67.237648,45.932457,0
+            -67.23827,45.932517,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Partridge Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/BigPokiok/Partridge.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.237475,45.932012,0
+            -67.237341,45.931848,0
+            -67.237341,45.931759,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pokiok Rapids</name>
+        <styleUrl>#icon-149-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.237186,45.93211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Area</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.240217,45.933438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shelter and Picnic Table</name>
+        <description>01-APR-10 4:08:51PM</description>
+        <styleUrl>#icon-117</styleUrl>
+        <Point>
+          <coordinates>
+            -67.240359,45.933313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse</name>
+        <description>01-APR-10 4:07:06PM</description>
+        <styleUrl>#icon-199</styleUrl>
+        <Point>
+          <coordinates>
+            -67.240366,45.933067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse</name>
+        <description>01-APR-10 4:08:00PM</description>
+        <styleUrl>#icon-183</styleUrl>
+        <Point>
+          <coordinates>
+            -67.240563,45.932932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive Sign 1</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.240094,45.933192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive Sign 2</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.238479,45.932539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive Sign 4</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.237197,45.932069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive Sign 5</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.237406,45.932494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive Sign 3</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.237626,45.931976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

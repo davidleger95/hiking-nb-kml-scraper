@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tracy Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="line-FF0000-5000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Crushed Rock Trail</name>
+        <description>Old Railbed</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.67231,45.67356,0
+            -66.677238,45.673784,0
+            -66.677678,45.673814,0
+            -66.678171,45.673837,0
+            -66.678557,45.67381,0
+            -66.67929,45.67385,0
+            -66.680172,45.673897,0
+            -66.68108,45.67398,0
+            -66.681626,45.674077,0
+            -66.682135,45.674219,0
+            -66.682157,45.674421,0
+            -66.682227,45.674624,0
+            -66.682441,45.674871,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

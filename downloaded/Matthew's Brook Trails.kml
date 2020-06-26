@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Matthew's Brook Trails]]></name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1528-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1528-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1528-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5456-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5456-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5650-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5650-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5456-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5456-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BCAAA4-5650-normal">
+      <LineStyle>
+        <color>ffa4aabc</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-BCAAA4-5650-highlight">
+      <LineStyle>
+        <color>ffa4aabc</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-BCAAA4-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BCAAA4-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BCAAA4-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5456-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5456-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5069-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-5069-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF8D-5069-normal">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF8D-5069-highlight">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF8D-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF8D-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF8D-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Bench / banc</name>
+        <description>10-MAY-18 1:32:44PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9726003184915,45.4421262815595,9.25830078125
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 12:52:26PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9736123494804,45.439175516367,23.677978515625
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 12:59:54PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.973164672032,45.4403089173138,18.8714599609375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 1:25:48PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9710911568254,45.4409001767635,15.5069580078125
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Covered Bridge</name>
+        <description>10-MAY-18 12:48:29PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9761057980359,45.4401942528784,22.7166748046875
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 1:28:36PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9723486937582,45.4419782571495,11.4212646484375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 1:29:39PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9722443390638,45.4412745963782,10.2196044921875
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 1:32:03PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9724672138691,45.4420256149024,9.4986572265625
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.971416,45.438805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9759757,45.4422227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9743927,45.4403932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnment</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9757553,45.4396893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>175 metres</description>
+        <styleUrl>#line-F9A825-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9740599,45.4421157,0
+            -65.9739472,45.4420668,0
+            -65.9738517,45.4419907,0
+            -65.9737729,45.4419943,0
+            -65.9736947,45.4420414,0
+            -65.9734942,45.4419794,0
+            -65.9733283,45.4420344,0
+            -65.9733181,45.4419947,0
+            -65.9731735,45.4419044,0
+            -65.9729348,45.441927,0
+            -65.9728379,45.4420564,0
+            -65.9727002,45.4421329,0
+            -65.9726037,45.4421517,0
+            -65.9725691,45.442035,0
+            -65.9724935,45.4420161,0
+            -65.9724237,45.4419332,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Homestar Dog Park Loop</name>
+        <description>550 metres</description>
+        <styleUrl>#line-BCAAA4-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9704147,45.439009,0
+            -65.9702618,45.4389761,0
+            -65.9700301,45.4390387,0
+            -65.9699199,45.4390975,0
+            -65.9697871,45.439073,0
+            -65.9696235,45.4389874,0
+            -65.9695886,45.4389431,0
+            -65.9693378,45.4387361,0
+            -65.9693029,45.4386966,0
+            -65.9692372,45.4385987,0
+            -65.969181,45.4385206,0
+            -65.9691273,45.4384675,0
+            -65.9691302,45.4383883,0
+            -65.9690525,45.4382377,0
+            -65.9690741,45.4380606,0
+            -65.9690415,45.4380114,0
+            -65.9687516,45.4378415,0
+            -65.9686,45.4375355,0
+            -65.9686237,45.4373696,0
+            -65.968807,45.4373107,0
+            -65.9690101,45.4373747,0
+            -65.9692138,45.4374761,0
+            -65.9694182,45.437556,0
+            -65.9697683,45.4378101,0
+            -65.9699847,45.4379816,0
+            -65.9700267,45.4381248,0
+            -65.9702637,45.4381305,0
+            -65.9705113,45.4381706,0
+            -65.9706498,45.4382061,0
+            -65.9708738,45.4382925,0
+            -65.9712174,45.4384429,0
+            -65.9713787,45.4385339,0
+            -65.9713294,45.4386477,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>550 metres</description>
+        <styleUrl>#line-E65100-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9742137,45.4397571,0
+            -65.9739039,45.4398992,0
+            -65.9737698,45.4399077,0
+            -65.9736933,45.4400093,0
+            -65.9736559,45.440235,0
+            -65.9735057,45.4403291,0
+            -65.973275,45.4403931,0
+            -65.9731046,45.4402841,0
+            -65.9728417,45.4402559,0
+            -65.9725739,45.4401241,0
+            -65.9724733,45.4401852,0
+            -65.972421,45.4403725,0
+            -65.9722493,45.4404515,0
+            -65.9719811,45.4402725,0
+            -65.9718696,45.4401692,0
+            -65.9717266,45.4400959,0
+            -65.9716444,45.4400928,0
+            -65.9715849,45.4401091,0
+            -65.9714181,45.4400813,0
+            -65.971368,45.4398756,0
+            -65.9711855,45.4399124,0
+            -65.9708519,45.4398663,0
+            -65.9708611,45.4396064,0
+            -65.9707511,45.4393618,0
+            -65.970628,45.439185,0
+            -65.9704147,45.439009,0
+            -65.9705551,45.4389608,0
+            -65.9710755,45.4390757,0
+            -65.9713169,45.4390117,0
+            -65.9714027,45.4388846,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>600 metres</description>
+        <styleUrl>#line-0288D1-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.971368,45.4398756,0
+            -65.9715799,45.4394494,0
+            -65.9717595,45.4392979,0
+            -65.9720371,45.4392443,0
+            -65.9723066,45.4392368,0
+            -65.972595,45.4391267,0
+            -65.9727485,45.4389753,0
+            -65.9728431,45.4389865,0
+            -65.9729839,45.4390636,0
+            -65.9732285,45.4390866,0
+            -65.9733481,45.4391437,0
+            -65.9735828,45.4391501,0
+            -65.9737657,45.4392999,0
+            -65.9740798,45.4394094,0
+            -65.9741855,45.4394654,0
+            -65.97427,45.4395755,0
+            -65.9744658,45.4396301,0
+            -65.9746254,45.4396169,0
+            -65.9747743,45.4396593,0
+            -65.9748722,45.4397383,0
+            -65.9756515,45.4400497,0
+            -65.975992,45.4402069,0
+            -65.9762603,45.4403471,0
+            -65.9765178,45.440556,0
+            -65.9766532,45.4407282,0
+            -65.9767846,45.4408365,0
+            -65.9769737,45.4409155,0
+            -65.9770582,45.441019,0
+            -65.9772285,45.4411046,0
+            -65.9773172,45.4411103,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>30 metres</description>
+        <styleUrl>#line-0288D1-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9762233,45.4400324,0
+            -65.9761026,45.4401557,0
+            -65.9759605,45.4402564,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>550 metres</description>
+        <styleUrl>#line-7CB342-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9708519,45.4398663,0
+            -65.9707442,45.4398512,0
+            -65.9706356,45.4399303,0
+            -65.9705806,45.4400611,0
+            -65.9706034,45.4402239,0
+            -65.9707952,45.4403293,0
+            -65.9709454,45.440349,0
+            -65.9710339,45.4403961,0
+            -65.9711251,45.4404968,0
+            -65.9709964,45.4406172,0
+            -65.9709736,45.4407301,0
+            -65.971046,45.440827,0
+            -65.9711131,45.4408656,0
+            -65.9710634,45.4410312,0
+            -65.9711935,45.4411592,0
+            -65.9713531,45.4412646,0
+            -65.9714228,45.4413455,0
+            -65.971479,45.4414839,0
+            -65.9717581,45.4416457,0
+            -65.9718855,45.4417389,0
+            -65.9720599,45.4419158,0
+            -65.9723487,45.4419783,0
+            -65.9724367,45.441912,0
+            -65.9723375,45.4417774,0
+            -65.972135,45.4416241,0
+            -65.9721093,45.4415328,0
+            -65.9721444,45.4414302,0
+            -65.9722488,45.4412882,0
+            -65.9723026,45.4410999,0
+            -65.972477,45.4410369,0
+            -65.9725412,45.4409494,0
+            -65.9726044,45.4407678,0
+            -65.9726179,45.4406118,0
+            -65.972782,45.4404135,0
+            -65.9727867,45.4403057,0
+            -65.9728417,45.4402559,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>30 metres</description>
+        <styleUrl>#line-0288D1-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9732965,45.4391154,0
+            -65.9731316,45.4391749,0
+            -65.9729532,45.4392735,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>100 metres</description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9722493,45.4404515,0
+            -65.9720174,45.4404112,0
+            -65.9718403,45.4403913,0
+            -65.9715868,45.440413,0
+            -65.9713687,45.4404838,0
+            -65.9711251,45.4404968,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail]]></name>
+        <description>100 metres</description>
+        <styleUrl>#line-FFFF8D-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9723998,45.4410649,0
+            -65.9721589,45.4409983,0
+            -65.9717603,45.440957,0
+            -65.9715373,45.4408478,0
+            -65.9711971,45.4408572,0
+            -65.9711131,45.4408656,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / sentiers adjascent</name>
+      <Placemark>
+        <name><![CDATA[Saunder's Brook Trail continues]]></name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/LowerSJRiver/Quispamsis/Qplex/SaundersBrook.html]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9774272,45.440636,0
+            -65.9773172,45.4411103,0
+            -65.9773615,45.4411959,0
+            -65.9774419,45.4414951,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

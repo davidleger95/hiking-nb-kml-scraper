@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Odell 15 - River Valley Kiosk Trail </name>
+    <description><![CDATA[Odell Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-77-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-663333-5000-normal">
+      <LineStyle>
+        <color>ff333366</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-663333-5000-highlight">
+      <LineStyle>
+        <color>ff333366</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-663333-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-663333-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-663333-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Trail 15 - River Valley Kiosk Trail</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-663333-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.67699,45.95397,0
+            -66.67784,45.95313,0
+            -66.67786,45.95271,0
+            -66.67794,45.95259,0
+            -66.67795,45.95248,0
+            -66.67831,45.95221,0
+            -66.6787,45.9517,0
+            -66.67905,45.95153,0
+            -66.679512,45.951215,0
+            -66.679715,45.951075,0
+            -66.67988,45.95089,0
+            -66.67989,45.95071,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail 15 - River Valley Kiosk Trail</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-663333-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.679709,45.951081,0
+            -66.67959,45.95122,0
+            -66.67919,45.95205,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Botanical.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.680038,45.950739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Gardens Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.680129,45.950773,0
+            -66.679671,45.950665,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Botanical.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.676841,45.954074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Gardens Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.677254,45.95393,0
+            -66.676986,45.953969,0
+            -66.676793,45.954135,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Botanical.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.679319,45.951955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Gardens Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.679335,45.951935,0
+            -66.679236,45.952011,0
+            -66.679121,45.952168,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hal Hynds Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/HalHynds.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.678418,45.953305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hal Hynds Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.67859,45.953397,0
+            -66.678348,45.953274,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hal Hynds Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/HalHynds.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.678225,45.952448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hal Hynds Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.678093,45.95236,0
+            -66.678278,45.952491,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.677578,45.953304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>05-SEP-11 2:56:35PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.678454,45.95225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>05-SEP-11 3:03:43PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.678915,45.952001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>05-SEP-11 3:03:18PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.678654,45.952023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>05-SEP-11 3:04:55PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.678645,45.951845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>05-SEP-11 2:55:38PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.677948,45.952594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>River Valley Kiosk</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -66.679656,45.951062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

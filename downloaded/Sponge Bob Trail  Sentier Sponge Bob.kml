@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sponge Bob Trail / Sentier Sponge Bob</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-FFEA00-4875-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-4875-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5069-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5069-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF8D-5263-normal">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF8D-5263-highlight">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF8D-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF8D-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF8D-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.49 km</description>
+        <styleUrl>#line-FFFF8D-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0592327,45.3158169,0
+            -66.0592434,45.315932,0
+            -66.0593225,45.3160248,0
+            -66.0593643,45.3161574,0
+            -66.059384,45.3163201,0
+            -66.059488,45.3165196,0
+            -66.0596428,45.3167204,0
+            -66.0597903,45.3168851,0
+            -66.0601953,45.3171366,0
+            -66.0604048,45.3172072,0
+            -66.0603664,45.3170759,0
+            -66.0603972,45.3170053,0
+            -66.0603605,45.3169113,0
+            -66.0605619,45.3169204,0
+            -66.0607516,45.3170115,0
+            -66.0608888,45.3170431,0
+            -66.0610384,45.3170349,0
+            -66.0611967,45.3170673,0
+            -66.0614149,45.3171353,0
+            -66.0615614,45.3171234,0
+            -66.0617223,45.3171456,0
+            -66.0618008,45.3173083,0
+            -66.0616755,45.3175126,0
+            -66.0617553,45.3176399,0
+            -66.061947,45.3176087,0
+            -66.0621413,45.317545,0
+            -66.0622326,45.3174288,0
+            -66.062279,45.3172461,0
+            -66.0622582,45.3170372,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Carriage Road Trail continues / Sentier Chemin Carriage continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/CarriageRoad.html ]]></description>
+        <styleUrl>#line-FFEA00-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0626096,45.3170995,0
+            -66.0622394,45.3170316,0
+            -66.0619336,45.3168694,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Owen Lake Trail continues / Sentier Lac Owen continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/OwenLake.html ]]></description>
+        <styleUrl>#line-FFEA00-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0593716,45.3156341,0
+            -66.0592327,45.3158169,0
+            -66.0590891,45.3158675,0
+            -66.0590476,45.3160602,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Reservoir Trail - Mill Creek Nature Park</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1697-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1697-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1697-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1697-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1697-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5069-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-5069-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5456-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-5456-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5650-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-5650-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF8D-6038-normal">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>6.038</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF8D-6038-highlight">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>9.057</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF8D-6038">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF8D-6038-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF8D-6038-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Water Access</name>
+        <description>10-SEP-17 5:29:17PM</description>
+        <styleUrl>#icon-1697-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7602758742869,46.0564306844026,21.5150146484375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Water Access</name>
+        <description>10-SEP-17 5:35:24PM</description>
+        <styleUrl>#icon-1697-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7600556816906,46.0571587365121,24.6392822265625
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Reservoir Trail </name>
+        <description>0.81 km</description>
+        <styleUrl>#line-FFFF8D-6038</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7615343,46.0598614,0
+            -64.7613493,46.0597906,0
+            -64.7611186,46.0597534,0
+            -64.7610596,46.0596864,0
+            -64.7610328,46.0596082,0
+            -64.7611375,46.0595132,0
+            -64.7612768,46.0593626,0
+            -64.7614163,46.0591485,0
+            -64.7614753,46.0590536,0
+            -64.7615424,46.0587149,0
+            -64.7615343,46.058592,0
+            -64.761411,46.0583575,0
+            -64.7612956,46.058123,0
+            -64.7611642,46.0577861,0
+            -64.7609711,46.0576055,0
+            -64.7608262,46.0575534,0
+            -64.7606317,46.0575269,0
+            -64.7604185,46.0574231,0
+            -64.7602147,46.0572761,0
+            -64.7600913,46.0571849,0
+            -64.7600886,46.0570974,0
+            -64.7601905,46.0570081,0
+            -64.7603381,46.0569876,0
+            -64.7605902,46.0569727,0
+            -64.7606841,46.0569373,0
+            -64.7607672,46.0567959,0
+            -64.7607511,46.0566898,0
+            -64.7606331,46.0566023,0
+            -64.7604534,46.0565334,0
+            -64.7603837,46.056485,0
+            -64.7603599,46.0564068,0
+            -64.7604243,46.0563693,0
+            -64.7605821,46.056338,0
+            -64.7608182,46.0563938,0
+            -64.7610328,46.0565185,0
+            -64.7612822,46.0566712,0
+            -64.7615692,46.0568033,0
+            -64.7618267,46.0568927,0
+            -64.7621271,46.0569392,0
+            -64.7625831,46.0570043,0
+            -64.7629854,46.0570807,0
+            -64.7634172,46.0571626,0
+            -64.7638925,46.0572507,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trail / Sentier Adjacent</name>
+      <Placemark>
+        <name>Mill Creek Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/MillCreekTrail.html]]></description>
+        <styleUrl>#line-F9A825-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.761871,46.0599293,0
+            -64.7615343,46.0598614,0
+            -64.7615504,46.0598149,0
+            -64.7615907,46.0597553,0
+            -64.7616269,46.0596752,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Nolan's Gully Trail continues]]></name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/NolansGully.html]]></description>
+        <styleUrl>#line-F9A825-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7610328,46.0596082,0
+            -64.7607565,46.0596734,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Meadow Hill Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/MeadowHill.html]]></description>
+        <styleUrl>#line-F9A825-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7623631,46.0569764,0
+            -64.7622974,46.0573831,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/MillCreekTrail.html]]></description>
+        <styleUrl>#line-F9A825-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7640838,46.0571663,0
+            -64.7636251,46.0573729,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fern Grove Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/FernGrove.html]]></description>
+        <styleUrl>#line-F9A825-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7638531,46.0572435,0
+            -64.7638746,46.0569923,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

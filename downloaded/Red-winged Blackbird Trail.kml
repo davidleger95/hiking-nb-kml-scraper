@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Red-winged Blackbird Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-143-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-143-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-143">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-149-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-149-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-149">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-93-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-93">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-996633-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-996633-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF33-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF33-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF33-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF33-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Parking Lot</name>
+        <description>20-APR-13 5:05:40PM</description>
+        <styleUrl>#icon-93</styleUrl>
+        <Point>
+          <coordinates>
+            -64.102199,46.016937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout</name>
+        <description>20-APR-13 5:10:56PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.104828,46.017317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout</name>
+        <description>20-APR-13 5:13:08PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.105399,46.017125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout</name>
+        <description>20-APR-13 5:15:24PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.106281,46.017102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>20-APR-13 5:17:17PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -64.107381,46.017073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout</name>
+        <description>20-APR-13 5:20:27PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.108821,46.016668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>20-APR-13 5:21:23PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -64.109259,46.016974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Tower</name>
+        <description>20-APR-13 5:26:00PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.11061,46.018035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>20-APR-13 5:28:53PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -64.110653,46.017314,2.29
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>20-APR-13 5:32:41PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -64.112432,46.016581,0.13
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge</name>
+        <description>20-APR-13 5:36:21PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -64.113915,46.016858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benches near Ducks Unlimited Dam</name>
+        <description>20-APR-13 5:52:47PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -64.10229,46.016614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Tower</name>
+        <description>20-APR-13 5:55:31PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.102655,46.01691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.102422,46.015629,0
+            -64.102607,46.015728,0
+            -64.102454,46.016117,0
+            -64.102237,46.016657,0
+            -64.102164,46.016869,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Road</name>
+        <styleUrl>#line-996633-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.11649,46.018471,0
+            -64.114151,46.016985,0
+            -64.112767,46.016169,0
+            -64.111426,46.015301,0
+            -64.110471,46.014709,0
+            -64.109023,46.013729,0
+            -64.107966,46.013088,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.102545,46.017035,0
+            -64.10284,46.017136,0
+            -64.102913,46.017287,0
+            -64.103307,46.017421,0
+            -64.103918,46.017536,0
+            -64.104366,46.017622,0
+            -64.104565,46.0176,0
+            -64.104905,46.017477,0
+            -64.105069,46.01738,0
+            -64.105361,46.017281,0
+            -64.105748,46.017283,0
+            -64.106107,46.017354,0
+            -64.106273,46.017348,0
+            -64.106684,46.017257,0
+            -64.10703,46.017317,0
+            -64.107317,46.01743,0
+            -64.107636,46.017523,0
+            -64.107845,46.017438,0
+            -64.108194,46.017354,0
+            -64.108331,46.017229,0
+            -64.108408,46.017121,0
+            -64.108703,46.017073,0
+            -64.109041,46.017017,0
+            -64.109465,46.017113,0
+            -64.110104,46.017374,0
+            -64.110554,46.017542,0
+            -64.110766,46.017549,0
+            -64.111193,46.017348,0
+            -64.111431,46.0171,0
+            -64.111721,46.016881,0
+            -64.111911,46.016836,0
+            -64.112662,46.016598,0
+            -64.112861,46.016486,0
+            -64.113041,46.016337,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.110696,46.017551,0
+            -64.110627,46.018021,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.108835,46.016661,0
+            -64.108929,46.016786,0
+            -64.108942,46.016942,0
+            -64.108939,46.017026,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Field Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.107293,46.017423,0
+            -64.107322,46.01695,0
+            -64.107301,46.016482,0
+            -64.107282,46.016102,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.106324,46.017333,0
+            -64.106292,46.017173,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Side Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.105415,46.017279,0
+            -64.105399,46.01719,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Side Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.104908,46.017473,0
+            -64.104844,46.017378,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>NB Trail - Port Elgin continues</name>
+        <styleUrl>#line-FFFF33-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.11782,46.018423,0
+            -64.115396,46.018527,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

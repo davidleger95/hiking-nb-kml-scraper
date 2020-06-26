@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pagan Point Nature Preserve</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1521-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1521-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1521-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1521-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1521-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.040887,45.076004,0
+            -67.040771,45.076083,0
+            -67.040525,45.076169,0
+            -67.040275,45.076135,0
+            -67.039996,45.076066,0
+            -67.03965,45.076093,0
+            -67.03939,45.076144,0
+            -67.03921,45.076231,0
+            -67.039049,45.076309,0
+            -67.038824,45.076369,0
+            -67.038647,45.076432,0
+            -67.038585,45.076536,0
+            -67.038768,45.07682,0
+            -67.039074,45.077288,0
+            -67.039304,45.077815,0
+            -67.039441,45.078044,0
+            -67.039682,45.078419,0
+            -67.039827,45.07865,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.038803,45.076375,0
+            -67.038494,45.076331,0
+            -67.038274,45.07618,0
+            -67.038127,45.075949,0
+            -67.037888,45.075695,0
+            -67.03784,45.075559,0
+            -67.037644,45.07536,0
+            -67.037486,45.075064,0
+            -67.037462,45.075013,0
+            -67.037507,45.074956,0
+            -67.03751,45.074886,0
+            -67.03744,45.074852,0
+            -67.037354,45.07485,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Beach Access Trail / Sentier Access Plage</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.03859,45.076544,0
+            -67.038505,45.076566,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Van Horne Trail continues / Sentier Van Horne continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/FundyWest/StAndrews/VanHorne.html]]></description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.041011,45.076248,0
+            -67.040786,45.075733,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Beach / Plage</name>
+        <styleUrl>#icon-1521-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.038531,45.076703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

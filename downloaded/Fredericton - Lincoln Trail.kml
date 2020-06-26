@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fredericton - Lincoln Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-117-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-117-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-117">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-117-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-117-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-117-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-141-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/141-toilets.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-141-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/141-toilets.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-141-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-141-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-141-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-99-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-99-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5000-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5000-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Lincoln Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.63281,45.95641,0
+            -66.63432,45.95614,0
+            -66.63477,45.95597,0
+            -66.63535,45.95568,0
+            -66.63577,45.95528,0
+            -66.6376,45.95313,0
+            -66.63771,45.95295,0
+            -66.63947,45.95094,0
+            -66.63965,45.9505,0
+            -66.63965,45.95031,0
+            -66.63951,45.94983,0
+            -66.63942,45.9497,0
+            -66.63911,45.94943,0
+            -66.63874,45.94923,0
+            -66.63845,45.94902,0
+            -66.63785,45.94849,0
+            -66.63704,45.94758,0
+            -66.63658,45.947,0
+            -66.6362,45.94665,0
+            -66.63623,45.94654,0
+            -66.63613,45.94642,0
+            -66.635824,45.946107,0
+            -66.635621,45.945984,0
+            -66.63505,45.94544,0
+            -66.63375,45.94407,0
+            -66.63257,45.94206,0
+            -66.63187,45.94106,0
+            -66.63053,45.93941,0
+            -66.62909,45.93807,0
+            -66.62245,45.92942,0
+            -66.62183,45.92871,0
+            -66.62107,45.92819,0
+            -66.6206,45.92799,0
+            -66.62009,45.92785,0
+            -66.61662,45.9274,0
+            -66.61547,45.92711,0
+            -66.61368,45.92645,0
+            -66.61311,45.92632,0
+            -66.61262,45.92626,0
+            -66.61164,45.92624,0
+            -66.61118,45.92638,0
+            -66.61049,45.92638,0
+            -66.60965,45.92651,0
+            -66.60901,45.92656,0
+            -66.60797,45.92657,0
+            -66.60679,45.92645,0
+            -66.60621,45.92634,0
+            -66.60518,45.92606,0
+            -66.6041,45.92564,0
+            -66.59962,45.92288,0
+            -66.59593,45.921,0
+            -66.59531,45.92064,0
+            -66.59474,45.92026,0
+            -66.59399,45.91966,0
+            -66.58654,45.91311,0
+            -66.58595,45.91241,0
+            -66.58548,45.91162,0
+            -66.5840069,45.9081509,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Crosstown Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.639486,45.949786,0
+            -66.63977,45.95,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Crosstown Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/Crosstown.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.63962,45.9499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bill Thorpe Walking Bridge continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.632807,45.95641,0
+            -66.632426,45.956485,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bill Thorpe Walking Bridge</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/TrainBridge.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.632603,45.956446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Riverfront Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.632818,45.95641,0
+            -66.63297,45.95644,0
+            -66.63308,45.95652,0
+            -66.63313,45.95675,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>South Riverfront Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/SouthRiverfront.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.633091,45.956559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salamanca Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6309,45.939868,0
+            -66.630621,45.939959,0
+            -66.630449,45.939969,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Salamanca Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/Salamanca.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.630659,45.939939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vanier Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.625954,45.933987,0
+            -66.624956,45.932349,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Vanier Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/Vanier.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.625423,45.933117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arena Parking</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.638947,45.951351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Information Kiosk</name>
+        <styleUrl>#icon-117-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.639389,45.949783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Area</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.630396,45.939736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Community Garden Parking</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.620906,45.926409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Area</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.611344,45.926433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Area</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.584962,45.908695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>15-APR-12 5:06:32PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.634342,45.944673,17.19
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>15-APR-12 5:12:31PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.637978,45.948545,18.39
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>15-APR-12 5:21:35PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.636904,45.95401,20.07
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bathrooms in the Arena</name>
+        <styleUrl>#icon-141-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.6387,45.951112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <styleUrl>#icon-99-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.639325,45.949688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Picnic Table and Shelter</name>
+        <description>29-JUL-12 1:49:10PM</description>
+        <styleUrl>#icon-117</styleUrl>
+        <Point>
+          <coordinates>
+            -66.610687,45.926421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>29-JUL-12 1:55:28PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.605217,45.926095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>29-JUL-12 2:01:06PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.600481,45.923424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>29-JUL-12 2:05:02PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.597429,45.921749,0.85
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>29-JUL-12 2:24:38PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.584739,45.909901,4.69
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NB Trail continues / Sentier continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à :  http://www.hikingnb.ca/Trails/LowerSJRiver/LincolnToOromocto.html]]></description>
+        <styleUrl>#line-F4EB37-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.5840069,45.9081509,0
+            -66.583575,45.9070169,0
+            -66.5831995,45.9064048,0
+            -66.5819764,45.9052252,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

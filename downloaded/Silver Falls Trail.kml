@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Silver Falls Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1523-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1523-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1523-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1523-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1523-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5650-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5650-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5650-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.65</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-5650-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.475</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-5650-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5650-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5650-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFD600-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFD600-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFD600-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFD600-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFD600-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0136779,45.297079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Falls</name>
+        <styleUrl>#icon-1892-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0100911,45.2967007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>View point</name>
+        <styleUrl>#icon-1523-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0108635,45.2966205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>View of the falls with steep descent</name>
+        <styleUrl>#icon-1523-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0104666,45.2966366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-E65100-5650-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0134955,45.2970734,0
+            -66.0133171,45.2970866,0
+            -66.0131843,45.29708,0
+            -66.0130341,45.2970866,0
+            -66.0129107,45.2970932,0
+            -66.0124937,45.2971583,0
+            -66.0122362,45.2971969,0
+            -66.0119009,45.2972281,0
+            -66.0116796,45.2972573,0
+            -66.0115361,45.2972875,0
+            -66.0112652,45.2973686,0
+            -66.0110788,45.2974111,0
+            -66.0109876,45.297446,0
+            -66.0109433,45.29748,0
+            -66.0107824,45.2974998,0
+            -66.0106657,45.2975007,0
+            -66.0104123,45.2974913,0
+            -66.0101789,45.2974526,0
+            -66.010085,45.2974168,0
+            -66.0100636,45.2973856,0
+            -66.0100555,45.2973347,0
+            -66.0100006,45.297279,0
+            -66.0099295,45.2971507,0
+            -66.0099254,45.2970941,0
+            -66.0098973,45.2970347,0
+            -66.0099013,45.2969602,0
+            -66.0099617,45.2969111,0
+            -66.0100757,45.2968696,0
+            -66.0101776,45.2968564,0
+            -66.0102849,45.2968668,0
+            -66.010305,45.2968168,0
+            -66.0103613,45.296763,0
+            -66.010486,45.296747,0
+            -66.010545,45.2967998,0
+            -66.0106631,45.2968111,0
+            -66.0107475,45.2967837,0
+            -66.0108159,45.296713,0
+            -66.010875,45.29668,0
+            -66.0109514,45.2967187,0
+            -66.0110788,45.2967941,0
+            -66.0111673,45.2968111,0
+            -66.0112612,45.2967904,0
+            -66.0113859,45.296779,0
+            -66.0114878,45.2968064,0
+            -66.0115468,45.2968649,0
+            -66.0116018,45.2969507,0
+            -66.0116997,45.2970054,0
+            -66.0117654,45.2970441,0
+            -66.011984,45.2971102,0
+            -66.01209,45.29713,0
+            -66.0122321,45.2971922,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail along top of the falls</name>
+        <description>Use caution!</description>
+        <styleUrl>#line-E65100-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.010307,45.2968111,0
+            -66.0102118,45.2968054,0
+            -66.0101098,45.2967771,0
+            -66.0099744,45.2968036,0
+            -66.0098765,45.2968536,0
+            -66.0098041,45.2969073,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues</name>
+        <styleUrl>#line-FFD600-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.010085,45.2974168,0
+            -66.0100231,45.2974081,0
+            -66.0099574,45.2974119,0
+            -66.0098273,45.2974779,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

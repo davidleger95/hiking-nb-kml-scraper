@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>NB Trails - Port Elgin to Cape Tormentine</name>
+    <description><![CDATA[www.hikingnb.ca<br>]]></description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.787394,46.129456,0
+            -63.792758,46.124266,0
+            -63.794689,46.122823,0
+            -63.799324,46.120741,0
+            -63.805332,46.118019,0
+            -63.813744,46.11442,0
+            -63.820117,46.111638,0
+            -63.822584,46.110835,0
+            -63.826683,46.110478,0
+            -63.829343,46.110418,0
+            -63.837047,46.110433,0
+            -63.840394,46.11024,0
+            -63.843741,46.109838,0
+            -63.852818,46.108707,0
+            -63.857431,46.108098,0
+            -63.86816,46.106714,0
+            -63.883889,46.104676,0
+            -63.892622,46.103575,0
+            -63.899446,46.102102,0
+            -63.910668,46.099647,0
+            -63.919852,46.097147,0
+            -63.924637,46.095555,0
+            -63.93307,46.092966,0
+            -63.937232,46.091671,0
+            -63.940322,46.090942,0
+            -63.954592,46.087624,0
+            -63.967724,46.084617,0
+            -63.979418,46.081968,0
+            -63.99328,46.078768,0
+            -64.001434,46.076922,0
+            -64.009373,46.075821,0
+            -64.023213,46.07396,0
+            -64.031925,46.07268,0
+            -64.036582,46.071161,0
+            -64.040873,46.069777,0
+            -64.051945,46.066174,0
+            -64.060099,46.06345,0
+            -64.07248,46.05943,0
+            -64.077888,46.057658,0
+            -64.080613,46.056481,0
+            -64.082007,46.055245,0
+            -64.083552,46.051225,0
+            -64.084604,46.048589,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>NB Trails - Sackville to Port Elgin Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.084604,46.048581,0
+            -64.084808,46.048068,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Gaspereaux Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.084601,46.048578,0
+            -64.084336,46.048565,0
+            -64.084121,46.048447,0
+            -64.083936,46.048388,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Gaspereaux Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/PortElgin/Gaspereaux.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.084132,46.048455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NB Trails - Sackville to Port Elgin Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/SackvilleToPortElgin.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.084775,46.048172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

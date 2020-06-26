@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hopewell Rocks - Desmoiselles Beach Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-143-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-143-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-143">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-16-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-16-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-16-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Desmoiselles Beach Trail</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.57872,45.815909,0
+            -64.578624,45.815995,0
+            -64.578539,45.816119,0
+            -64.578442,45.816474,0
+            -64.578786,45.816657,0
+            -64.57907,45.816724,0
+            -64.579751,45.817117,0
+            -64.579805,45.817379,0
+            -64.580336,45.818508,0
+            -64.580658,45.819177,0
+            -64.580738,45.819106,0
+            -64.580813,45.818702,0
+            -64.581028,45.818373,0
+            -64.581226,45.817816,0
+            -64.581468,45.817412,0
+            -64.581688,45.817072,0
+            -64.581924,45.816971,0
+            -64.581993,45.816825,0
+            -64.582058,45.816571,0
+            -64.581827,45.816388,0
+            -64.581838,45.816272,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Balancing Rocks</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.580147,45.816287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Demoiselles Beach Lookout</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ZjdTujS2cB66F3FDeKKXY9kKeF0O5o-nboKfau5Y_MK8XPqTv9hqwsrWDBvj_YlGW86bMlfW4BjrhEjDeX06pgz9blf128TDuI6ly9xKtOoJ8F3fM_UDgAzwYJa2zIjkD4xYnn7drxWt6g" height="200" width="auto" /><br><br>07-AUG-13 12:56:56PM]]></description>
+        <styleUrl>#icon-143</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ZjdTujS2cB66F3FDeKKXY9kKeF0O5o-nboKfau5Y_MK8XPqTv9hqwsrWDBvj_YlGW86bMlfW4BjrhEjDeX06pgz9blf128TDuI6ly9xKtOoJ8F3fM_UDgAzwYJa2zIjkD4xYnn7drxWt6g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.581876,45.816415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/d3jNdN_UfTnJaEbzafS2H59LPM4nPG0OuMGWdBAlSRs2wBzUmMD92O2sxW3Xy6YgJAPf5ucnd1vB16kQrOy50-CdT7eThEgzGcx3yWOfpvTlqKgL-1wSrTz0uAvA5QOE_VElidCY2RvOFQ" height="200" width="auto" /><br><br>07-AUG-13 12:55:01PM]]></description>
+        <styleUrl>#icon-99</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/d3jNdN_UfTnJaEbzafS2H59LPM4nPG0OuMGWdBAlSRs2wBzUmMD92O2sxW3Xy6YgJAPf5ucnd1vB16kQrOy50-CdT7eThEgzGcx3yWOfpvTlqKgL-1wSrTz0uAvA5QOE_VElidCY2RvOFQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.581539,45.817251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/izX9R5bL7dRF_6ikePyfyaBw1CVApMg16CPEOaKh-wkBdxx072QhWw1J2iRQlfeaKe1Eley9S7UmT0XzrNITNPnxLyoLJywZWxa8UvBb7KhQYfn5Wpd4mYxZDM5PIPKVJZxJhYgIxF81UQ" height="200" width="auto" /><br><br>07-AUG-13 12:53:20PM]]></description>
+        <styleUrl>#icon-143</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/izX9R5bL7dRF_6ikePyfyaBw1CVApMg16CPEOaKh-wkBdxx072QhWw1J2iRQlfeaKe1Eley9S7UmT0XzrNITNPnxLyoLJywZWxa8UvBb7KhQYfn5Wpd4mYxZDM5PIPKVJZxJhYgIxF81UQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.581198,45.817976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBnoQDKl3wLkrcqIf8UkQdLGpwU2fFWXTx_UNaLy0km12mbkGT03Hdq06Ld7H1K4ltRFAljD2OpRmwqZsgx-efxrj_LQzxbrTmB-WNkHTsVV0iV7qIvIBF1SNFJSgphy76qhyC3yUbSMgg" height="200" width="auto" /><br><br>07-AUG-13 12:50:13PM]]></description>
+        <styleUrl>#icon-143</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/WBnoQDKl3wLkrcqIf8UkQdLGpwU2fFWXTx_UNaLy0km12mbkGT03Hdq06Ld7H1K4ltRFAljD2OpRmwqZsgx-efxrj_LQzxbrTmB-WNkHTsVV0iV7qIvIBF1SNFJSgphy76qhyC3yUbSMgg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.580807,45.819151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/CFH6MPJ4rYP5ADlNyOtj75GbEKHpktUV1mgllqQZt-PdhZ0CiFierjtLzYJea2zBc8JQxyRUx44_ISMEJQgvFLxc438xiM9SsH4IGAT9-Res5bykt3_uTqrSFTjOw3wVNzTCj43xZUaJLQ" height="200" width="auto" /><br><br>07-AUG-13 12:48:31PM]]></description>
+        <styleUrl>#icon-143</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/CFH6MPJ4rYP5ADlNyOtj75GbEKHpktUV1mgllqQZt-PdhZ0CiFierjtLzYJea2zBc8JQxyRUx44_ISMEJQgvFLxc438xiM9SsH4IGAT9-Res5bykt3_uTqrSFTjOw3wVNzTCj43xZUaJLQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.580446,45.81865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/-Cv9lKFvuVzbuI605RtjpZQKnycsx5gAehS9I3C2cniyvJPSKuorU0Mq3pVAhffXEOXldg0EWU5lszFae6f5GwwYekZZtLzs0jDUpDeJWKBmY3lfmJlLnkFZ367OrXCkrwTo8TuhG_n36Q" height="200" width="auto" /><br><br>07-AUG-13 12:47:35PM]]></description>
+        <styleUrl>#icon-99</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/-Cv9lKFvuVzbuI605RtjpZQKnycsx5gAehS9I3C2cniyvJPSKuorU0Mq3pVAhffXEOXldg0EWU5lszFae6f5GwwYekZZtLzs0jDUpDeJWKBmY3lfmJlLnkFZ367OrXCkrwTo8TuhG_n36Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.580389,45.818541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/naHfE8Jj03FC3vf2R1PGwUESqHxyr_FquILlOfzswkAllClRiN7vQOwZ-Knljk-3nHWnOd01EWEVxNHuhpL0yDCNUEtOqej5j_UX9DuO4LcH5JlzO152E1YrS5Q_o7c27h8yKEMifMQROQ" height="200" width="auto" /><br><br>07-AUG-13 12:43:42PM]]></description>
+        <styleUrl>#icon-99</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/naHfE8Jj03FC3vf2R1PGwUESqHxyr_FquILlOfzswkAllClRiN7vQOwZ-Knljk-3nHWnOd01EWEVxNHuhpL0yDCNUEtOqej5j_UX9DuO4LcH5JlzO152E1YrS5Q_o7c27h8yKEMifMQROQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.578986,45.816711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Danielle's Flats Lookout]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/6NT94vVLblGHQ96_tnzbuEwtqoTHOKSFMlKM_T_zuWd5hYgKDd6cg8v2MiD3taET1_GgH2D59p-PvGd8fIIEvtBtO8m-iFDlqW9wVcMfNIYmDlhCmRQPURHVLLF6KFEw4_CWkg_-QesHjw" height="200" width="auto" /><br><br>07-AUG-13 11:52:01AM]]></description>
+        <styleUrl>#icon-143</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/6NT94vVLblGHQ96_tnzbuEwtqoTHOKSFMlKM_T_zuWd5hYgKDd6cg8v2MiD3taET1_GgH2D59p-PvGd8fIIEvtBtO8m-iFDlqW9wVcMfNIYmDlhCmRQPURHVLLF6KFEw4_CWkg_-QesHjw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -64.578704,45.815887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

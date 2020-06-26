@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Murray Beach Trail / Sentier de la plage Murray</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1512-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1512-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1512-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1512-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1512-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1733-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1733-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1733-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3713-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.713</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-3713-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.5695</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-3713-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3713-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3713-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5650-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.65</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-5650-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.475</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-5650-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5650-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5650-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentier</name>
+      <Placemark>
+        <name>Beach / Plage</name>
+        <styleUrl>#line-E65100-5650-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.9909089,46.1789538,0
+            -63.9903671,46.179095,0
+            -63.9890045,46.1792695,0
+            -63.987963,46.17942,0
+            -63.986333,46.1797115,0
+            -63.9851367,46.1799753,0
+            -63.9833826,46.1804841,0
+            -63.9823687,46.1807924,0
+            -63.9819074,46.1810115,0
+            -63.9813709,46.1813793,0
+            -63.9810276,46.181721,0
+            -63.9807433,46.1820887,0
+            -63.9802873,46.1825269,0
+            -63.979581,46.182683,0
+            -63.978921,46.182752,0
+            -63.9783883,46.1827795,0
+            -63.9780557,46.1826718,0
+            -63.9776051,46.1825566,0
+            -63.977134,46.182571,0
+            -63.9768326,46.1825715,0
+            -63.9764303,46.1825418,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Access / Accès</name>
+        <styleUrl>#line-E65100-3713-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.9854774,46.1798973,0
+            -63.9849007,46.1797598,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>31-MAY-17 12:56:33PM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -63.9819911,46.1806231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse / Toilette sèche</name>
+        <description>31-MAY-17 12:27:37PM</description>
+        <styleUrl>#icon-1733-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -63.9833276,46.1803044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gatehouse / Guérite</name>
+        <styleUrl>#icon-1512-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -63.9790213,46.1793773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

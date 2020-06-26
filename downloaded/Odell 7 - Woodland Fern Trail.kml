@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Odell 7 - Woodland Fern Trail</name>
+    <description><![CDATA[Odell Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-16-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-16-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-16">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CCFF-5000-normal">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33CCFF-5000-highlight">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33CCFF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CCFF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CCFF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Woodland Fern Trail</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-33CCFF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.680709,45.950053,0
+            -66.680735,45.950114,0
+            -66.68074,45.95046,0
+            -66.68085,45.9506,0
+            -66.68122,45.95068,0
+            -66.68139,45.95078,0
+            -66.68161,45.95071,0
+            -66.68165,45.95065,0
+            -66.68196,45.95062,0
+            -66.68227,45.95054,0
+            -66.68247,45.95042,0
+            -66.68264,45.95038,0
+            -66.68272,45.9503,0
+            -66.68261,45.95018,0
+            -66.68251,45.95018,0
+            -66.68242,45.95007,0
+            -66.68228,45.95011,0
+            -66.68214,45.95028,0
+            -66.68164,45.95045,0
+            -66.68129,45.95043,0
+            -66.68082,45.95056,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Woodland Fern Trail</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-33CCFF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6814,45.95078,0
+            -66.681229,45.950943,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Woodland Fern Trail</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-33CCFF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.681387,45.95078,0
+            -66.68108,45.95089,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Rosewood Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Rosewood.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.681851,45.950766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rosewood Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.681623,45.950682,0
+            -66.681916,45.950792,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Botanical.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.681304,45.950963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.681352,45.950989,0
+            -66.680939,45.950838,0
+            -66.680762,45.950831,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Botanical.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.680577,45.950163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.68062,45.949908,0
+            -66.680675,45.949968,0
+            -66.680711,45.950029,0
+            -66.680707,45.950073,0
+            -66.68069,45.950105,0
+            -66.680518,45.950212,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>05-SEP-11 3:15:19PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.682094,45.950577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rock Gate and small cliffs</name>
+        <description>05-SEP-11 3:17:14PM</description>
+        <styleUrl>#icon-16</styleUrl>
+        <Point>
+          <coordinates>
+            -66.682468,45.950158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

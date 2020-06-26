@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fredericton - Northside Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-77-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-77-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6038-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.038</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-6038-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9.057</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6038">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6038-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6038-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Northside Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.61926,45.95956,0
+            -66.6195,45.95982,0
+            -66.61925,45.96032,0
+            -66.6192,45.96098,0
+            -66.61937,45.9615,0
+            -66.619592,45.961816,0
+            -66.619876,45.962121,0
+            -66.62221,45.96387,0
+            -66.625203,45.966104,0
+            -66.630428,45.970079,0
+            -66.630696,45.97022,0
+            -66.63141,45.97073,0
+            -66.631694,45.971044,0
+            -66.63271,45.9717,0
+            -66.6336,45.97216,0
+            -66.6348,45.97261,0
+            -66.636087,45.973054,0
+            -66.640368,45.974493,0
+            -66.644606,45.975917,0
+            -66.647261,45.976771,0
+            -66.6506,45.9779,0
+            -66.653044,45.978709,0
+            -66.654265,45.979138,0
+            -66.65498,45.97942,0
+            -66.656153,45.979954,0
+            -66.657714,45.980689,0
+            -66.65895,45.981257,0
+            -66.6602,45.981829,0
+            -66.660646,45.982038,0
+            -66.661051,45.982256,0
+            -66.66141,45.98248,0
+            -66.661877,45.982886,0
+            -66.66229,45.98333,0
+            -66.662596,45.983878,0
+            -66.662797,45.984178,0
+            -66.662968,45.984359,0
+            -66.663135,45.984532,0
+            -66.663349,45.984696,0
+            -66.663805,45.984944,0
+            -66.664189,45.985098,0
+            -66.664457,45.985171,0
+            -66.66498,45.98524,0
+            -66.665286,45.98527,0
+            -66.66553,45.985277,0
+            -66.665849,45.985259,0
+            -66.666233,45.985192,0
+            -66.678217,45.982169,0
+            -66.679381,45.98188,0
+            -66.68054,45.98162,0
+            -66.681599,45.981326,0
+            -66.682688,45.981045,0
+            -66.684834,45.980512,0
+            -66.689801,45.979244,0
+            -66.690327,45.97913,0
+            -66.690847,45.979032,0
+            -66.69197,45.97884,0
+            -66.692223,45.978795,0
+            -66.692639,45.978776,0
+            -66.692875,45.978694,0
+            -66.69334,45.97863,0
+            -66.695734,45.978445,0
+            -66.696936,45.978415,0
+            -66.698116,45.978426,0
+            -66.700922,45.978469,0
+            -66.70169,45.97844,0
+            -66.703676,45.978279,0
+            -66.705806,45.978111,0
+            -66.707831,45.977997,0
+            -66.709247,45.977939,0
+            -66.71241,45.977788,0
+            -66.716816,45.977522,0
+            -66.718058,45.977541,0
+            -66.719316,45.977602,0
+            -66.721953,45.977731,0
+            -66.72397,45.97784,0
+            -66.725633,45.977952,0
+            -66.72722,45.97813,0
+            -66.728146,45.978172,0
+            -66.729047,45.978184,0
+            -66.729975,45.978178,0
+            -66.730903,45.978191,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Baptist Church Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.732137,45.978623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Road Park Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.665801,45.986235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. Mary's Supermarket Parking Lot]]></name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.631975,45.971475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baptist Church Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.628969,45.969297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>United Church Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.622033,45.963587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail Visitor Center</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.620745,45.958835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Visitor Center Parking</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.620587,45.958908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Ferris Street Nature Preserve Trails continue</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/FerrisStreet.html)</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6872585,45.9798947,0
+            -66.6872907,45.9803607,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ferris Street Nature Preserve continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/FerrisStreet.html)</description>
+        <styleUrl>#line-F4EB37-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6846621,45.9805582,0
+            -66.6849411,45.980726,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Nashwaak Trail continues / Sentier Nashwaak continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/Nashwaak.html)</description>
+        <styleUrl>#line-F4EB37-6038</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6196561,45.9593843,0
+            -66.6186315,45.9598654,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

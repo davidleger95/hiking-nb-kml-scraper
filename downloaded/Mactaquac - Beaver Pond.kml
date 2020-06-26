@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mactaquac - Beaver Pond</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-117-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-117-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-117-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-143-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-143-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-143-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF9900-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Beaver Pond Trail</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.911644,45.962561,0
+            -66.91159,45.962446,0
+            -66.911328,45.962217,0
+            -66.911301,45.96211,0
+            -66.911008,45.96189,0
+            -66.910426,45.961812,0
+            -66.909906,45.96154,0
+            -66.90975,45.961189,0
+            -66.909817,45.961061,0
+            -66.909842,45.96052,0
+            -66.909742,45.960238,0
+            -66.908967,45.959718,0
+            -66.90886,45.960013,0
+            -66.908739,45.960139,0
+            -66.908812,45.960656,0
+            -66.908396,45.960885,0
+            -66.907986,45.961238,0
+            -66.90768,45.961579,0
+            -66.907221,45.962319,0
+            -66.907157,45.96253,0
+            -66.907334,45.96299,0
+            -66.907476,45.963102,0
+            -66.908045,45.963307,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Little Mactaquac Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/MactaquacPark/LittleMactaquac.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.911792,45.962696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Mactaquac Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.911636,45.962563,0
+            -66.91177,45.962699,0
+            -66.91192,45.962733,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Pond to Alex Creek Connecting Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/MactaquacPark/BeaverToAlex.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.909034,45.959504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Pond to Alex Creek Connecting Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.908967,45.95972,0
+            -66.909091,45.95958,0
+            -66.909002,45.959494,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Pond View</name>
+        <styleUrl>#icon-143-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.908884,45.960652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Pond View</name>
+        <styleUrl>#icon-143-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.907715,45.961694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout and Boardwalk</name>
+        <styleUrl>#icon-143-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.909294,45.959966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shelter</name>
+        <styleUrl>#icon-117-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.909442,45.962457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

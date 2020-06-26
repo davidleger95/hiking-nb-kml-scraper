@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Welsford Falls</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1541-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1541-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1541-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / sentier</name>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-DB4436-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.34863,45.4462881,0
+            -66.34845,45.4464181,0
+            -66.3481864,45.4465926,0
+            -66.3480381,45.4464941,0
+            -66.3479851,45.4465604,0
+            -66.3478539,45.4466481,0
+            -66.347755,45.4466793,0
+            -66.3475327,45.4467737,0
+            -66.3473592,45.4468805,0
+            -66.3472078,45.4469912,0
+            -66.3470909,45.4471033,0
+            -66.3470471,45.4471768,0
+            -66.34702,45.4472581,0
+            -66.34684,45.4473781,0
+            -66.3468,45.4474481,0
+            -66.34651,45.4473981,0
+            -66.34644,45.4474281,0
+            -66.34639,45.4475681,0
+            -66.34585,45.4478981,0
+            -66.34566,45.4478981,0
+            -66.34556,45.4478481,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail</name>
+        <styleUrl>#line-DB4436-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.3484189,45.4469237,0
+            -66.348582,45.447046,0
+            -66.348759,45.447159,0
+            -66.348925,45.447287,0
+            -66.349092,45.4474,0
+            -66.349322,45.447618,0
+            -66.349424,45.447698,0
+            -66.349585,45.447765,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Side trail</name>
+        <styleUrl>#line-DB4436-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.3481864,45.4465944,0
+            -66.3484056,45.4467614,0
+            -66.3484148,45.4469108,0
+            -66.348281,45.446881,0
+            -66.34807,45.44692,0
+            -66.34794,45.44701,0
+            -66.34763,45.44706,0
+            -66.34731,45.44719,0
+            -66.34702,45.44726,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Old Cabin</name>
+        <description>06-JUL-13 1:34:58PM</description>
+        <styleUrl>#icon-1603-795548</styleUrl>
+        <Point>
+          <coordinates>
+            -66.34643,45.44744,83.28
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Welsford Falls</name>
+        <description>06-JUL-13 1:45:53PM</description>
+        <styleUrl>#icon-1892-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.345899,45.44763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Steep climb down to the stream below the falls</name>
+        <description>A rope is attached to the trees to help you down</description>
+        <styleUrl>#icon-1541-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -66.3456291,45.4478798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Atlas - Heron Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-66CCCC-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffcccc66</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-66CCCC-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcccc66</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-66CCCC-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-66CCCC-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-66CCCC-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5844-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5844-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Heron Trail</name>
+        <styleUrl>#line-66CCCC-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76564,47.8431,0
+            -65.76545,47.84281,0
+            -65.76506,47.84274,0
+            -65.76472,47.84255,0
+            -65.7645,47.84226,0
+            -65.76366,47.84188,0
+            -65.76286,47.84168,0
+            -65.76228,47.84166,0
+            -65.76184,47.84174,0
+            -65.76115,47.84199,0
+            -65.76105,47.84216,0
+            -65.7611,47.84237,0
+            -65.7615,47.84241,0
+            -65.76182,47.84242,0
+            -65.7619,47.84239,0
+            -65.762261,47.842559,0
+            -65.76246,47.84261,0
+            -65.76317,47.84249,0
+            -65.7638,47.84229,0
+            -65.7639,47.84236,0
+            -65.76427,47.84243,0
+            -65.76468,47.8428,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Hummingbird Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Hummingbird.html]]></description>
+        <styleUrl>#line-F4EB37-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.765796,47.843299,0
+            -65.76564,47.8431,0
+            -65.76537,47.842983,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sparrow Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Sparrow.html]]></description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76366,47.84188,0
+            -65.763549,47.841774,0
+            -65.763562,47.841648,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sparrow Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Sparrow.html]]></description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.761159,47.841992,0
+            -65.761041,47.841941,0
+            -65.760775,47.841916,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Owl Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Owl.html]]></description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.764925,47.842933,0
+            -65.76468,47.8428,0
+            -65.764345,47.84276,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Martin Head Trails</name>
+    <description>The Most Definitive Guide to Hiking in New Brunswick, Canada.</description>
+    <Style id="icon-1523-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1523-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1523-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1523-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1523-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1523-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1523-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1523-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1523-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1523-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1575-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1575-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1575-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1575-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1575-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1670-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1670-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1670-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1754-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1754-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1754-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1754-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1754-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1765-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1765-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1765-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1765-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1765-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795548-3325-nodesc-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>3.325</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795548-3325-nodesc-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>4.9875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795548-3325-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795548-3325-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795548-3325-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795548-3906-nodesc-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795548-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795548-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795548-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795548-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795548-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795548-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795548-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795548-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795548-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795548-6813-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>6.813</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-795548-6813-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>10.2195</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-795548-6813">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795548-6813-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795548-6813-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3906-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-4488-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.488</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-4488-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6.732</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-4488">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-4488-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-4488-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FBC02D-4294-nodesc-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4.294</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FBC02D-4294-nodesc-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>6.441</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FBC02D-4294-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FBC02D-4294-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FBC02D-4294-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FBC02D-4488-nodesc-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4.488</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FBC02D-4488-nodesc-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>6.732</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FBC02D-4488-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FBC02D-4488-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FBC02D-4488-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-4294-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>4.294</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFEA00-4294-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>6.441</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-4294-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-4294-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-4294-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5263-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5263-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5650-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5650-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Exposed Campsite</name>
+        <description>04-JUL-16 6:00:56PM</description>
+        <styleUrl>#icon-1765-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.1880696,45.4892625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Grave</name>
+        <description>04-JUL-16 6:28:14PM</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -65.1895788,45.488769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drove small car to here in July 2016</name>
+        <styleUrl>#icon-1754-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.1886868,45.5090988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sawdust Pile from an Old Sawmill Site</name>
+        <styleUrl>#icon-1523-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.1947379,45.497218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>River Crossing - Low Tide only</name>
+        <styleUrl>#icon-1575-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.1958644,45.4914609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Face of Martin Cliff Face</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.1891267,45.4884336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cliff top Lookout</name>
+        <styleUrl>#icon-1523-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.1881075,45.4891594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Rough Road</name>
+        <description><![CDATA[Off Road vehicles or ATV's required]]></description>
+        <styleUrl>#line-795548-6813</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1955426,45.4916527,0
+            -65.195029,45.492187,0
+            -65.194881,45.492226,0
+            -65.1947379,45.4924649,0
+            -65.1947486,45.4931569,0
+            -65.1945448,45.4938864,0
+            -65.1944268,45.4942699,0
+            -65.194108,45.494966,0
+            -65.193857,45.495437,0
+            -65.193797,45.495795,0
+            -65.193974,45.49598,0
+            -65.1940084,45.4961426,0
+            -65.1937,45.496623,0
+            -65.193468,45.497138,0
+            -65.193515,45.497615,0
+            -65.194081,45.498269,0
+            -65.1945984,45.4990454,0
+            -65.1948881,45.4997899,0
+            -65.1946735,45.5003539,0
+            -65.1946843,45.5009855,0
+            -65.1942015,45.5015119,0
+            -65.193193,45.5023692,0
+            -65.1917982,45.5027752,0
+            -65.1913691,45.5030534,0
+            -65.1909828,45.5037152,0
+            -65.1907897,45.5042114,0
+            -65.190125,45.505019,0
+            -65.189408,45.505897,0
+            -65.189208,45.506643,0
+            -65.189217,45.506941,0
+            -65.189256,45.507604,0
+            -65.189017,45.508241,0
+            -65.188671,45.508992,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail</name>
+        <styleUrl>#line-795548-3325-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1934826,45.4974511,0
+            -65.1930052,45.4976166,0
+            -65.1928389,45.4978271,0
+            -65.1928443,45.4980415,0
+            -65.192705,45.498188,0
+            -65.192432,45.498418,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail</name>
+        <styleUrl>#line-795548-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1928389,45.4978271,0
+            -65.1924205,45.4976542,0
+            -65.1919055,45.4976466,0
+            -65.191648,45.4974549,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail</name>
+        <styleUrl>#line-795548-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.193586,45.496857,0
+            -65.1934129,45.4967216,0
+            -65.1929516,45.4965186,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail</name>
+        <styleUrl>#line-795548-3325-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1924205,45.4976542,0
+            -65.1920557,45.4973909,0
+            -65.1919055,45.497233,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail</name>
+        <description>1 km</description>
+        <styleUrl>#line-E65100-4488</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1955426,45.4916527,0
+            -65.195978,45.491477,0
+            -65.196247,45.491097,0
+            -65.1954728,45.4908742,0
+            -65.194811,45.490646,0
+            -65.1944643,45.4904869,0
+            -65.19408,45.490274,0
+            -65.19341,45.490085,0
+            -65.192356,45.489753,0
+            -65.1916265,45.4894866,0
+            -65.1909024,45.4892534,0
+            -65.1905805,45.4891895,0
+            -65.190293,45.489183,0
+            -65.1900119,45.4892045,0
+            -65.1899099,45.4892196,0
+            -65.1897436,45.4892985,0
+            -65.18953,45.489347,0
+            -65.1896248,45.4892149,0
+            -65.1896449,45.4890394,0
+            -65.189308,45.489167,0
+            -65.189116,45.4891782,0
+            -65.1890463,45.4892835,0
+            -65.18888,45.4895166,0
+            -65.1884721,45.4895593,0
+            -65.1884466,45.489421,0
+            -65.1884991,45.4891481,0
+            -65.1883112,45.4890227,0
+            -65.1881229,45.489122,0
+            -65.1880092,45.4892096,0
+            -65.1879126,45.4893766,0
+            -65.187949,45.489516,0
+            -65.1880335,45.4895624,0
+            -65.1882148,45.4895279,0
+            -65.1884721,45.4895593,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Footpath continues</name>
+        <styleUrl>#line-FBC02D-4488-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1896449,45.4890394,0
+            -65.1896739,45.4888849,0
+            -65.1895666,45.4887043,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail continues</name>
+        <styleUrl>#line-E65100-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.189526,45.489336,0
+            -65.1893467,45.489622,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Rough Footpath continues along the cliff tops</name>
+        <styleUrl>#line-FBC02D-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1879466,45.489464,0
+            -65.187791,45.4896445,0
+            -65.1876247,45.4897912,0
+            -65.187453,45.4897949,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail continues</name>
+        <styleUrl>#line-FFEA00-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.196247,45.491097,0
+            -65.1972216,45.4913857,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Fundy Footpath - Fundy Park to Quiddy River Section continues</name>
+        <description>For more information on this section of the Fundy Footpath go to http://www.hikingnb.ca/Trails/FundyEast/FundyFootpath/FundyToQuiddy.html</description>
+        <styleUrl>#line-FFEA00-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.188466,45.507058,0
+            -65.189264,45.507556,0
+            -65.1906288,45.5078733,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fundy Footpath - Fundy Park to Quiddy River Section continues</name>
+        <description>For more information on this section of the Fundy Footpath go to http://www.hikingnb.ca/Trails/FundyEast/FundyFootpath/FundyToQuiddy.html</description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.1929784,45.4984024,0
+            -65.192741,45.498369,0
+            -65.192432,45.498418,0
+            -65.192311,45.498418,0
+            -65.192125,45.49847,0
+            -65.1920396,45.4986393,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

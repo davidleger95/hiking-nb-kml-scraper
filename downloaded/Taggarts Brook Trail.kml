@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Taggarts Brook Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1523-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1523-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1523-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1523-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1523-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1697-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1697-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1697-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1697-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1697-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4B400-5650-normal">
+      <LineStyle>
+        <color>ff00b4f4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4B400-5650-highlight">
+      <LineStyle>
+        <color>ff00b4f4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4B400-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4B400-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4B400-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Lookout</name>
+        <styleUrl>#icon-1523-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.0531586,45.1675897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout</name>
+        <styleUrl>#icon-1523-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.0569781,45.1667958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <styleUrl>#icon-1697-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.0515573,45.1667525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name><![CDATA[Taggart's Brook Trail / Sentier Taggart's Brook]]></name>
+        <description>800 meters</description>
+        <styleUrl>#line-F4EB37-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0512892,45.167246,0
+            -67.0515358,45.1672934,0
+            -67.0514527,45.1671364,0
+            -67.0514125,45.1669833,0
+            -67.0514876,45.166832,0
+            -67.0515573,45.1667525,0
+            -67.0518041,45.1668528,0
+            -67.0520857,45.1670721,0
+            -67.0523486,45.167214,0
+            -67.0527187,45.1673218,0
+            -67.053003,45.1674352,0
+            -67.0531613,45.1674882,0
+            -67.0532525,45.1673823,0
+            -67.0535099,45.1672764,0
+            -67.0537728,45.1671951,0
+            -67.0540652,45.1671743,0
+            -67.0542502,45.1671799,0
+            -67.054497,45.167074,0
+            -67.0547008,45.1669246,0
+            -67.0549047,45.1667658,0
+            -67.0550495,45.1665672,0
+            -67.0552105,45.1663516,0
+            -67.0553231,45.1661398,0
+            -67.0552587,45.1659167,0
+            -67.0552711,45.1657092,0
+            -67.0553179,45.1655124,0
+            -67.0554844,45.1653828,0
+            -67.0556657,45.1653276,0
+            -67.0557904,45.1653087,0
+            -67.0559057,45.1653446,0
+            -67.0559755,45.1654269,0
+            -67.0560855,45.1655763,0
+            -67.0561324,45.1656803,0
+            -67.0560989,45.1658079,0
+            -67.0560291,45.1658817,0
+            -67.0560318,45.1659772,0
+            -67.0560962,45.1661058,0
+            -67.0561941,45.1663705,0
+            -67.0563671,45.1665578,0
+            -67.0565092,45.166588,0
+            -67.0567895,45.1665994,0
+            -67.0570282,45.1666098,0
+            -67.0570417,45.1666778,0
+            -67.0570564,45.1667592,0
+            -67.0571355,45.1667828,0
+            -67.0572348,45.1667686,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Chickahominy Mountain Trail</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/FundyWest/CaugheyTaylor/Chickahominy.html]]></description>
+        <styleUrl>#line-F4B400-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0511229,45.1678246,0
+            -67.051134,45.167545,0
+            -67.0512892,45.167246,0
+            -67.0509377,45.1669194,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Owl Trail / Sentier Hibou</name>
+    <description><![CDATA[The Owl Trail at Centennial Park in Moncton (Fundy Coastal East Region).<br>www.hikingnb.ca]]></description>
+    <Style id="line-DB4436-5456-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5456-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5844-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5844-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Owl Trail / Sentier Hibou</name>
+        <description>0.29 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.834991,46.091061,0
+            -64.834934,46.090913,0
+            -64.834842,46.090725,0
+            -64.8347372,46.0905515,0
+            -64.83464,46.090399,0
+            -64.83458,46.090154,0
+            -64.834518,46.090048,0
+            -64.834399,46.089928,0
+            -64.834313,46.089802,0
+            -64.834242,46.089741,0
+            -64.834193,46.089722,0
+            -64.834057,46.089618,0
+            -64.833961,46.089497,0
+            -64.833991,46.089347,0
+            -64.833641,46.089099,0
+            -64.83356,46.089013,0
+            -64.833462,46.088966,0
+            -64.8332244,46.0889778,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trail / Sentier Adjacent</name>
+      <Placemark>
+        <name>Lynx Trail continues / Sentier Lynx continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Lynx.html)</description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.835232,46.091326,0
+            -64.835081,46.091188,0
+            -64.834991,46.091061,0
+            -64.834769,46.090893,0
+            -64.834621,46.090743,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lynx Trail continues / Sentier Lynx continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Lynx.html)</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8333746,46.0892494,0
+            -64.833262,46.0890485,0
+            -64.8331976,46.0889517,0
+            -64.8329884,46.0887843,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

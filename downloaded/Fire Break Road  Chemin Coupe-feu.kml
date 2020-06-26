@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fire Break Road / Chemin Coupe-feu</name>
+    <description><![CDATA[The Fire Break Road at Centennial Park in Moncton (Fundy Coastal East Region).<br>www.hikingnb.ca]]></description>
+    <Style id="line-DB4436-5456-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5456-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4681-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4681-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5069-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5069-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5069-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.069</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5069-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.6035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5069-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5069-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5069-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Fire Break Road / Chemin Coupe-feu</name>
+        <description>923 m</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8242068,46.0911802,0
+            -64.8240888,46.0907264,0
+            -64.8236597,46.0897591,0
+            -64.8230267,46.088323,0
+            -64.822458,46.0870803,0
+            -64.8217392,46.0854656,0
+            -64.8207736,46.0832406,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Centennial Park Road continues / Chemin Parc Centennial continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/CentennialParkRoad.html)</description>
+        <styleUrl>#line-F4EB37-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8242068,46.0911802,0
+            -64.8236945,46.0910556,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Carcajou Trail continues / Sentier Caracajou continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Carcajou.html)</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8242068,46.0911802,0
+            -64.8246199,46.091303,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Carcajou Trail  continues / Sentier Caracajou continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Carcajou.html)</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8237401,46.0899525,0
+            -64.8242229,46.0901646,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Muskrat Trail continues / Sentier Muskrat continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Muskrat.html)</description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8233941,46.0891508,0
+            -64.8230615,46.0890317,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lynx Trail continues / Sentier Lynx continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Lynx.html)</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8233807,46.0891117,0
+            -64.8234585,46.0891061,0
+            -64.8237213,46.0891657,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Viceroy Trail continues / Sentier Viceroy continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Viceroy.html)</description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8225063,46.0871994,0
+            -64.8223159,46.0872124,0
+            -64.8220611,46.087257,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Access Trail / Sentier D'Access]]></name>
+        <styleUrl>#line-F4EB37-5069-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8228845,46.0871082,0
+            -64.8225063,46.0871845,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Access Trail / Sentier D'Access]]></name>
+        <styleUrl>#line-F4EB37-5456-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8224983,46.0862618,0
+            -64.8221254,46.0863343,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Access Trail / Sentier D'Access]]></name>
+        <styleUrl>#line-F4EB37-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8216775,46.0853242,0
+            -64.821892,46.0852888,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Campground Trail continues / Sentier Terrain de Camping continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Campground.html)</description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8214817,46.0848758,0
+            -64.8212188,46.0849279,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Dog Park Trail continues / Sentier Parc du chien continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/DogPark.html)</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8209265,46.0835885,0
+            -64.8207012,46.0836424,0
+            -64.8207521,46.0837987,0
+            -64.8210499,46.0838564,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

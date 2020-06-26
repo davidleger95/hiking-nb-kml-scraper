@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Beaver Trail</name>
+    <description><![CDATA[Kouchibouguac National Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-143-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-143-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-143">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-77-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6600-5000-normal">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF6600-5000-highlight">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF6600-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6600-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6600-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 12:56:01PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.931718,46.791499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 12:59:18PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.931012,46.790959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 1:04:39PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.928564,46.789552,14.55
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 1:10:27PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.925942,46.78884,15.27
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Hut Lookout</name>
+        <description>09-OCT-11 1:12:43PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.926313,46.788373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 1:13:49PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.926147,46.788195,15.99
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 1:16:15PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.926986,46.787916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 1:20:44PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.928794,46.789005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.931871,46.791708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boardwalk</name>
+        <description>Beaver Trail - Kouchibouguac National Park</description>
+        <styleUrl>#line-FF6600-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.928639,46.789644,0
+            -64.927528,46.789222,0
+            -64.927053,46.78922,0
+            -64.926734,46.789334,0
+            -64.926552,46.789514,0
+            -64.926359,46.789543,0
+            -64.926182,46.789506,0
+            -64.925997,46.789361,0
+            -64.925932,46.789066,0
+            -64.926206,46.78836,0
+            -64.926294,46.787977,0
+            -64.926418,46.787837,0
+            -64.926673,46.787839,0
+            -64.927139,46.787958,0
+            -64.927874,46.787989,0
+            -64.928153,46.788078,0
+            -64.928384,46.788379,0
+            -64.928496,46.788685,0
+            -64.928649,46.788757,0
+            -64.928759,46.788871,0
+            -64.928969,46.78942,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Hut Lookout</name>
+        <description>Beaver Trail - Kouchibouguac National Park</description>
+        <styleUrl>#line-FF6600-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.926209,46.788348,0
+            -64.926324,46.788375,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Crushed Rock</name>
+        <description>Beaver Trail - Kouchibouguac National Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.928966,46.78942,0
+            -64.929006,46.789508,0
+            -64.928958,46.789696,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.928641,46.789644,0
+            -64.928961,46.789699,0
+            -64.929387,46.789947,0
+            -64.930632,46.79068,0
+            -64.931109,46.790985,0
+            -64.931562,46.791058,0
+            -64.931688,46.791133,0
+            -64.931801,46.791418,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Petit Large to Calendars Beach Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.933233,46.791532,0
+            -64.932986,46.79176,0
+            -64.932622,46.79187,0
+            -64.932171,46.791973,0
+            -64.931881,46.792017,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Petit Large to Calendars Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/PetitToCalendars.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.932954,46.791774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

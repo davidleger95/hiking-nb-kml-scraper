@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Splenda Trail / Sentier Splenda</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="line-DB4436-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5069-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5069-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.064408,45.306184,0
+            -66.064224,45.30611,0
+            -66.063967,45.306105,0
+            -66.063797,45.306133,0
+            -66.06362,45.306244,0
+            -66.063199,45.306439,0
+            -66.062961,45.306492,0
+            -66.062626,45.306496,0
+            -66.062229,45.306398,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Mayflower Lake Trail continues / Sentier Lac Mayflower continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/MayflowerLake.html</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0651416,45.3062365,0
+            -66.065036,45.306079,0
+            -66.0648251,45.3060101,0
+            -66.0646909,45.3059384,0
+            -66.0645783,45.3059686,0
+            -66.0644978,45.3060931,0
+            -66.0643584,45.3062629,0
+            -66.0641438,45.3064327,0
+            -66.0638058,45.3065308,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sweetness Trail continues / Sentier Sweetness continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/Sweetness.html</description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.062007,45.306796,0
+            -66.062012,45.306695,0
+            -66.062151,45.306532,0
+            -66.062229,45.306398,0
+            -66.062241,45.306228,0
+            -66.0620838,45.3060177,0
+            -66.061921,45.305969,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

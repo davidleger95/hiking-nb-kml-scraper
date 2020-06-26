@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Deer - Duck Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-00CCCC-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffcccc00</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-00CCCC-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcccc00</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-00CCCC-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-00CCCC-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-00CCCC-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Duck Trail</name>
+        <styleUrl>#line-00CCCC-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.502828,45.849345,0
+            -66.503332,45.849697,0
+            -66.503729,45.850018,0
+            -66.504083,45.850429,0
+            -66.504888,45.850706,0
+            -66.50566,45.851064,0
+            -66.506272,45.850877,0
+            -66.507087,45.850773,0
+            -66.507366,45.850862,0
+            -66.507677,45.851132,0
+            -66.508225,45.851229,0
+            -66.508396,45.851139,0
+            -66.508557,45.851139,0
+            -66.508675,45.851229,0
+            -66.508729,45.851341,0
+            -66.508225,45.852096,0
+            -66.507763,45.852417,0
+            -66.507517,45.852626,0
+            -66.507431,45.852895,0
+            -66.507227,45.853134,0
+            -66.50683,45.853403,0
+            -66.506562,45.85365,0
+            -66.506476,45.854218,0
+            -66.506283,45.85442,0
+            -66.505875,45.854644,0
+            -66.505435,45.854793,0
+            -66.50521,45.854883,0
+            -66.504115,45.85489,0
+            -66.503751,45.854868,0
+            -66.503171,45.854689,0
+            -66.502571,45.854375,0
+            -66.50212,45.853964,0
+            -66.501905,45.853874,0
+            -66.501873,45.853747,0
+            -66.501873,45.85365,0
+            -66.50198,45.853478,0
+            -66.50168,45.853127,0
+            -66.501444,45.853097,0
+            -66.501294,45.853157,0
+            -66.50109,45.853067,0
+            -66.500886,45.85288,0
+            -66.499931,45.852118,0
+            -66.499781,45.851901,0
+            -66.499566,45.851759,0
+            -66.498933,45.85158,0
+            -66.498858,45.851475,0
+            -66.498601,45.851363,0
+            -66.498043,45.851363,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Duck Trail</name>
+        <styleUrl>#line-00CCCC-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.498837,45.85146,0
+            -66.498966,45.851146,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>River Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Oromocto/DeerPark/River.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.506639,45.854454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>River Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.506744,45.854524,0
+            -66.506401,45.854307,0
+            -66.506006,45.854144,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Oromocto/DeerPark/Yellow.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.500078,45.85197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.500071,45.852208,0
+            -66.500071,45.851939,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Oromocto/DeerPark/Yellow.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.50754,45.852265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.507731,45.852432,0
+            -66.507495,45.852223,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Oromocto/DeerPark/Yellow.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.505888,45.8512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.505671,45.851072,0
+            -66.505993,45.851274,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Riverside Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Oromocto/DeerPark/Riverside.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.497862,45.851465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riverside Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.498204,45.851124,0
+            -66.498043,45.851371,0
+            -66.497796,45.851505,0
+            -66.497667,45.851647,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Road</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Oromocto/DeerPark/OldRoad.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.499284,45.851125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Road continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.499384,45.851109,0
+            -66.499084,45.851184,0
+            -66.498912,45.851139,0
+            -66.498751,45.851019,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

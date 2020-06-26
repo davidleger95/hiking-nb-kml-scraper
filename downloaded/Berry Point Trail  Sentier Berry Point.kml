@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Berry Point Trail / Sentier Berry Point</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1521-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1521-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1521-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1521-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1521-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1523-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1523-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1523-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1523-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1523-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1697-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1697-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1697-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1697-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1697-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-4681-nodesc-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-4186F0-4681-nodesc-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-4186F0-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4875-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4875-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-4186F0-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0419377,45.1601493,0
+            -67.0419189,45.1600736,0
+            -67.0419109,45.1599942,0
+            -67.041908,45.159915,0
+            -67.0419458,45.1598731,0
+            -67.0419833,45.1598031,0
+            -67.0420021,45.159754,0
+            -67.0420209,45.159667,0
+            -67.042058,45.159566,0
+            -67.0421255,45.1594532,0
+            -67.042233,45.159308,0
+            -67.0422998,45.1592698,0
+            -67.0423856,45.1591941,0
+            -67.042468,45.159128,0
+            -67.0425493,45.1590504,0
+            -67.04262,45.15901,0
+            -67.0426753,45.1589743,0
+            -67.042701,45.158917,0
+            -67.0426619,45.158727,0
+            -67.0425814,45.1584792,0
+            -67.04246,45.158356,0
+            -67.0424339,45.1582712,0
+            -67.0424581,45.1581539,0
+            -67.04247,45.158103,0
+            -67.0424259,45.158065,0
+            -67.0422623,45.1580177,0
+            -67.042206,45.157941,0
+            -67.042159,45.157845,0
+            -67.0420396,45.1577359,0
+            -67.041902,45.15763,0
+            -67.041834,45.157567,0
+            -67.0418009,45.1574635,0
+            -67.0417258,45.1573992,0
+            -67.0416051,45.1573482,0
+            -67.041412,45.1572139,0
+            -67.0413396,45.1571987,0
+            -67.0412779,45.1571798,0
+            -67.0411775,45.1571878,0
+            -67.0410825,45.1572203,0
+            -67.0409936,45.157229,0
+            -67.0408836,45.1572101,0
+            -67.0407441,45.1571515,0
+            -67.0406047,45.1570815,0
+            -67.0405859,45.1569585,0
+            -67.0406288,45.1568848,0
+            -67.0406744,45.1568451,0
+            -67.0406798,45.1568148,0
+            -67.0406315,45.1567902,0
+            -67.040507,45.156754,0
+            -67.0403391,45.1567524,0
+            -67.0401862,45.1566975,0
+            -67.0400494,45.1566181,0
+            -67.039944,45.15647,0
+            -67.0399207,45.15641,0
+            -67.0399314,45.1562417,0
+            -67.0399582,45.1561717,0
+            -67.0400172,45.1560696,0
+            -67.040064,45.155957,0
+            -67.040028,45.1557348,0
+            -67.0399824,45.1556251,0
+            -67.039859,45.1555854,0
+            -67.0396793,45.1555021,0
+            -67.039547,45.155479,0
+            -67.039293,45.155464,0
+            -67.03905,45.15544,0
+            -67.0389283,45.1553678,0
+            -67.038711,45.1553035,0
+            -67.038357,45.1552468,0
+            -67.0380834,45.1551976,0
+            -67.037966,45.155145,0
+            -67.037835,45.155018,0
+            -67.0378071,45.1548685,0
+            -67.0377991,45.1547191,0
+            -67.0376918,45.1545621,0
+            -67.037638,45.154524,0
+            -67.037608,45.154448,0
+            -67.037668,45.154214,0
+            -67.0378348,45.1539376,0
+            -67.037892,45.153767,0
+            -67.0376043,45.153732,0
+            -67.037453,45.1536794,0
+            -67.0372856,45.1536646,0
+            -67.0371117,45.1535897,0
+            -67.03702,45.153513,0
+            -67.036921,45.153331,0
+            -67.0368005,45.1532911,0
+            -67.036637,45.153289,0
+            -67.036569,45.153191,0
+            -67.036368,45.153131,0
+            -67.0363166,45.1530849,0
+            -67.036289,45.152947,0
+            -67.03619,45.152895,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Marsh Crossing / Traversée Marais</name>
+        <description>01-DEC-14 3:24:20PM</description>
+        <styleUrl>#icon-1697-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -67.041596,45.157324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>View / Vue</name>
+        <description>01-DEC-14 3:29:07PM</description>
+        <styleUrl>#icon-1523-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -67.040043,45.155613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach / Plage</name>
+        <description>01-DEC-14 3:36:33PM</description>
+        <styleUrl>#icon-1521-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -67.0371428,45.1535797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berry Point / Pointe Berry</name>
+        <description>01-DEC-14 3:43:45PM</description>
+        <styleUrl>#icon-1523-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -67.0362521,45.1529262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Sam Orr Pond Trail continues / Sentier Sam Orr Pond</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/FundyWest/CaugheyTaylor/SamOrrPond.html]]></description>
+        <styleUrl>#line-F4EB37-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.042104,45.1603157,0
+            -67.0420262,45.1602192,0
+            -67.0419377,45.1601493,0
+            -67.041895,45.160253,0
+            -67.041891,45.160333,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sam Orr Pond Trail continues / Sentier Sam Orr Pond continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/FundyWest/CaugheyTaylor/SamOrrPond.html]]></description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.042692,45.158972,0
+            -67.042768,45.158996,0
+            -67.0428818,45.1589464,0
+            -67.0429382,45.1589729,0
+            -67.0429757,45.1590182,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

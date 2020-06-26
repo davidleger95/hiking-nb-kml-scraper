@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Heron Trail / Seniter du Héron</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1197-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1197-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1197">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1197-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1197-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1207-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1207-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1207">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1219-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1219-fac-wc-unisex.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1219-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1219-fac-wc-unisex.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1219">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1219-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1219-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1277-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1277-poi-japanese-post-office.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1277-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1277-poi-japanese-post-office.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1277">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1277-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1277-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1369-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1369-rec-hiking-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1369-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1369-rec-hiking-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1369">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1369-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1369-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1381-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1381-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1381">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1381-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1381-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1381-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1381-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1381-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1381-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1381-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1391-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1391-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1391">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1391-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1391-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4875-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5069-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.069</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5069-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.6035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5069-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5069-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5069-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5069-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5069-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Interpretive Sign / Signe Interpretif</name>
+        <description>27-OCT-14 11:25:01AM</description>
+        <styleUrl>#icon-1277</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1393735,45.2128449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse</name>
+        <description>27-OCT-14 11:25:44AM</description>
+        <styleUrl>#icon-1219</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1397121,45.2126387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 11:25:55AM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -66.139588,45.2127014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 11:28:02AM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.140183,45.213491,6.37
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 11:28:07AM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1403021,45.2135672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 11:32:03AM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.141084,45.213166,1.81
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 11:39:45AM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1422691,45.2123733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach / Plage</name>
+        <description>27-OCT-14 11:44:31AM</description>
+        <styleUrl>#icon-1391</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1423493,45.2122548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 11:51:08AM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.141342,45.209942,4.21
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 11:51:25AM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1412406,45.2099876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach / Plage</name>
+        <description>27-OCT-14 12:05:16PM</description>
+        <styleUrl>#icon-1391</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1400907,45.2080357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lookout / Pointe D'Observation]]></name>
+        <description>27-OCT-14 12:16:02PM</description>
+        <styleUrl>#icon-1369</styleUrl>
+        <Point>
+          <coordinates>
+            -66.139971,45.205939,0.13
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocky Point / Pointe Rocheuse</name>
+        <description>27-OCT-14 12:31:13PM</description>
+        <styleUrl>#icon-1369</styleUrl>
+        <Point>
+          <coordinates>
+            -66.139139,45.204217,7.34
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 12:48:57PM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.138615,45.204757,3.97
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach / Plage</name>
+        <description>27-OCT-14 12:49:26PM</description>
+        <styleUrl>#icon-1391</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1382612,45.2045527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 12:59:50PM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.135542,45.207216,3.73
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lookout / Point D'Observation]]></name>
+        <description>27-OCT-14 1:20:49PM</description>
+        <styleUrl>#icon-1369</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1343793,45.2106809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shelter and Picnic Table / Table du Pique Nique</name>
+        <description>27-OCT-14 1:22:43PM</description>
+        <styleUrl>#icon-1197</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1346536,45.2107134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 1:56:05PM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1346084,45.2110498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse</name>
+        <description>27-OCT-14 1:56:14PM</description>
+        <styleUrl>#icon-1219</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1345652,45.2112176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <styleUrl>#icon-1381-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1394575,45.2128467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.134357,45.210634,0
+            -66.134474,45.210551,0
+            -66.13447,45.210304,0
+            -66.134516,45.210089,0
+            -66.134521,45.209939,0
+            -66.134461,45.209788,0
+            -66.134356,45.2096779,0
+            -66.134306,45.209597,0
+            -66.133977,45.209486,0
+            -66.1337364,45.2094152,0
+            -66.1336827,45.2093623,0
+            -66.1336854,45.2092773,0
+            -66.133718,45.209178,0
+            -66.133697,45.209081,0
+            -66.13371,45.208958,0
+            -66.133766,45.208793,0
+            -66.134181,45.20827,0
+            -66.134578,45.208079,0
+            -66.134615,45.208103,0
+            -66.134845,45.208069,0
+            -66.134984,45.208171,0
+            -66.135271,45.208131,0
+            -66.135606,45.208008,0
+            -66.135747,45.207899,0
+            -66.135879,45.207759,0
+            -66.1359331,45.2075916,0
+            -66.135928,45.207421,0
+            -66.135824,45.207274,0
+            -66.1357293,45.2072024,0
+            -66.135733,45.207118,0
+            -66.135749,45.206956,0
+            -66.1357105,45.2068112,0
+            -66.135809,45.206731,0
+            -66.135917,45.206689,0
+            -66.13599,45.206463,0
+            -66.1361262,45.2061025,0
+            -66.136109,45.206007,0
+            -66.136156,45.205971,0
+            -66.1361933,45.2059154,0
+            -66.136218,45.205766,0
+            -66.13643,45.205642,0
+            -66.136673,45.205579,0
+            -66.137056,45.205444,0
+            -66.137216,45.205357,0
+            -66.137338,45.205308,0
+            -66.137513,45.20516,0
+            -66.13756,45.205102,0
+            -66.137462,45.204858,0
+            -66.137669,45.204739,0
+            -66.1377114,45.2047135,0
+            -66.1377543,45.2047136,0
+            -66.137783,45.204717,0
+            -66.137829,45.204735,0
+            -66.1379582,45.2047494,0
+            -66.138214,45.204794,0
+            -66.138426,45.204792,0
+            -66.138444,45.204762,0
+            -66.138554,45.204769,0
+            -66.138682,45.204712,0
+            -66.1387306,45.2046436,0
+            -66.138933,45.204698,0
+            -66.13891,45.204762,0
+            -66.138825,45.204863,0
+            -66.138789,45.204963,0
+            -66.138787,45.2052294,0
+            -66.138927,45.205405,0
+            -66.1392349,45.205511,0
+            -66.1394387,45.2055809,0
+            -66.139645,45.205684,0
+            -66.139791,45.20584,0
+            -66.139973,45.205934,0
+            -66.139944,45.205949,0
+            -66.139894,45.205956,0
+            -66.139812,45.206002,0
+            -66.1397311,45.206146,0
+            -66.139624,45.206185,0
+            -66.139533,45.206334,0
+            -66.139541,45.206488,0
+            -66.139398,45.206738,0
+            -66.139366,45.206844,0
+            -66.1393154,45.2069756,0
+            -66.139242,45.207074,0
+            -66.1392295,45.2071646,0
+            -66.139065,45.207561,0
+            -66.1390391,45.2076994,0
+            -66.13918,45.207854,0
+            -66.1392483,45.2078883,0
+            -66.1393476,45.2078581,0
+            -66.1395058,45.2079072,0
+            -66.1396506,45.2079866,0
+            -66.1399886,45.2081397,0
+            -66.1402756,45.2082889,0
+            -66.1404982,45.2084552,0
+            -66.1405197,45.2085176,0
+            -66.1404821,45.208597,0
+            -66.140357,45.208719,0
+            -66.1402595,45.2089031,0
+            -66.1403614,45.2089636,0
+            -66.140495,45.208999,0
+            -66.140607,45.209089,0
+            -66.14066,45.209159,0
+            -66.140742,45.209344,0
+            -66.1407503,45.209504,0
+            -66.140737,45.20965,0
+            -66.140789,45.209795,0
+            -66.141001,45.209857,0
+            -66.141169,45.209891,0
+            -66.14117,45.209929,0
+            -66.141304,45.209907,0
+            -66.141324,45.209932,0
+            -66.141553,45.210042,0
+            -66.141625,45.210061,0
+            -66.1418581,45.2102618,0
+            -66.1419064,45.2103373,0
+            -66.142025,45.210445,0
+            -66.1422658,45.2105962,0
+            -66.1422363,45.2106321,0
+            -66.1422068,45.2107436,0
+            -66.1422282,45.2109099,0
+            -66.142219,45.211068,0
+            -66.142203,45.211122,0
+            -66.142199,45.211319,0
+            -66.142361,45.211572,0
+            -66.142316,45.211588,0
+            -66.142253,45.211651,0
+            -66.1420432,45.2117357,0
+            -66.1419868,45.2118358,0
+            -66.1419949,45.2119397,0
+            -66.1420727,45.2120833,0
+            -66.1422363,45.2122855,0
+            -66.1423141,45.212414,0
+            -66.14243,45.212515,0
+            -66.14244,45.21259,0
+            -66.142481,45.212643,0
+            -66.1425716,45.2126427,0
+            -66.142618,45.212655,0
+            -66.142585,45.212684,0
+            -66.142538,45.212671,0
+            -66.142228,45.212852,0
+            -66.142128,45.212896,0
+            -66.141845,45.212815,0
+            -66.1417079,45.2128373,0
+            -66.14152,45.212908,0
+            -66.141317,45.212965,0
+            -66.1412841,45.2130206,0
+            -66.1413726,45.2130584,0
+            -66.141316,45.213124,0
+            -66.141216,45.213098,0
+            -66.14111,45.213121,0
+            -66.141069,45.213189,0
+            -66.140946,45.213302,0
+            -66.1409193,45.2134004,0
+            -66.140846,45.213477,0
+            -66.140715,45.213526,0
+            -66.1405331,45.2136706,0
+            -66.1404285,45.213663,0
+            -66.140229,45.213718,0
+            -66.140193,45.21368,0
+            -66.140137,45.213601,0
+            -66.140156,45.213511,0
+            -66.140219,45.213503,0
+            -66.140093,45.213347,0
+            -66.140042,45.213098,0
+            -66.139964,45.212929,0
+            -66.139669,45.212828,0
+            -66.1395165,45.2128278,0
+            -66.1393717,45.2128448,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Rocky Point Access Trail / Sentier d'Access du Pointe Rocheuse]]></name>
+        <styleUrl>#line-DB4436-5069-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.138928,45.204702,0
+            -66.138975,45.204571,0
+            -66.1390257,45.2044849,0
+            -66.139151,45.204376,0
+            -66.139257,45.204242,0
+            -66.13923,45.204224,0
+            -66.139005,45.204288,0
+            -66.138913,45.2043488,0
+            -66.138737,45.20443,0
+            -66.1387628,45.2045756,0
+            -66.1387306,45.2046436,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Point Access Trail / Sentier D'Access du Pointe]]></name>
+        <styleUrl>#line-DB4436-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.1377302,45.2047117,0
+            -66.1377248,45.2046228,0
+            -66.137678,45.204561,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-5069-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.135735,45.20722,0
+            -66.135675,45.207232,0
+            -66.135537,45.207244,0
+            -66.135536,45.207188,0
+            -66.135602,45.207181,0
+            -66.13573,45.207128,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Frog Trail continues / Sentier du Grenouille continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Frog.html</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.1390525,45.2076578,0
+            -66.138939,45.207591,0
+            -66.138847,45.207616,0
+            -66.1384302,45.2076105,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Frog Trail continues / Sentier du Grenouille continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Frog.html</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.1402595,45.2089031,0
+            -66.140198,45.208935,0
+            -66.1401039,45.2090051,0
+            -66.139973,45.209157,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Seal Trail continues / Sentier du Phoque continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Seal.html</description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.134936,45.210979,0
+            -66.134837,45.210872,0
+            -66.134643,45.2107776,0
+            -66.134313,45.2107285,0
+            -66.134136,45.210976,0
+            -66.1340609,45.2110856,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Seal Trail continues / Sentier du Phoque continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Seal.html</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.138943,45.213388,0
+            -66.1390069,45.2131755,0
+            -66.139033,45.213026,0
+            -66.1390981,45.2129204,0
+            -66.1393717,45.2128448,0
+            -66.1394387,45.2127522,0
+            -66.1393771,45.2125633,0
+            -66.1393073,45.2124442,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

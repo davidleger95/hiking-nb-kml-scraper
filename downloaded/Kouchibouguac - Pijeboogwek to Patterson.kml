@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kouchibouguac - Pijeboogwek to Patterson</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-117-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-117-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-117">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-77-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Picnic Table</name>
+        <description>10-MAR-12 1:52:48PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.004863,46.778612,19.11
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patterson Shelter</name>
+        <description>10-MAR-12 2:28:15PM</description>
+        <styleUrl>#icon-117</styleUrl>
+        <Point>
+          <coordinates>
+            -65.012541,46.790617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.004821,46.773896,0
+            -65.004773,46.774069,0
+            -65.004494,46.774153,0
+            -65.004542,46.774344,0
+            -65.004832,46.774521,0
+            -65.005111,46.774844,0
+            -65.005449,46.775222,0
+            -65.005444,46.775513,0
+            -65.005261,46.775998,0
+            -65.004993,46.77628,0
+            -65.004789,46.776571,0
+            -65.004666,46.777019,0
+            -65.00451,46.777221,0
+            -65.004167,46.777548,0
+            -65.003979,46.77775,0
+            -65.003931,46.778077,0
+            -65.004097,46.778253,0
+            -65.004516,46.778459,0
+            -65.004811,46.778599,0
+            -65.005031,46.778757,0
+            -65.005106,46.779168,0
+            -65.005154,46.779447,0
+            -65.005336,46.779943,0
+            -65.00546,46.780149,0
+            -65.00569,46.780388,0
+            -65.00583,46.780535,0
+            -65.00605,46.780799,0
+            -65.006281,46.781207,0
+            -65.006592,46.781618,0
+            -65.006855,46.781835,0
+            -65.007225,46.782085,0
+            -65.007466,46.782224,0
+            -65.007691,46.782474,0
+            -65.007917,46.782599,0
+            -65.008158,46.78265,0
+            -65.008668,46.782808,0
+            -65.008866,46.78293,0
+            -65.008872,46.78308,0
+            -65.00892,46.783297,0
+            -65.009161,46.783506,0
+            -65.009472,46.78365,0
+            -65.009617,46.783855,0
+            -65.009671,46.784237,0
+            -65.009875,46.784733,0
+            -65.00995,46.78491,0
+            -65.009939,46.785258,0
+            -65.009896,46.785909,0
+            -65.010025,46.786335,0
+            -65.010202,46.786831,0
+            -65.010315,46.78711,0
+            -65.010577,46.787767,0
+            -65.01076,46.788101,0
+            -65.010787,46.788256,0
+            -65.01069,46.788436,0
+            -65.010674,46.78877,0
+            -65.010781,46.789134,0
+            -65.010921,46.789626,0
+            -65.010958,46.78996,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Patterson Shelter Access Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.012455,46.790673,0
+            -65.012219,46.790412,0
+            -65.01186,46.790173,0
+            -65.01143,46.790048,0
+            -65.010958,46.789975,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Patterson to Middle Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/PattersonToMiddle.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.010921,46.790122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patterson to Middle Kouchibouguac Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.010958,46.789975,0
+            -65.010883,46.79025,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pijeboogwek to Petit Large Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/PijeboogwekToPetit.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.005074,46.775259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pijeboogwek to Petit-Large Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.00546,46.775252,0
+            -65.004998,46.775252,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Info Center to Kouchibouguac Motel Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/InfoToMotel.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.004891,46.773621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Info Center to Resort Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.004838,46.773823,0
+            -65.00488,46.773635,0
+            -65.004988,46.773573,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pijeboogwek Waxing Hut Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.003808,46.774686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Information Center Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.005267,46.773341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Visitor Center</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.005471,46.772673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

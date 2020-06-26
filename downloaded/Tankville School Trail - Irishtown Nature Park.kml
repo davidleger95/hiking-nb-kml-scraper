@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tankville School Trail - Irishtown Nature Park</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1528-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1528-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1528-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1541-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1541-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1541-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1542-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1542-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1542-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1542-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1542-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1636-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1636-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1636-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1636-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1636-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1733-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1733-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1733-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-6231-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6.231</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-6231-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>9.3465</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-6231">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-6231-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-6231-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5263-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5263-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>03-AUG-16 12:47:26PM</description>
+        <styleUrl>#icon-1644-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7795521,46.1581821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small Bridge</name>
+        <description>03-AUG-16 12:50:06PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -64.779777,46.1585819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>03-AUG-16 1:00:40PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -64.776579,46.15841,54.92
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vince Sunderland Memorial</name>
+        <description>03-AUG-16 1:01:03PM</description>
+        <styleUrl>#icon-1542-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -64.776643,46.158485,55.16
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail Closed</name>
+        <description>Trail was grown in and closed on our last visit in 2016.</description>
+        <styleUrl>#icon-1541-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7784698,46.160115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tankville School Museum</name>
+        <styleUrl>#icon-1636-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7795159,46.1579246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouse</name>
+        <styleUrl>#icon-1733-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7788426,46.1579952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name><![CDATA[Vince's Walk Trail]]></name>
+        <description>0.64 km</description>
+        <styleUrl>#line-E65100-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7796178,46.1583074,0
+            -64.779717,46.1584801,0
+            -64.779776,46.1586083,0
+            -64.7797278,46.1587588,0
+            -64.7796822,46.1588666,0
+            -64.7795534,46.1590616,0
+            -64.7794569,46.1592251,0
+            -64.7793496,46.1594462,0
+            -64.779135,46.1597007,0
+            -64.7789419,46.159684,0
+            -64.7786334,46.1595856,0
+            -64.7783464,46.1595038,0
+            -64.778109,46.159393,0
+            -64.7777724,46.1592028,0
+            -64.777655,46.159128,0
+            -64.7771716,46.1589242,0
+            -64.776735,46.158731,0
+            -64.7766137,46.1586771,0
+            -64.77659,46.158602,0
+            -64.7765735,46.1585117,0
+            -64.7767478,46.158573,0
+            -64.776925,46.158636,0
+            -64.777009,46.158613,0
+            -64.777146,46.158536,0
+            -64.77724,46.158515,0
+            -64.777331,46.158467,0
+            -64.777397,46.158312,0
+            -64.777817,46.158113,0
+            -64.7780728,46.1579488,0
+            -64.7781855,46.1578522,0
+            -64.778508,46.157774,0
+            -64.7787595,46.1578187,0
+            -64.778914,46.157941,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Malcolm's Way Trail]]></name>
+        <description>Trail closed (updated 2016)</description>
+        <styleUrl>#line-0288D1-6231</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.779135,46.1597007,0
+            -64.7789016,46.1597788,0
+            -64.778738,46.1598587,0
+            -64.778612,46.1599701,0
+            -64.7784671,46.160076,0
+            -64.7784618,46.1601856,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

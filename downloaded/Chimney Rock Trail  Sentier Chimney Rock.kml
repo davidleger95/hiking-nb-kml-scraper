@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chimney Rock Trail / Sentier Chimney Rock</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1644-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1654-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1654-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1654-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1654-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1654-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-2000-nodesc-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-996633-2000-nodesc-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-996633-2000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-2000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-2000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-3000-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-996633-3000-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-996633-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6038-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.038</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-6038-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9.057</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6038-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6038-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6038-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Forest Road</name>
+        <description>2.3 km</description>
+        <styleUrl>#line-996633-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.164123,46.370044,0
+            -67.165561,46.37,0
+            -67.1735,46.370015,0
+            -67.174058,46.370311,0
+            -67.176504,46.372384,0
+            -67.176547,46.372946,0
+            -67.177083,46.373612,0
+            -67.177405,46.374604,0
+            -67.177556,46.375463,0
+            -67.177835,46.375848,0
+            -67.180538,46.378631,0
+            -67.18204,46.379815,0
+            -67.182448,46.380096,0
+            -67.183006,46.380925,0
+            -67.183993,46.381384,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Road</name>
+        <styleUrl>#line-996633-2000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.182963,46.380851,0
+            -67.18277,46.381236,0
+            -67.182705,46.382228,0
+            -67.184315,46.384848,0
+            -67.184529,46.386284,0
+            -67.185431,46.387631,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Access Road</name>
+      <Placemark>
+        <name>D20 Road continues</name>
+        <styleUrl>#line-F4EB37-6038-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.1647453,46.3768989,0
+            -67.1632433,46.3626557,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Chimney Rock</name>
+        <styleUrl>#icon-1654-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.184941,46.386998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>This is usually how close I can get with the car.  Mostly an ATV Trail beyond this point.</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -67.183006,46.380925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

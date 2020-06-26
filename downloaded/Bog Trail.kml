@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bog Trail</name>
+    <description><![CDATA[Kouchibouguac National Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-143-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-143-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-143">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-77-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6600-5000-normal">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF6600-5000-highlight">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF6600-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6600-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6600-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 3:38:15PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.953138,46.816313,9.02
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive Sign</name>
+        <description>09-OCT-11 3:40:46PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.952614,46.816079,8.78
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 3:45:13PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.950539,46.814362,14.06
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Tower</name>
+        <description>09-OCT-11 3:48:40PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.950311,46.81359,21.03
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 3:58:46PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.950432,46.811666,13.1
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 4:04:41PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.949976,46.809892,18.87
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Signs, Benches and Lookout</name>
+        <description>09-OCT-11 4:08:18PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.949979,46.808851,16
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.953377,46.816218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bog Trail</name>
+        <description>0.93 km   Kouchibouguac National Park</description>
+        <styleUrl>#line-FF6600-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.952934,46.816183,0
+            -64.952819,46.816152,0
+            -64.95247,46.81596,0
+            -64.952129,46.815822,0
+            -64.951818,46.81567,0
+            -64.951692,46.815591,0
+            -64.951523,46.815444,0
+            -64.951105,46.814972,0
+            -64.950821,46.814794,0
+            -64.950721,46.814531,0
+            -64.95063,46.81432,0
+            -64.950593,46.814085,0
+            -64.950587,46.813913,0
+            -64.950611,46.813799,0
+            -64.950574,46.813691,0
+            -64.950413,46.81356,0
+            -64.950399,46.813421,0
+            -64.950515,46.813258,0
+            -64.950662,46.813092,0
+            -64.950673,46.812969,0
+            -64.950643,46.812778,0
+            -64.95056,46.812586,0
+            -64.950491,46.812465,0
+            -64.950504,46.812389,0
+            -64.950552,46.812285,0
+            -64.950555,46.812198,0
+            -64.950464,46.812026,0
+            -64.950413,46.81191,0
+            -64.95041,46.811763,0
+            -64.950469,46.811556,0
+            -64.950531,46.811433,0
+            -64.950504,46.811275,0
+            -64.950458,46.81111,0
+            -64.950437,46.810939,0
+            -64.950381,46.810774,0
+            -64.950209,46.810623,0
+            -64.949992,46.810453,0
+            -64.949935,46.810357,0
+            -64.94993,46.810254,0
+            -64.94996,46.810084,0
+            -64.949997,46.809994,0
+            -64.949984,46.80983,0
+            -64.949863,46.809693,0
+            -64.949791,46.809606,0
+            -64.949804,46.80952,0
+            -64.949887,46.809401,0
+            -64.949992,46.809175,0
+            -64.950051,46.809043,0
+            -64.950069,46.80896,0
+            -64.949994,46.808843,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

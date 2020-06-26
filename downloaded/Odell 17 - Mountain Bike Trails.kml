@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Odell 17 - Mountain Bike Trails</name>
+    <description><![CDATA[Odell Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-5000-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-996633-5000-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-996633-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Mountain Bike Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-996633-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.67719,45.94822,0
+            -66.67639,45.9484,0
+            -66.67615,45.94855,0
+            -66.67601,45.94909,0
+            -66.67637,45.94941,0
+            -66.67665,45.95004,0
+            -66.67662,45.95018,0
+            -66.67639,45.95051,0
+            -66.67602,45.95085,0
+            -66.67561,45.95149,0
+            -66.67533,45.95173,0
+            -66.67515,45.95178,0
+            -66.67509,45.95191,0
+            -66.67445,45.9524,0
+            -66.67426,45.95246,0
+            -66.67377,45.95274,0
+            -66.67359,45.95295,0
+            -66.67336,45.9535,0
+            -66.67324,45.95366,0
+            -66.67252,45.95435,0
+            -66.67225,45.95475,0
+            -66.67142,45.95557,0
+            -66.671156,45.955734,0
+            -66.670788,45.956242,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-996633-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.67249,45.95439,0
+            -66.67235,45.95429,0
+            -66.67195,45.95421,0
+            -66.67113,45.95426,0
+            -66.67079,45.95437,0
+            -66.67039,45.95437,0
+            -66.66966,45.95454,0
+            -66.669121,45.954592,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-996633-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.67485,45.95208,0
+            -66.67457,45.95187,0
+            -66.67399,45.95175,0
+            -66.67324,45.95171,0
+            -66.67298,45.95174,0
+            -66.67233,45.9516,0
+            -66.67183,45.95158,0
+            -66.671492,45.951493,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Access Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/BotanicalAccess.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.670623,45.956341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Access Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.671053,45.956162,0
+            -66.670688,45.956285,0
+            -66.6705,45.956487,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/MainHill.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.669019,45.954682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.669288,45.954398,0
+            -66.669078,45.954663,0
+            -66.668837,45.954734,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Water Tower Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/WaterTower.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.668928,45.954477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Water Tower Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.669137,45.954592,0
+            -66.668848,45.954432,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ballfield Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Ballfield.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.677388,45.948263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ballfield Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.677506,45.948296,0
+            -66.677163,45.948218,0
+            -66.677039,45.948106,0
+            -66.676857,45.94805,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/MainHill.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.671407,45.951657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.671645,45.951278,0
+            -66.671543,45.95139,0
+            -66.671361,45.951754,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Water Tower Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/WaterTower.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.671181,45.951448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Water Tower Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.671487,45.9515,0
+            -66.671101,45.951448,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

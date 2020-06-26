@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Harrigan Lake Trail / Sentier Lac Harrigan</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-7CB342-5263-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5263-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5263-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5263-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Harrigan Lake Trail / Sentier Lac Harrigan</name>
+        <description>0.77 km</description>
+        <styleUrl>#line-7CB342-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0672793,45.3185517,0
+            -66.06729,45.3184442,0
+            -66.0672745,45.3183921,0
+            -66.0672766,45.3182858,0
+            -66.0673141,45.3181934,0
+            -66.0673946,45.3180406,0
+            -66.0674912,45.3179388,0
+            -66.0676226,45.3178671,0
+            -66.0677734,45.3178148,0
+            -66.0679912,45.3178554,0
+            -66.0681873,45.3177939,0
+            -66.0685054,45.3177609,0
+            -66.0687475,45.3176633,0
+            -66.0690176,45.3177176,0
+            -66.0691676,45.3177916,0
+            -66.0694798,45.3182151,0
+            -66.069619,45.3182693,0
+            -66.0698646,45.3183347,0
+            -66.0701252,45.3182573,0
+            -66.0702909,45.3181863,0
+            -66.0702924,45.3180719,0
+            -66.0702011,45.3178881,0
+            -66.0702151,45.3178582,0
+            -66.0702393,45.3178646,0
+            -66.070258,45.3178053,0
+            -66.0702145,45.3176436,0
+            -66.0702494,45.3174947,0
+            -66.0702048,45.3173428,0
+            -66.0701199,45.3171926,0
+            -66.0700395,45.3171078,0
+            -66.0698998,45.3171108,0
+            -66.0697576,45.3171674,0
+            -66.0696262,45.3172089,0
+            -66.069535,45.3172202,0
+            -66.0694706,45.3172504,0
+            -66.0693499,45.3172692,0
+            -66.0692641,45.3173447,0
+            -66.0691493,45.317438,0
+            -66.0688923,45.3174927,0
+            -66.0686946,45.3174907,0
+            -66.0685021,45.3175827,0
+            -66.068092,45.3176766,0
+            -66.0679727,45.3177112,0
+            -66.0678398,45.3178046,0
+            -66.0677734,45.3178148,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trail / Sentier Adjacent</name>
+      <Placemark>
+        <name>Carriage Road Trail continues / Sentier Chemin Carriage continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/CarriageRoad.html ]]></description>
+        <styleUrl>#line-FFEA00-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0677272,45.3185951,0
+            -66.0674939,45.31858,0
+            -66.0672605,45.3185517,0
+            -66.0670513,45.3185121,0
+            -66.0668716,45.3184669,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

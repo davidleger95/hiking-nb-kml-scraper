@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sand Brook Falls / Chutes Sand Brook</name>
+    <description><![CDATA[The Sand Brook Falls Trail in (Lower St. John River Valley Region).<br>www.hikingnb.ca]]></description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-6000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Main Falls / Chutes Primaire</name>
+        <description>07-SEP-14 3:33:43PM</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -66.4898939,45.4038526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Upper Falls / Chutes en Haute</name>
+        <description>07-SEP-14 3:42:28PM</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -66.4895377,45.403587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Path</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>210 m</description>
+        <styleUrl>#line-DB4436-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.49204,45.404109,0
+            -66.4916825,45.4039567,0
+            -66.491468,45.4038136,0
+            -66.491286,45.403783,0
+            -66.4910892,45.4037165,0
+            -66.4908671,45.4037119,0
+            -66.490705,45.403666,0
+            -66.49032,45.4037721,0
+            -66.4901751,45.403806,0
+            -66.4900088,45.4038173,0
+            -66.4901322,45.4039077,0
+            -66.490175,45.403983,0
+            -66.4901161,45.4039906,0
+            -66.490045,45.403963,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Seniter</name>
+        <description>43 m</description>
+        <styleUrl>#line-DB4436-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.4900088,45.4038173,0
+            -66.489864,45.4037439,0
+            -66.489805,45.403662,0
+            -66.489651,45.403617,0
+            -66.4895904,45.4035914,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

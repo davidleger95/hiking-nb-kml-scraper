@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Odell 2 - Arboretum Field Trail</name>
+    <description><![CDATA[Odell Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-67-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-67-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-67-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Arboretum Field Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.66593,45.95563,0
+            -66.665927,45.955554,0
+            -66.66587,45.95547,0
+            -66.66575,45.955409,0
+            -66.66562,45.95537,0
+            -66.665425,45.955347,0
+            -66.66527,45.95528,0
+            -66.66522,45.95518,0
+            -66.66539,45.95511,0
+            -66.66552,45.95511,0
+            -66.66598,45.95529,0
+            -66.66616,45.95542,0
+            -66.666265,45.955437,0
+            -66.66633,45.9554,0
+            -66.66636,45.95533,0
+            -66.66629,45.95519,0
+            -66.666203,45.955155,0
+            -66.66595,45.95517,0
+            -66.66576,45.95506,0
+            -66.66575,45.95498,0
+            -66.665793,45.954943,0
+            -66.665854,45.95493,0
+            -66.66611,45.95503,0
+            -66.66619,45.955,0
+            -66.66618,45.95495,0
+            -66.665947,45.954752,0
+            -66.665966,45.954707,0
+            -66.666026,45.954699,0
+            -66.6661,45.95471,0
+            -66.666286,45.954786,0
+            -66.666343,45.954719,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>05-SEP-11 2:09:47PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.66615,45.954747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Woods Trail Continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/ArboretumWoods.html)</description>
+        <styleUrl>#line-FFFF66-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.666359,45.954609,0
+            -66.66634,45.95471,0
+            -66.666407,45.954799,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Woods Trail Continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/ArboretumWoods.html)</description>
+        <styleUrl>#line-FFFF66-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.666136,45.955614,0
+            -66.665932,45.955629,0
+            -66.665892,45.955745,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.66553,45.95536,0
+            -66.665487,45.955433,0
+            -66.665492,45.955726,0
+            -66.665514,45.955974,0
+            -66.665659,45.956367,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665495,45.955424,0
+            -66.665138,45.95539,0
+            -66.664926,45.955483,0
+            -66.66468,45.955724,0
+            -66.664132,45.956351,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665482,45.956559,0
+            -66.664975,45.956403,0
+            -66.664599,45.956276,0
+            -66.66431,45.95616,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/MainHill.html)</description>
+        <styleUrl>#line-FFFF66-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665771,45.956246,0
+            -66.665377,45.956662,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/LodgeAndPond.html)</description>
+        <styleUrl>#line-FFFF66-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.664347,45.956429,0
+            -66.663966,45.956282,0
+            -66.663961,45.956283,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 2</name>
+        <styleUrl>#icon-67-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.665522,45.956502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 3</name>
+        <styleUrl>#icon-67-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.666074,45.95561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 4</name>
+        <styleUrl>#icon-67-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.664229,45.956375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 5</name>
+        <styleUrl>#icon-67-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.666353,45.954626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

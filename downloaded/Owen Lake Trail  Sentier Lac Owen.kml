@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Owen Lake Trail / Sentier Lac Owen</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-0288D1-2938-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>2.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5456-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5456-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5069-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5069-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5263-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5263-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5650-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5650-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>1.09 km</description>
+        <styleUrl>#line-0288D1-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0608366,45.3160301,0
+            -66.0607213,45.3160206,0
+            -66.0605228,45.315964,0
+            -66.0603619,45.3159376,0
+            -66.0600963,45.3159282,0
+            -66.059863,45.3158603,0
+            -66.0596538,45.3157792,0
+            -66.0594687,45.3156717,0
+            -66.0593936,45.3156038,0
+            -66.0593104,45.3156981,0
+            -66.0592461,45.3157867,0
+            -66.0592158,45.3158135,0
+            -66.0590891,45.3158675,0
+            -66.0590426,45.3160797,0
+            -66.0590379,45.3162741,0
+            -66.0589478,45.3164795,0
+            -66.059128,45.3166085,0
+            -66.0591658,45.3167551,0
+            -66.0590767,45.3168711,0
+            -66.0590025,45.3169151,0
+            -66.0588443,45.3169483,0
+            -66.0587331,45.3171348,0
+            -66.0586616,45.3171757,0
+            -66.0585828,45.3172943,0
+            -66.058698,45.3173401,0
+            -66.0586731,45.3173979,0
+            -66.0588782,45.3176123,0
+            -66.0589755,45.317729,0
+            -66.0591462,45.3178202,0
+            -66.0593896,45.3178341,0
+            -66.0593833,45.3179253,0
+            -66.0593532,45.3180858,0
+            -66.0596806,45.3181802,0
+            -66.0599422,45.3182407,0
+            -66.0603743,45.3183834,0
+            -66.0605028,45.3184754,0
+            -66.0608105,45.3187412,0
+            -66.0612166,45.3189753,0
+            -66.0613017,45.3190919,0
+            -66.0613991,45.3191027,0
+            -66.0615308,45.3190828,0
+            -66.0617802,45.3191593,0
+            -66.0619136,45.3191734,0
+            -66.0620507,45.3191186,0
+            -66.0621589,45.3189818,0
+            -66.0622822,45.3188061,0
+            -66.0625688,45.3189214,0
+            -66.06283,45.3189805,0
+            -66.0630928,45.3189872,0
+            -66.0631946,45.3189718,0
+            -66.0632867,45.3190334,0
+            -66.0632895,45.319054,0
+            -66.0633687,45.3191029,0
+            -66.0635243,45.3191063,0
+            -66.0636663,45.3191741,0
+            -66.0638073,45.3192779,0
+            -66.0640082,45.3193641,0
+            -66.0642499,45.3192902,0
+            -66.0644653,45.3193205,0
+            -66.0644916,45.3193591,0
+            -66.0645926,45.3193223,0
+            -66.0647132,45.3192333,0
+            -66.0650099,45.3192104,0
+            -66.0652297,45.3190806,0
+            -66.0653486,45.3189892,0
+            -66.065442,45.3188441,0
+            -66.0654983,45.3187102,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lake Access Trail / Sentier Lac Access</name>
+        <styleUrl>#line-0288D1-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0613596,45.319093,0
+            -66.061255,45.319176,0
+            -66.0611978,45.3192473,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Carriage Road Trail continues / Sentier Chemin Carriage continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/CarriageRoad.html ]]></description>
+        <styleUrl>#line-FFEA00-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0658175,45.3186404,0
+            -66.0656458,45.3187215,0
+            -66.0654983,45.3187102,0
+            -66.0654071,45.3186592,0
+            -66.0651891,45.3185671,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Carriage Road Trail continues / Sentier Chemin Carriage continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/CarriageRoad.html ]]></description>
+        <styleUrl>#line-FFEA00-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0610539,45.3162187,0
+            -66.0608742,45.3160753,0
+            -66.0607749,45.3159527,0
+            -66.0605496,45.3157792,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Long Lake Trail continues / Sentier Lac Long continues</name>
+        <styleUrl>#line-FFEA00-5456-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0593936,45.3156038,0
+            -66.0594043,45.3155529,0
+            -66.0593674,45.3154427,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sponge Bob Trail continues / Sentier Sponge Bob continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/Spongebob.html ]]></description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0592158,45.3158135,0
+            -66.0592445,45.3159191,0
+            -66.0593225,45.3160248,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Heartrate Hill Trail continues / Sentier Heartrate Hill continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/HeartrateHill.html ]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0632426,45.3190025,0
+            -66.0633337,45.3189516,0
+            -66.0634211,45.3189095,0
+            -66.0634462,45.3188636,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

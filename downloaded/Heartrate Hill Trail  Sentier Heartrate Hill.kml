@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Heartrate Hill Trail / Sentier Heartrate Hill</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-FBC02D-5069-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FBC02D-5069-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FBC02D-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FBC02D-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FBC02D-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5069-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5069-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFEA00-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.21 km</description>
+        <styleUrl>#line-FBC02D-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0633203,45.3175238,0
+            -66.0633337,45.3176361,0
+            -66.0632955,45.3177731,0
+            -66.0632986,45.3178012,0
+            -66.0633311,45.3178407,0
+            -66.0633606,45.3179746,0
+            -66.0633767,45.318034,0
+            -66.0633807,45.3181566,0
+            -66.0634705,45.3183084,0
+            -66.0636194,45.3183792,0
+            -66.0636632,45.3183995,0
+            -66.0637146,45.3185074,0
+            -66.0638273,45.3186988,0
+            -66.0638782,45.3187894,0
+            -66.0638447,45.318812,0
+            -66.0637347,45.3188403,0
+            -66.0636275,45.3188309,0
+            -66.063551,45.3188262,0
+            -66.0635148,45.3188299,0
+            -66.0634491,45.3188742,0
+            -66.0633887,45.3189318,0
+            -66.0632962,45.3189742,0
+            -66.0632399,45.3190082,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Owen Lake Trail continues / Sentier Lac Owen continues</name>
+        <styleUrl>#line-FFEA00-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0635243,45.3191063,0
+            -66.0633687,45.3191029,0
+            -66.0632895,45.319054,0
+            -66.0631946,45.3189718,0
+            -66.0630548,45.3189855,0
+            -66.062859,45.3189818,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Carriage Road Trail continues / Sentier Chemin Carriage continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/CarriageRoad.html ]]></description>
+        <styleUrl>#line-FFEA00-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0635269,45.3176106,0
+            -66.0633203,45.3175238,0
+            -66.0631236,45.3173994,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

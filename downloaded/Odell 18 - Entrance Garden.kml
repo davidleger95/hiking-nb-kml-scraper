@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Odell 18 - Entrance Garden</name>
+    <description><![CDATA[Odell Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-5000-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-5000-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Entrance Park</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-000000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.680721,45.949079,0
+            -66.680805,45.949114,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Entrance Park</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-000000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.680486,45.949351,0
+            -66.680572,45.949382,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Entrance Park</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-000000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.680805,45.949113,0
+            -66.680745,45.949173,0
+            -66.680625,45.9493,0
+            -66.680572,45.94938,0
+            -66.680565,45.949436,0
+            -66.680584,45.949514,0
+            -66.680647,45.949562,0
+            -66.68071,45.94957,0
+            -66.680796,45.949556,0
+            -66.680898,45.949507,0
+            -66.680985,45.949441,0
+            -66.681072,45.949362,0
+            -66.681115,45.949274,0
+            -66.681135,45.949214,0
+            -66.681136,45.949147,0
+            -66.681108,45.949099,0
+            -66.68106,45.949072,0
+            -66.680997,45.949065,0
+            -66.680908,45.94908,0
+            -66.680805,45.949113,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/Botanical.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.680548,45.949264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Gardens Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.68081,45.94895,0
+            -66.680373,45.949475,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.680899,45.949057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.681167,45.949224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.681138,45.949308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.680922,45.949524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.680814,45.949572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commemorative Bench</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.680544,45.949485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

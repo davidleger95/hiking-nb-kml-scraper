@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Its Gotta Go Trail / Sentier Its Gotta Go</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1211-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1211-fac-poi.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1211-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1211-fac-poi.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1211">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1211-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1211-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4875-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4875-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4875-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Cliffs / Falaises</name>
+        <description>27-OCT-14 5:43:10PM</description>
+        <styleUrl>#icon-1211</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0574972,45.3042221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Path</name>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0630199,45.3034067,0
+            -66.0631487,45.3033577,0
+            -66.0633659,45.3034086,0
+            -66.0636234,45.3034388,0
+            -66.0637173,45.3034049,0
+            -66.063747,45.303313,0
+            -66.0637066,45.3032181,0
+            -66.0635135,45.3031558,0
+            -66.0633069,45.3031464,0
+            -66.063087,45.3031539,0
+            -66.0629931,45.3031351,0
+            -66.0627598,45.3031747,0
+            -66.0624969,45.3031936,0
+            -66.0622394,45.3031898,0
+            -66.0620195,45.3031804,0
+            -66.0617137,45.3032313,0
+            -66.061365,45.3032766,0
+            -66.0611531,45.3033124,0
+            -66.0610083,45.3033539,0
+            -66.0608983,45.303352,0
+            -66.0607186,45.3034501,0
+            -66.0604933,45.3035426,0
+            -66.060037,45.303653,0
+            -66.059959,45.303637,0
+            -66.05982,45.303707,0
+            -66.05981,45.303787,0
+            -66.0595384,45.3038765,0
+            -66.0593882,45.3039142,0
+            -66.059223,45.303945,0
+            -66.059145,45.303949,0
+            -66.059028,45.303984,0
+            -66.058865,45.304097,0
+            -66.058776,45.304227,0
+            -66.058835,45.304298,0
+            -66.058715,45.304424,0
+            -66.0586506,45.3044481,0
+            -66.0584575,45.30445,0
+            -66.058371,45.304474,0
+            -66.058278,45.304436,0
+            -66.058091,45.304322,0
+            -66.057911,45.304375,0
+            -66.057839,45.304424,0
+            -66.0576287,45.3044613,0
+            -66.057557,45.304467,0
+            -66.057349,45.304519,0
+            -66.057265,45.304523,0
+            -66.057212,45.30447,0
+            -66.0572559,45.3043802,0
+            -66.0573283,45.3043406,0
+            -66.0574141,45.3042727,0
+            -66.057508,45.3042481,0
+            -66.057559,45.304218,0
+            -66.0575992,45.3041708,0
+            -66.0576931,45.3041048,0
+            -66.057846,45.3040218,0
+            -66.0580203,45.3039406,0
+            -66.058165,45.303895,0
+            -66.0583019,45.3037293,0
+            -66.0583904,45.3036237,0
+            -66.0584334,45.3035331,0
+            -66.0583851,45.3034483,0
+            -66.058237,45.303482,0
+            -66.057898,45.303589,0
+            -66.057722,45.303586,0
+            -66.057689,45.30353,0
+            -66.057622,45.303486,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Rockpile Road Trail continues / Sentier Chemin Rockpile continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/RockpileRoad.html</description>
+        <styleUrl>#line-F4EB37-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0637173,45.3034049,0
+            -66.063829,45.303544,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sweetness Trail continues / Sentier Sweetness continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/Sweetness.html</description>
+        <styleUrl>#line-F4EB37-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.062799,45.303935,0
+            -66.063048,45.303672,0
+            -66.06301,45.30352,0
+            -66.063013,45.30349,0
+            -66.0630199,45.3034067,0
+            -66.06297,45.303396,0
+            -66.062742,45.303377,0
+            -66.062705,45.303363,0
+            -66.062563,45.303402,0
+            -66.062435,45.303461,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Crystal Lake Trail continues / Sentier Lac Crystal continues</name>
+        <styleUrl>#line-F4EB37-5456-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0572666,45.3037897,0
+            -66.0574034,45.3036331,0
+            -66.0575563,45.3035199,0
+            -66.0578299,45.3033747,0
+            -66.0579935,45.303303,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chamcook Mountain</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1603-795548-nodesc-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-795548-nodesc-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-795548-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-795548-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-795548-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1608-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1608-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1608-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1608-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1608-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC9933-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff3399cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC9933-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff3399cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC9933-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC9933-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC9933-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6038-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.038</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-6038-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9.057</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6038">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6038-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6038-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Road / Chemin</name>
+        <styleUrl>#line-CC9933-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.077548,45.120939,0
+            -67.078207,45.121226,0
+            -67.07906,45.121635,0
+            -67.079141,45.121703,0
+            -67.079098,45.121783,0
+            -67.078867,45.121911,0
+            -67.078647,45.122063,0
+            -67.078647,45.122165,0
+            -67.07876,45.122244,0
+            -67.078932,45.122332,0
+            -67.079071,45.122279,0
+            -67.079243,45.122199,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.07893,45.12188,0
+            -67.07903,45.12203,0
+            -67.07908,45.12226,0
+            -67.07925,45.12219,0
+            -67.07953,45.12221,0
+            -67.08033,45.12232,0
+            -67.08051,45.12238,0
+            -67.08054,45.12252,0
+            -67.08027,45.12281,0
+            -67.08026,45.12306,0
+            -67.08079,45.12405,0
+            -67.08075,45.12455,0
+            -67.08089,45.12471,0
+            -67.08096,45.12475,0
+            -67.08103,45.12459,0
+            -67.08202,45.12374,0
+            -67.08218,45.12372,0
+            -67.08235,45.12377,0
+            -67.08235,45.12391,0
+            -67.08198,45.12458,0
+            -67.08185,45.12523,0
+            -67.08184,45.12523,0
+            -67.081854,45.125284,0
+            -67.08196,45.12542,0
+            -67.08235,45.12562,0
+            -67.08275,45.1257,0
+            -67.08279,45.12566,0
+            -67.08277,45.1256,0
+            -67.08257,45.12552,0
+            -67.08243,45.1254,0
+            -67.08225,45.12507,0
+            -67.08231,45.12502,0
+            -67.08246,45.12504,0
+            -67.08261,45.12513,0
+            -67.08295,45.12501,0
+            -67.08324,45.12501,0
+            -67.08332,45.12498,0
+            -67.08338,45.12457,0
+            -67.08348,45.12441,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>26-JUL-14 5:20:37PM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -67.07686,45.120526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stepping Back Sign / Signe</name>
+        <description>26-JUL-14 6:07:28PM</description>
+        <styleUrl>#icon-1608-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -67.083595,45.124369,183.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beautiful View Sign / Signe</name>
+        <description>26-JUL-14 6:19:28PM</description>
+        <styleUrl>#icon-1608-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -67.083377,45.125025,191.19
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Passamaquoddy Lookout Sign / Signe</name>
+        <description>26-JUL-14 6:24:36PM</description>
+        <styleUrl>#icon-1608-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -67.081882,45.125272,162.11
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stone Wall Sign / Signe</name>
+        <description>26-JUL-14 6:26:58PM</description>
+        <styleUrl>#icon-1608-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -67.082134,45.123754,145.52
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign / Signe</name>
+        <description>26-JUL-14 6:35:17PM</description>
+        <styleUrl>#icon-1608-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -67.078937,45.121785,83.04
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carriage House</name>
+        <styleUrl>#icon-1603-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.0787,45.121764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers adjacent</name>
+      <Placemark>
+        <name>Meadow Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/FundyWest/StAndrews/MeadowTrail.html]]></description>
+        <styleUrl>#line-F4EB37-6038</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.07802,45.121151,0
+            -67.078374,45.120946,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

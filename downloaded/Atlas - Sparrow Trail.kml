@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Atlas - Sparrow Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1650-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-993399-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff993399</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-993399-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff993399</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-993399-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-993399-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-993399-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4875-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4875-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5844-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5844-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Sparrow Trail</name>
+        <styleUrl>#line-993399-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.763672,47.841882,0
+            -65.763551,47.841768,0
+            -65.763567,47.841289,0
+            -65.763642,47.840917,0
+            -65.763567,47.84082,0
+            -65.763417,47.840721,0
+            -65.763366,47.840737,0
+            -65.763227,47.840685,0
+            -65.76272,47.840692,0
+            -65.762178,47.84053,0
+            -65.761561,47.840884,0
+            -65.761271,47.840938,0
+            -65.761322,47.841063,0
+            -65.762446,47.840902,0
+            -65.763197,47.840949,0
+            -65.763101,47.840994,0
+            -65.762108,47.841039,0
+            -65.76151,47.841212,0
+            -65.761277,47.841322,0
+            -65.7607,47.841388,0
+            -65.760536,47.841491,0
+            -65.760491,47.84168,0
+            -65.760614,47.8419,0
+            -65.761038,47.841938,0
+            -65.761156,47.84199,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Heron Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Heron.html]]></description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.764013,47.842037,0
+            -65.763672,47.841882,0
+            -65.763288,47.841786,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Back Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/BackTrail.html]]></description>
+        <styleUrl>#line-F4EB37-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.761271,47.840938,0
+            -65.761161,47.840886,0
+            -65.760974,47.840868,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Back Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/BackTrail.html]]></description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.761322,47.841063,0
+            -65.761065,47.8411,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Heron Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Heron.html]]></description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.761355,47.841914,0
+            -65.761156,47.84199,0
+            -65.761057,47.842161,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Back Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/BackTrail.html]]></description>
+        <styleUrl>#line-F4EB37-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76059,47.841853,0
+            -65.760252,47.841977,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Shelter and Benches</name>
+        <styleUrl>#icon-1650-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.7632832,47.8406729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

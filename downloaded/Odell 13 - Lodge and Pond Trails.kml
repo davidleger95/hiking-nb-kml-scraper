@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Odell 13 - Lodge and Pond Trails</name>
+    <description><![CDATA[Odell Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-117-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-117-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-117">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-137-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/137-sportvenue.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-137-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/137-sportvenue.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-137">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-137-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-137-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-93-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-93">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.659522,45.954804,0
+            -66.661,45.955364,0
+            -66.662115,45.955666,0
+            -66.663408,45.956103,0
+            -66.663847,45.956229,0
+            -66.66425,45.95639,0
+            -66.665179,45.956845,0
+            -66.665315,45.956953,0
+            -66.665445,45.957091,0
+            -66.665617,45.957335,0
+            -66.665753,45.957576,0
+            -66.665944,45.957756,0
+            -66.666112,45.957964,0
+            -66.666286,45.958123,0
+            -66.666441,45.958225,0
+            -66.66676,45.958429,0
+            -66.667399,45.958784,0
+            -66.667835,45.959015,0
+            -66.668236,45.959269,0
+            -66.668462,45.959418,0
+            -66.668722,45.959555,0
+            -66.668931,45.959666,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-117</styleUrl>
+        <Point>
+          <coordinates>
+            -66.664975,45.9574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665441,45.957098,0
+            -66.665439,45.957203,0
+            -66.665382,45.957262,0
+            -66.665289,45.957298,0
+            -66.665138,45.957292,0
+            -66.664881,45.95724,0
+            -66.664578,45.957199,0
+            -66.664197,45.957199,0
+            -66.663784,45.957216,0
+            -66.663567,45.95724,0
+            -66.663328,45.957316,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665101,45.956813,0
+            -66.664685,45.956912,0
+            -66.664428,45.957001,0
+            -66.664055,45.957205,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.663725,45.956198,0
+            -66.663196,45.956632,0
+            -66.663191,45.956785,0
+            -66.663218,45.956973,0
+            -66.663242,45.95713,0
+            -66.663207,45.95727,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665439,45.957164,0
+            -66.664999,45.957264,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665117,45.957236,0
+            -66.664784,45.956897,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.663196,45.956664,0
+            -66.663105,45.95664,0
+            -66.663035,45.956565,0
+            -66.662976,45.956507,0
+            -66.662856,45.956431,0
+            -66.662724,45.956287,0
+            -66.662499,45.956142,0
+            -66.662467,45.955983,0
+            -66.66237,45.955827,0
+            -66.66225,45.955713,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.662056,45.955653,0
+            -66.661802,45.955674,0
+            -66.661721,45.955644,0
+            -66.661654,45.955679,0
+            -66.661651,45.955629,0
+            -66.661603,45.955593,0
+            -66.661469,45.955549,0
+            -66.661423,45.955493,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Main Parking Lot</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-93</styleUrl>
+        <Point>
+          <coordinates>
+            -66.663253,45.957591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Playground</name>
+        <description>Odell Park</description>
+        <styleUrl>#icon-137</styleUrl>
+        <Point>
+          <coordinates>
+            -66.66277,45.956552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.662767,45.956337,0
+            -66.662899,45.956145,0
+            -66.663027,45.956127,0
+            -66.663285,45.956241,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.663137,45.956177,0
+            -66.66325,45.956047,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trails</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.66273,45.956285,0
+            -66.662612,45.955978,0
+            -66.662429,45.95592,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>North Access Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/NorthAccess.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.665484,45.956848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Access Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.66517,45.956832,0
+            -66.665377,45.956826,0
+            -66.665543,45.956878,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/MainHill.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.665345,45.956696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665138,45.956817,0
+            -66.665286,45.956768,0
+            -66.665366,45.956686,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/ArboretumField.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.664267,45.956192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.664135,45.956347,0
+            -66.664312,45.956147,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Woods Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/ArboretumWoods.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.661574,45.955372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Woods Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.661595,45.95534,0
+            -66.661544,45.955418,0
+            -66.661212,45.955621,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

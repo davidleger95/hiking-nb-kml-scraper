@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coac Falls</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-149-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-149-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-149">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-33-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/33-caution.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-33-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/33-caution.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-33">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-33-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-33-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-996633-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-996633-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC9933-5000-normal">
+      <LineStyle>
+        <color>ff3399cc</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC9933-5000-highlight">
+      <LineStyle>
+        <color>ff3399cc</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC9933-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC9933-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC9933-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC9933-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff3399cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC9933-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff3399cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC9933-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC9933-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC9933-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Log Across Road</name>
+        <description>10-JUL-13 5:59:45PM</description>
+        <styleUrl>#icon-33</styleUrl>
+        <Point>
+          <coordinates>
+            -67.153616,45.984491,103.23
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coac Falls</name>
+        <description>10-JUL-13 6:34:25PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -67.150696,46.000789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Access Road</name>
+        <description>2.78 km</description>
+        <styleUrl>#line-CC9933-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.15741,45.979951,0
+            -67.153591,45.984454,0
+            -67.153975,45.984983,0
+            -67.15405,45.985251,0
+            -67.154061,45.985624,0
+            -67.154394,45.986123,0
+            -67.154544,45.986481,0
+            -67.154683,45.987167,0
+            -67.154544,45.987428,0
+            -67.15463,45.987831,0
+            -67.154705,45.988449,0
+            -67.154887,45.988949,0
+            -67.155016,45.989374,0
+            -67.155027,45.989948,0
+            -67.155037,45.990283,0
+            -67.155413,45.990812,0
+            -67.155606,45.991185,0
+            -67.155712,45.99126,0
+            -67.155263,45.99161,0
+            -67.155037,45.991938,0
+            -67.155027,45.992571,0
+            -67.154962,45.994152,0
+            -67.154973,45.994651,0
+            -67.154673,45.995039,0
+            -67.154168,45.995575,0
+            -67.153557,45.996708,0
+            -67.153353,45.997454,0
+            -67.153278,45.998095,0
+            -67.153171,45.99837,0
+            -67.152956,45.998661,0
+            -67.152409,45.998885,0
+            -67.151647,45.999294,0
+            -67.151014,45.999786,0
+            -67.150488,46.000166,0
+            -67.14992,46.000368,0
+            -67.149501,46.000614,0
+            -67.149061,46.001038,0
+            -67.149416,46.001046,0
+            -67.149684,46.001009,0
+            -67.149812,46.001053,0
+            -67.149995,46.000964,0
+            -67.150209,46.000986,0
+            -67.150338,46.000942,0
+            -67.150599,46.000792,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Road continues</name>
+        <styleUrl>#line-996633-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.149055,46.001038,0
+            -67.148567,46.001411,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Road continues</name>
+        <styleUrl>#line-CC9933-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.155722,45.991282,0
+            -67.156303,45.991707,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Road continues</name>
+        <styleUrl>#line-CC9933-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.154972,45.986996,0
+            -67.154688,45.987178,0
+            -67.15494,45.987443,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>No Trespassing Sign</name>
+        <description><![CDATA[Confirmed with Landowner this is to keep out ATV's and not hikers.]]></description>
+        <styleUrl>#icon-33</styleUrl>
+        <Point>
+          <coordinates>
+            -67.1546817,45.9870628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

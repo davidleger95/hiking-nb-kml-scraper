@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Killarney - Woods Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF9900-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Woods Trail</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.627869,46.014448,0
+            -66.627743,46.014286,0
+            -66.62734,46.01384,0
+            -66.62732,46.01304,0
+            -66.62719,46.012464,0
+            -66.627225,46.012187,0
+            -66.627231,46.011931,0
+            -66.627029,46.011825,0
+            -66.626882,46.011753,0
+            -66.62678,46.01166,0
+            -66.62667,46.01125,0
+            -66.62652,46.01099,0
+            -66.62648,46.01068,0
+            -66.62652,46.0105,0
+            -66.62664,46.01033,0
+            -66.62682,46.01024,0
+            -66.62692,46.01013,0
+            -66.627,46.00969,0
+            -66.62744,46.00871,0
+            -66.62742,46.0086,0
+            -66.62663,46.00765,0
+            -66.62661,46.00743,0
+            -66.6271,46.007,0
+            -66.62661,46.00709,0
+            -66.62619,46.00722,0
+            -66.62441,46.00824,0
+            -66.62398,46.00881,0
+            -66.6235,46.00914,0
+            -66.62304,46.00937,0
+            -66.62269,46.00966,0
+            -66.62243,46.00999,0
+            -66.62228,46.01029,0
+            -66.6222,46.01086,0
+            -66.62225,46.0114,0
+            -66.62268,46.012,0
+            -66.62272,46.01221,0
+            -66.62266,46.01239,0
+            -66.62235,46.01281,0
+            -66.62162,46.01306,0
+            -66.6216,46.01309,0
+            -66.62164,46.01318,0
+            -66.62193,46.01352,0
+            -66.62227,46.01373,0
+            -66.62233,46.01381,0
+            -66.6223,46.01413,0
+            -66.62259,46.01459,0
+            -66.62287,46.01483,0
+            -66.62391,46.01549,0
+            -66.623996,46.015661,0
+            -66.624059,46.01593,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Woods Trail Crossover</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.626544,46.011032,0
+            -66.62641,46.01091,0
+            -66.62619,46.0109,0
+            -66.62578,46.01105,0
+            -66.62552,46.0112,0
+            -66.62524,46.0112,0
+            -66.62508,46.01112,0
+            -66.62483,46.01085,0
+            -66.62465,46.01081,0
+            -66.62377,46.01081,0
+            -66.62325,46.01063,0
+            -66.62237,46.01014,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Roads continue</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.621614,46.013084,0
+            -66.621265,46.012991,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Roads continue</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.623626,46.015312,0
+            -66.62329,46.01537,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lake Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.628156,46.014476,0
+            -66.62788,46.014452,0
+            -66.627603,46.014532,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lake Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.624271,46.015909,0
+            -66.623801,46.015958,0
+            -66.623702,46.015988,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lake Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/KillarneyLakePark/Lake.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.627933,46.014455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/KillarneyLakePark/Lake.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.623899,46.015949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Roads</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/KillarneyLakePark/OldRoad.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.623454,46.015338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Roads</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/KillarneyLakePark/OldRoad.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.621416,46.013036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

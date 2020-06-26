@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Moss Glen Nature Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1541-E65100-labelson-nodesc">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1608-FFD600-labelson">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1608-FFD600-labelson-nodesc">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1616-757575-labelson">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1644-E65100-labelson-nodesc">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1697-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5069-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5069-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0438362,45.4364251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Post 3</name>
+        <styleUrl>#icon-1608-FFD600-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0462295,45.4364177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Post 9</name>
+        <description>29-DEC-19 2:21:46PM</description>
+        <styleUrl>#icon-1608-FFD600-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0524692945182,45.4338334780186,102.986083984375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Post 10</name>
+        <description>29-DEC-19 2:26:09PM</description>
+        <styleUrl>#icon-1608-FFD600-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0541454236954,45.4329710640013,97.9393310546875
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Post 14</name>
+        <description>29-DEC-19 2:33:32PM</description>
+        <styleUrl>#icon-1608-FFD600-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0533242486417,45.4349606763572,117.405883789062
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Post 16</name>
+        <description>29-DEC-19 2:41:19PM</description>
+        <styleUrl>#icon-1608-FFD600-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0497153,45.436183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Large boulder</name>
+        <description>29-DEC-19 2:10:42PM</description>
+        <styleUrl>#icon-1616-757575-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0468281060457,45.4364339634776,81.5970458984375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Post 2</name>
+        <styleUrl>#icon-1608-FFD600-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0449949,45.4363503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrance signs</name>
+        <styleUrl>#icon-1608-FFD600-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0444922,45.4363423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small bridge has been removed</name>
+        <styleUrl>#icon-1541-E65100-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0443061,45.4366479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No bridge to cross stream</name>
+        <styleUrl>#icon-1697-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0439297,45.4363668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / sentier</name>
+        <description>2 km</description>
+        <styleUrl>#line-DB4436-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0438362,45.4364251,0
+            -66.0438872,45.4363903,0
+            -66.0439297,45.4363668,0
+            -66.0440118,45.436362,0
+            -66.0441285,45.436442,0
+            -66.0442801,45.4364702,0
+            -66.0444276,45.4363846,0
+            -66.0445121,45.4363743,0
+            -66.0446087,45.4364175,0
+            -66.044673,45.4364288,0
+            -66.044901,45.4363856,0
+            -66.0449667,45.4363601,0
+            -66.04507,45.4363545,0
+            -66.045129,45.4363413,0
+            -66.0452591,45.4363761,0
+            -66.0455515,45.4364571,0
+            -66.0457687,45.4365286,0
+            -66.0459618,45.4365596,0
+            -66.0460329,45.4365371,0
+            -66.046108,45.4364825,0
+            -66.0462569,45.4364307,0
+            -66.0465291,45.4365295,0
+            -66.0467169,45.4365747,0
+            -66.0467678,45.4365644,0
+            -66.0468598,45.4365112,0
+            -66.0468377,45.4364124,0
+            -66.0469071,45.4362894,0
+            -66.0470516,45.4361663,0
+            -66.0472417,45.4360438,0
+            -66.0475304,45.4358765,0
+            -66.0477126,45.4358639,0
+            -66.0478754,45.4357777,0
+            -66.0480758,45.435747,0
+            -66.0483104,45.4357574,0
+            -66.0485611,45.4357235,0
+            -66.0486648,45.435715,0
+            -66.0488126,45.4356961,0
+            -66.0491118,45.4356435,0
+            -66.0492963,45.4355683,0
+            -66.049474,45.4353987,0
+            -66.0497902,45.4352797,0
+            -66.0500395,45.435185,0
+            -66.0502436,45.4351609,0
+            -66.0504353,45.4351186,0
+            -66.0506185,45.4351178,0
+            -66.0508003,45.4349997,0
+            -66.0509661,45.4348647,0
+            -66.0511555,45.4347079,0
+            -66.0513669,45.4346319,0
+            -66.0515352,45.4345864,0
+            -66.0517389,45.4344977,0
+            -66.0519017,45.4344446,0
+            -66.0521658,45.434352,0
+            -66.0523306,45.4342088,0
+            -66.0524412,45.4340346,0
+            -66.0524994,45.4339229,0
+            -66.0524693,45.4338335,0
+            -66.0526322,45.4338043,0
+            -66.0528051,45.4337002,0
+            -66.0530664,45.4337613,0
+            -66.0533058,45.4335585,0
+            -66.0534663,45.4334441,0
+            -66.0536962,45.4333128,0
+            -66.053785,45.4331942,0
+            -66.0539558,45.4330548,0
+            -66.0541168,45.4329717,0
+            -66.0542696,45.4329582,0
+            -66.0545069,45.4330459,0
+            -66.054669,45.4330624,0
+            -66.0549641,45.4331105,0
+            -66.0552028,45.4331486,0
+            -66.0551274,45.4333617,0
+            -66.0550767,45.4334875,0
+            -66.0550011,45.4336616,0
+            -66.0548309,45.4337872,0
+            -66.0546778,45.4338298,0
+            -66.0544986,45.433935,0
+            -66.0542822,45.4340809,0
+            -66.0540423,45.4341957,0
+            -66.0540155,45.4341764,0
+            -66.0539593,45.4342114,0
+            -66.0538338,45.4343564,0
+            -66.0537765,45.4345156,0
+            -66.0537544,45.4345533,0
+            -66.0536748,45.4346556,0
+            -66.0534942,45.4347432,0
+            -66.0533858,45.4347794,0
+            -66.0533674,45.4349175,0
+            -66.0533076,45.4349686,0
+            -66.0531715,45.4350486,0
+            -66.0530508,45.4352494,0
+            -66.0529399,45.4353556,0
+            -66.0527583,45.4354925,0
+            -66.0525608,45.4355428,0
+            -66.0522436,45.4355942,0
+            -66.0520014,45.4356065,0
+            -66.0517901,45.4356496,0
+            -66.051745,45.4357074,0
+            -66.0517241,45.4357649,0
+            -66.0515907,45.4358997,0
+            -66.0514174,45.4360432,0
+            -66.0511818,45.4360332,0
+            -66.0509154,45.4359356,0
+            -66.0507159,45.4359789,0
+            -66.0505518,45.4360642,0
+            -66.0503794,45.4361797,0
+            -66.0501235,45.4362372,0
+            -66.0499117,45.4362058,0
+            -66.0497143,45.4361691,0
+            -66.0494763,45.436204,0
+            -66.0492503,45.4362329,0
+            -66.0490837,45.436238,0
+            -66.0486257,45.4362418,0
+            -66.0484573,45.4362658,0
+            -66.0483193,45.4363651,0
+            -66.0481386,45.436429,0
+            -66.0479013,45.4364852,0
+            -66.0477258,45.4364704,0
+            -66.0475485,45.4365428,0
+            -66.0473678,45.436599,0
+            -66.0471682,45.4366563,0
+            -66.0469838,45.4366145,0
+            -66.0468282,45.4365286,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Previous entrance</name>
+        <styleUrl>#line-F4EB37-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0442801,45.4364702,0
+            -66.0442492,45.4365436,0
+            -66.044327,45.4366246,0
+            -66.044264,45.436649,0
+            -66.0441849,45.4366453,0
+            -66.0440306,45.4366076,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent trails / sentiers adjacent</name>
+      <Placemark>
+        <name>Lake Access on Private Ground</name>
+        <styleUrl>#line-F4EB37-5650-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0542696,45.4329582,0
+            -66.0542249,45.4327612,0
+            -66.0540667,45.4325617,0
+            -66.0538682,45.4322737,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

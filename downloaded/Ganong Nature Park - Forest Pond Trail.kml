@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ganong Nature Park - Forest Pond Trail</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1723-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1723-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1723-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1723-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1723-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1803-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1803-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1803-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1803-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1803-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-62AF44-5650-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-62AF44-5650-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-62AF44-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-62AF44-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-62AF44-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5069-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5069-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Beach Access</name>
+        <styleUrl>#icon-1723-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.166521,45.1762136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historic Basement</name>
+        <styleUrl>#icon-1803-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.1703351,45.1754421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Forest Pond Trail</name>
+        <description>0.91 km</description>
+        <styleUrl>#line-62AF44-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.1702103,45.1754069,0
+            -67.170107,45.175436,0
+            -67.1697,45.17562,0
+            -67.169598,45.175615,0
+            -67.1694285,45.1755707,0
+            -67.169311,45.175505,0
+            -67.169212,45.175494,0
+            -67.169103,45.175563,0
+            -67.169115,45.175813,0
+            -67.169031,45.17605,0
+            -67.169037,45.176127,0
+            -67.169137,45.176311,0
+            -67.169047,45.176441,0
+            -67.168645,45.17666,0
+            -67.168433,45.176701,0
+            -67.1682268,45.1766447,0
+            -67.1679854,45.1765085,0
+            -67.167819,45.176369,0
+            -67.1677279,45.1761606,0
+            -67.167718,45.176039,0
+            -67.16766,45.175937,0
+            -67.167561,45.175857,0
+            -67.167557,45.175706,0
+            -67.1674,45.175532,0
+            -67.167273,45.175481,0
+            -67.167117,45.175315,0
+            -67.167016,45.175156,0
+            -67.166964,45.175196,0
+            -67.166852,45.175159,0
+            -67.1666738,45.1751888,0
+            -67.166511,45.175268,0
+            -67.166452,45.175335,0
+            -67.166601,45.175593,0
+            -67.166573,45.17572,0
+            -67.166484,45.175803,0
+            -67.166374,45.175791,0
+            -67.1663815,45.1758808,0
+            -67.166405,45.175917,0
+            -67.166284,45.176006,0
+            -67.1662688,45.1761342,0
+            -67.1661347,45.1761001,0
+            -67.165782,45.176076,0
+            -67.165618,45.175988,0
+            -67.165496,45.175982,0
+            -67.1649867,45.1758392,0
+            -67.164765,45.175819,0
+            -67.164535,45.175756,0
+            -67.164427,45.17564,0
+            -67.164222,45.175548,0
+            -67.163981,45.175519,0
+            -67.163608,45.175505,0
+            -67.163321,45.175403,0
+            -67.1632352,45.1752909,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Lookout Trail continues</name>
+        <description>For more information on this trail go to http://www.hikingnb.ca/Trails/FundyWest/GanongPark/Lookout.html</description>
+        <styleUrl>#line-F4EB37-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.17067,45.17596,0
+            -67.1704638,45.1757333,0
+            -67.170266,45.175568,0
+            -67.170223,45.175382,0
+            -67.17026,45.1752795,0
+            -67.17036,45.175225,0
+            -67.170553,45.17507,0
+            -67.1707106,45.1748144,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Auk Hill Trail continues</name>
+        <description>For more information on this trail go to http://www.hikingnb.ca/Trails/FundyWest/GanongPark/AukHill.html</description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.1633559,45.1750337,0
+            -67.1633586,45.1751264,0
+            -67.1633855,45.175202,0
+            -67.1633667,45.1752512,0
+            -67.163274,45.175281,0
+            -67.1632084,45.1752871,0
+            -67.1630663,45.1752304,0
+            -67.1629322,45.1751888,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

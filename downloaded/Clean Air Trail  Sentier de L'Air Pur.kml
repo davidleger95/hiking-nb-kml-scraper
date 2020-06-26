@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Clean Air Trail / Sentier de L'Air Pur]]></name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1207-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1207-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1207">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1211-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1211-fac-poi.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1211-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1211-fac-poi.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1211-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1211-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1211-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1381-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1381-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1381">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1381-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1381-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5069-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5069-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 3:41:14PM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -66.051624,45.297133,51.32
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 3:51:03PM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.051174,45.298161,55.16
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach / Banc</name>
+        <description>27-OCT-14 6:01:12PM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0511884,45.2995237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 6:02:49PM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0517407,45.298323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>27-OCT-14 6:04:05PM</description>
+        <styleUrl>#icon-1381</styleUrl>
+        <Point>
+          <coordinates>
+            -66.052168,45.29758,34.25
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canadian Lung Association Monument / Monument du Association Pulmonaire du Canada</name>
+        <styleUrl>#icon-1211-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0519022,45.2972223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0515964,45.2972167,0
+            -66.0515454,45.2974204,0
+            -66.0513872,45.2976695,0
+            -66.0513175,45.297811,0
+            -66.0513201,45.2979827,0
+            -66.051172,45.298209,0
+            -66.0509473,45.2984449,0
+            -66.0507703,45.2985676,0
+            -66.050706,45.298673,0
+            -66.0508025,45.2988506,0
+            -66.050899,45.2989845,0
+            -66.0508695,45.2990657,0
+            -66.05079,45.299192,0
+            -66.0507837,45.2993883,0
+            -66.0507917,45.299477,0
+            -66.0507274,45.2996185,0
+            -66.0507113,45.2996977,0
+            -66.0507971,45.29976,0
+            -66.0509768,45.2998316,0
+            -66.0510707,45.299792,0
+            -66.0511538,45.2996694,0
+            -66.0511753,45.2995637,0
+            -66.0511136,45.2994373,0
+            -66.051068,45.2993619,0
+            -66.0510626,45.2992581,0
+            -66.0510841,45.2991166,0
+            -66.0511807,45.2989298,0
+            -66.0513309,45.2988487,0
+            -66.0514542,45.2987223,0
+            -66.0515589,45.2985562,0
+            -66.0516098,45.2983732,0
+            -66.0517734,45.2982525,0
+            -66.0518807,45.2981582,0
+            -66.0519987,45.297994,0
+            -66.0521248,45.2977921,0
+            -66.0521865,45.2976789,0
+            -66.0521999,45.2976204,0
+            -66.05214,45.297554,0
+            -66.0522106,45.2972091,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Pugsley Trail / Sentier Pugsley</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/Pugsley.html</description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.051001,45.29982,0
+            -66.051033,45.299942,0
+            -66.050887,45.300028,0
+            -66.0508212,45.3001637,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

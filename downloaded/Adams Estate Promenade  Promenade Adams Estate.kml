@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name> Adams Estate Promenade / Promenade Adams Estate</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1528-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1528-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1528-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1597-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1597-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1597-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1597-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1597-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1733-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1733-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1733-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-5263-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-5844-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>5.844</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-5844-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>8.766</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-5844-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-5844-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-5844-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-6038-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>6.038</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-6038-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>9.057</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-6038-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-6038-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-6038-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-6231-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>6.231</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-6231-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>9.3465</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-6231-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-6231-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-6231-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-6425-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>6.425</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-6425-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>9.6375</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-6425">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-6425-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-6425-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5650-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5650-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Outhouse</name>
+        <description>03-JUN-17 8:12:27PM</description>
+        <styleUrl>#icon-1733-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.9384371,44.8778358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>03-JUN-17 8:16:11PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.940538,44.878755,23.2
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interpretive Sign / Signe interprétative</name>
+        <description>03-JUN-17 8:40:08PM</description>
+        <styleUrl>#icon-1597-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.949436,44.880075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>03-JUN-17 8:42:52PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.9507398,44.8793236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camp </name>
+        <description>03-JUN-17 8:43:22PM</description>
+        <styleUrl>#icon-1603-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.9510159,44.8793006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>1.82 km</description>
+        <styleUrl>#line-E65100-6425</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.953117,44.879679,0
+            -66.9529849,44.87946,0
+            -66.9527918,44.8793232,0
+            -66.952555,44.879146,0
+            -66.952294,44.879105,0
+            -66.952045,44.879024,0
+            -66.951677,44.878985,0
+            -66.951499,44.8790647,0
+            -66.9514024,44.8792205,0
+            -66.951314,44.879335,0
+            -66.9510698,44.8793726,0
+            -66.9507855,44.879327,0
+            -66.950513,44.879208,0
+            -66.950184,44.879331,0
+            -66.950072,44.879567,0
+            -66.949821,44.879786,0
+            -66.949792,44.879845,0
+            -66.9496,44.8800226,0
+            -66.949492,44.880048,0
+            -66.949418,44.880108,0
+            -66.949152,44.880096,0
+            -66.948976,44.880128,0
+            -66.948922,44.880156,0
+            -66.948404,44.880256,0
+            -66.948061,44.880195,0
+            -66.947837,44.880081,0
+            -66.947595,44.879911,0
+            -66.9472343,44.8797413,0
+            -66.9472718,44.8796577,0
+            -66.947213,44.879566,0
+            -66.947075,44.879458,0
+            -66.94699,44.879411,0
+            -66.946842,44.879411,0
+            -66.946762,44.879306,0
+            -66.946815,44.879251,0
+            -66.946991,44.879174,0
+            -66.947086,44.87904,0
+            -66.947232,44.878956,0
+            -66.947263,44.878912,0
+            -66.947467,44.878775,0
+            -66.947625,44.878628,0
+            -66.94774,44.878341,0
+            -66.947902,44.878207,0
+            -66.947987,44.87803,0
+            -66.947679,44.877959,0
+            -66.947226,44.877677,0
+            -66.947014,44.877503,0
+            -66.946875,44.877452,0
+            -66.946687,44.877362,0
+            -66.946411,44.877292,0
+            -66.946238,44.877224,0
+            -66.945969,44.877198,0
+            -66.945716,44.877296,0
+            -66.9450563,44.8778863,0
+            -66.944548,44.878491,0
+            -66.944402,44.878539,0
+            -66.944203,44.878727,0
+            -66.943848,44.878933,0
+            -66.94352,44.878874,0
+            -66.943256,44.878928,0
+            -66.94256,44.878922,0
+            -66.9424224,44.8788822,0
+            -66.942367,44.878816,0
+            -66.942304,44.8787,0
+            -66.942037,44.878571,0
+            -66.941844,44.878418,0
+            -66.941597,44.87842,0
+            -66.941419,44.878587,0
+            -66.941247,44.878705,0
+            -66.940873,44.878719,0
+            -66.940621,44.878775,0
+            -66.940229,44.878642,0
+            -66.939621,44.878654,0
+            -66.9392788,44.8785287,0
+            -66.939074,44.87848,0
+            -66.938803,44.878218,0
+            -66.938619,44.878103,0
+            -66.938258,44.877949,0
+            -66.9382113,44.8779205,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>The Carriage Road continues / Le Chemin Carrossable contines</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/Campobello/HerringCovePark/CarriageRoad.html]]></description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.952555,44.879146,0
+            -66.952362,44.87902,0
+            -66.952256,44.878941,0
+            -66.952122,44.878683,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Friars Bay Trail continues / Sentier Friars Bay continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/Campobello/HerringCovePark/FriarsBay.html]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.950513,44.879208,0
+            -66.9505146,44.8790856,0
+            -66.9504985,44.8789259,0
+            -66.950528,44.878791,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lake Glensevern Trail continues / Sentier Lac Glensevern continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/Campobello/HerringCovePark/Glensevern.html]]></description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.946238,44.877224,0
+            -66.946268,44.877004,0
+            -66.9462767,44.8768029,0
+            -66.946289,44.876634,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV trail continues / Sentier VTA continues</name>
+        <styleUrl>#line-BDBDBD-6038-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.946238,44.877224,0
+            -66.9461372,44.8773826,0
+            -66.9459844,44.8775974,0
+            -66.9459495,44.8777666,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV trail continues / Sentier VTA continues</name>
+        <styleUrl>#line-BDBDBD-6231-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9472343,44.8797413,0
+            -66.9469017,44.8801936,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV trail continues / Sentier VTA continues</name>
+        <styleUrl>#line-BDBDBD-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.944402,44.878539,0
+            -66.9446754,44.8787682,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV trail continues / Sentier VTA continues</name>
+        <styleUrl>#line-BDBDBD-5844-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.946875,44.877452,0
+            -66.9466871,44.8779053,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

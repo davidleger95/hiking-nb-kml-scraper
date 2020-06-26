@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fundy - Dickson Falls</name>
+    <description><![CDATA[Fundy National Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-143-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-143-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-143">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-149-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-149-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-149">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Bench</name>
+        <description>15-JUL-11 7:32:33PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -64.972213,45.586634,80
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>15-JUL-11 8:02:46PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -64.97439,45.584396,109
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dickson Falls</name>
+        <description>15-JUL-11 7:52:03PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -64.972805,45.585628,92
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dickson Falls Lookout</name>
+        <description>15-JUL-11 8:16:15PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.972629,45.585784,99
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Lookout</name>
+        <description>15-JUL-11 7:55:48PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.972445,45.585239,91
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout and displays</name>
+        <description>15-JUL-11 7:21:50PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.973979,45.587083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dickson Falls Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.97462,45.586931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.974105,45.587063,0
+            -64.973906,45.587089,0
+            -64.973912,45.586924,0
+            -64.97413,45.58686,0
+            -64.97417,45.58677,0
+            -64.97433,45.58678,0
+            -64.97444,45.58667,0
+            -64.97445,45.58652,0
+            -64.97475,45.58644,0
+            -64.97501,45.58629,0
+            -64.97499,45.58616,0
+            -64.97507,45.58591,0
+            -64.975,45.58556,0
+            -64.97515,45.58544,0
+            -64.97555,45.58527,0
+            -64.9755,45.58518,0
+            -64.97501,45.58505,0
+            -64.97463,45.58487,0
+            -64.97438,45.58454,0
+            -64.97437,45.5843,0
+            -64.97425,45.58411,0
+            -64.97407,45.58404,0
+            -64.97395,45.58408,0
+            -64.97366,45.58439,0
+            -64.97352,45.58447,0
+            -64.97335,45.58449,0
+            -64.97311,45.58462,0
+            -64.97296,45.5846,0
+            -64.97265,45.58492,0
+            -64.97256,45.58494,0
+            -64.97253,45.58513,0
+            -64.97244,45.58522,0
+            -64.97253,45.58522,0
+            -64.97265,45.58537,0
+            -64.97274,45.58566,0
+            -64.97254,45.58569,0
+            -64.97253,45.58561,0
+            -64.97247,45.58557,0
+            -64.97219,45.58578,0
+            -64.97188,45.58576,0
+            -64.97177,45.58599,0
+            -64.97152,45.58611,0
+            -64.97149,45.58627,0
+            -64.97155,45.58625,0
+            -64.97172,45.58635,0
+            -64.97172,45.58639,0
+            -64.97221,45.58658,0
+            -64.97225,45.58665,0
+            -64.97252,45.5867,0
+            -64.97301,45.58674,0
+            -64.97356,45.58656,0
+            -64.97394,45.58653,0
+            -64.97417,45.58677,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Shortcut Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.974443,45.586597,0
+            -64.974298,45.58643,0
+            -64.974207,45.586152,0
+            -64.974161,45.586062,0
+            -64.973949,45.586049,0
+            -64.973831,45.585987,0
+            -64.973694,45.585931,0
+            -64.973228,45.585863,0
+            -64.972903,45.585863,0
+            -64.972579,45.585811,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.972968,45.58585,0
+            -64.97297,45.58574,0
+            -64.97272,45.58566,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

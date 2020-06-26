@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mayflower Lake Trail / Sentier Lac Mayflower</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1207-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1207-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1207">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4875-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6000-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-6000-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 5:04:08PM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -66.070191,45.304184,54.44
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Splenda Trail continues / Sentier Splenda continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/Splenda.html</description>
+        <styleUrl>#line-F4EB37-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.064408,45.306184,0
+            -66.064224,45.30611,0
+            -66.063967,45.306105,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sweetness Trail continues / Sentier Sweetness continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/Sweetness.html</description>
+        <styleUrl>#line-F4EB37-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.062469,45.307754,0
+            -66.0622287,45.3075419,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Carriage Road Trail continues / Sentier Chemin Carriage continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/CarriageRoad.html</description>
+        <styleUrl>#line-F4EB37-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0617888,45.3097112,0
+            -66.0617781,45.3094358,0
+            -66.061703,45.3092358,0
+            -66.0615259,45.3090812,0
+            -66.0613436,45.3089604,0
+            -66.0610807,45.308934,0
+            -66.0607105,45.3090736,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lollypop Trail continues / Sentier Lollypop continues</name>
+        <description>For more trail information go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/Lollypop.html</description>
+        <styleUrl>#line-F4EB37-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.068453,45.304423,0
+            -66.068364,45.304288,0
+            -66.068182,45.304237,0
+            -66.0680678,45.3041727,0
+            -66.068006,45.304114,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0702968,45.3040897,0
+            -66.070091,45.304289,0
+            -66.0697871,45.3043764,0
+            -66.0694438,45.3043726,0
+            -66.068871,45.30439,0
+            -66.0685265,45.3044179,0
+            -66.0681671,45.3045009,0
+            -66.067848,45.304666,0
+            -66.0675287,45.3049386,0
+            -66.0672873,45.3052178,0
+            -66.0670084,45.3055385,0
+            -66.0667992,45.3057762,0
+            -66.0664237,45.3060327,0
+            -66.0661286,45.3061723,0
+            -66.0659945,45.3063346,0
+            -66.065837,45.306431,0
+            -66.0655385,45.3064327,0
+            -66.0653991,45.3062855,0
+            -66.0652918,45.3060592,0
+            -66.0650128,45.3060516,0
+            -66.0648358,45.3060026,0
+            -66.064707,45.3059422,0
+            -66.064591,45.305992,0
+            -66.064353,45.3062818,0
+            -66.0639024,45.3065232,0
+            -66.0635161,45.3065911,0
+            -66.0632801,45.3068439,0
+            -66.0633391,45.3072061,0
+            -66.0633552,45.3074928,0
+            -66.0629904,45.3077569,0
+            -66.0626417,45.3077154,0
+            -66.062469,45.307754,0
+            -66.0622501,45.307938,0
+            -66.0620409,45.3082587,0
+            -66.061998,45.3084549,0
+            -66.0618961,45.3087492,0
+            -66.0615635,45.3091038,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

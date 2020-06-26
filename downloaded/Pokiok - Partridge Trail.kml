@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pokiok - Partridge Trail</name>
+    <description><![CDATA[The Patridge Trail at the Big Pokiok Nature Park near Nackawic (Lower St. John River Valley Region)<br>www.hikingnb.ca]]></description>
+    <Style id="line-DB4436-5000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5000-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5000-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails</name>
+      <Placemark>
+        <name>Partridge Trail</name>
+        <description>0.98 km</description>
+        <styleUrl>#line-DB4436-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.23747,45.93201,0
+            -67.237347,45.931858,0
+            -67.237331,45.931619,0
+            -67.237154,45.931229,0
+            -67.23694,45.931056,0
+            -67.2363,45.93068,0
+            -67.23535,45.93039,0
+            -67.23508,45.93043,0
+            -67.23503,45.93053,0
+            -67.23486,45.93048,0
+            -67.2347,45.93053,0
+            -67.23419,45.93045,0
+            -67.23397,45.93022,0
+            -67.2339,45.93004,0
+            -67.23374,45.92985,0
+            -67.23372,45.92963,0
+            -67.23379,45.9293,0
+            -67.23375,45.92905,0
+            -67.23363,45.92887,0
+            -67.23368,45.92884,0
+            -67.23353,45.92866,0
+            -67.23357,45.92818,0
+            -67.23386,45.92814,0
+            -67.23397,45.9282,0
+            -67.23411,45.92821,0
+            -67.23416,45.92829,0
+            -67.23415,45.92839,0
+            -67.23428,45.92846,0
+            -67.2343,45.92857,0
+            -67.23462,45.92872,0
+            -67.23473,45.92893,0
+            -67.23467,45.929,0
+            -67.2349,45.92912,0
+            -67.23518,45.92914,0
+            -67.23533,45.92949,0
+            -67.23519,45.92977,0
+            -67.23521,45.93007,0
+            -67.23533,45.93023,0
+            -67.23535,45.93039,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/BigPokiok/Lookout.html)</description>
+        <styleUrl>#line-F4EB37-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.237722,45.932132,0
+            -67.237346,45.931953,0
+            -67.237271,45.931982,0
+            -67.237304,45.932064,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Beechnut Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/BigPokiok/Lookout.html)</description>
+        <styleUrl>#line-F4EB37-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.23359,45.928198,0
+            -67.233279,45.928131,0
+            -67.233204,45.928034,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

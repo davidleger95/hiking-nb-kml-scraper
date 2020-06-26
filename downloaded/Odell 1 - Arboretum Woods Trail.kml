@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Odell 1 - Arboretum Woods Trail</name>
+    <description><![CDATA[Odell Park<br>www.hikingnb.ca<br>]]></description>
+    <Style id="icon-149-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-149-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-149">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-16-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-16-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-16">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-99-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-99-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFCC33-5000-normal">
+      <LineStyle>
+        <color>ff33ccff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFCC33-5000-highlight">
+      <LineStyle>
+        <color>ff33ccff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFCC33-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFCC33-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFCC33-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Arboretum Woods Trail</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FFCC33-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.66278,45.95793,0
+            -66.66249,45.95793,0
+            -66.66218,45.95789,0
+            -66.66182,45.95774,0
+            -66.6617,45.95746,0
+            -66.66135,45.95726,0
+            -66.66103,45.9572,0
+            -66.66093,45.95712,0
+            -66.6611,45.95688,0
+            -66.66093,45.95641,0
+            -66.66095,45.95634,0
+            -66.66113,45.95625,0
+            -66.66113,45.9562,0
+            -66.66093,45.95609,0
+            -66.66093,45.95601,0
+            -66.66116,45.95595,0
+            -66.66131,45.95596,0
+            -66.6614,45.95585,0
+            -66.66121,45.95563,0
+            -66.66156,45.95541,0
+            -66.66173,45.95511,0
+            -66.66198,45.95522,0
+            -66.66223,45.95514,0
+            -66.66221,45.95507,0
+            -66.66227,45.95499,0
+            -66.66275,45.95497,0
+            -66.66291,45.95485,0
+            -66.663,45.95485,0
+            -66.66315,45.95496,0
+            -66.66323,45.95479,0
+            -66.66381,45.9544,0
+            -66.66386,45.95424,0
+            -66.66415,45.95394,0
+            -66.6641,45.95389,0
+            -66.66411,45.95369,0
+            -66.66431,45.95359,0
+            -66.66444,45.95362,0
+            -66.66481,45.95357,0
+            -66.66485,45.95365,0
+            -66.66502,45.95357,0
+            -66.66515,45.9537,0
+            -66.66554,45.95369,0
+            -66.66555,45.9538,0
+            -66.66569,45.95368,0
+            -66.66602,45.95355,0
+            -66.66615,45.95356,0
+            -66.66621,45.95364,0
+            -66.66633,45.95367,0
+            -66.6665,45.95405,0
+            -66.66665,45.95423,0
+            -66.66701,45.9544,0
+            -66.66738,45.95438,0
+            -66.66812,45.95477,0
+            -66.66826,45.95491,0
+            -66.66843,45.95495,0
+            -66.66872,45.95508,0
+            -66.66937,45.95506,0
+            -66.66955,45.95513,0
+            -66.67008,45.95507,0
+            -66.67021,45.95511,0
+            -66.67033,45.95523,0
+            -66.67029,45.95525,0
+            -66.67034,45.95539,0
+            -66.67022,45.95555,0
+            -66.67005,45.95564,0
+            -66.66969,45.95574,0
+            -66.66912,45.95578,0
+            -66.66889,45.9559,0
+            -66.66841,45.95597,0
+            -66.66823,45.95609,0
+            -66.66821,45.95622,0
+            -66.66843,45.95644,0
+            -66.66855,45.95649,0
+            -66.66872,45.95673,0
+            -66.66862,45.95724,0
+            -66.6687,45.95776,0
+            -66.66854,45.95781,0
+            -66.66849,45.95787,0
+            -66.66794,45.95788,0
+            -66.667643,45.957835,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/ArboretumField.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.666235,45.954756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail Continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.666337,45.954702,0
+            -66.666278,45.954777,0
+            -66.666147,45.954726,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/ArboretumField.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.665852,45.955498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Field Trail Continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.665938,45.955633,0
+            -66.665905,45.955534,0
+            -66.665828,45.955444,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/MainHill.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.668091,45.955004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.668622,45.954827,0
+            -66.667925,45.955066,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/MainHill.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.665983,45.956188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Hill Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.666053,45.956177,0
+            -66.665779,45.956248,0
+            -66.66557,45.956464,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hanwell Access Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/HanwellAccess.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.669076,45.955959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanwell Access Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.669121,45.956039,0
+            -66.668918,45.955715,0
+            -66.668714,45.955692,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>North Access Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/NorthAccess.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.667732,45.957894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Access Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.667804,45.957932,0
+            -66.667582,45.957803,0
+            -66.667365,45.957682,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/OdellPark/LodgeAndPond.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.661603,45.955508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lodge and Pond Trail continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.661684,45.955539,0
+            -66.661201,45.955407,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <styleUrl>#icon-99-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.670315,45.955265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caves</name>
+        <description>05-SEP-11 1:58:26PM</description>
+        <styleUrl>#icon-16</styleUrl>
+        <Point>
+          <coordinates>
+            -66.666406,45.953916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>05-SEP-11 1:28:05PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.668565,45.956494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arboretum Woods Trail</name>
+        <description>Odell Park</description>
+        <styleUrl>#line-FFCC33-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.666538,45.954104,0
+            -66.666375,45.954271,0
+            -66.666361,45.954352,0
+            -66.666284,45.954413,0
+            -66.666367,45.954639,0
+            -66.666348,45.954713,0
+            -66.666434,45.954825,0
+            -66.666595,45.955012,0
+            -66.666686,45.955217,0
+            -66.666681,45.955355,0
+            -66.666552,45.955545,0
+            -66.666356,45.955627,0
+            -66.666152,45.955631,0
+            -66.665932,45.955636,0
+            -66.665903,45.955763,0
+            -66.665809,45.955974,0
+            -66.665761,45.956153,0
+            -66.665753,45.95628,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bridge and Bench</name>
+        <description>05-SEP-11 1:47:31PM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -66.666461,45.954948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small Waterfall</name>
+        <description>05-SEP-11 1:55:25PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -66.66642,45.954337,69.1
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.66666,45.95423,0
+            -66.66676,45.95421,0
+            -66.666852,45.954105,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cross Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.667008,45.954398,0
+            -66.667064,45.95421,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cross Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.666125,45.953557,0
+            -66.666262,45.953401,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cross Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.666171,45.953593,0
+            -66.666372,45.953471,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wagoner Lane Access Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.660967,45.957145,0
+            -66.66071,45.957272,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

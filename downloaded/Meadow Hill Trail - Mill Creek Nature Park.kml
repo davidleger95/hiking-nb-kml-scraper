@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Meadow Hill Trail - Mill Creek Nature Park</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-7CB342-3906-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-3906-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-3906-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7CB342-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5069-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5069-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5263-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5263-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Meadow Hill Trail</name>
+        <description>0.58 km</description>
+        <styleUrl>#line-7CB342-3906</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7617006,46.0618882,0
+            -64.7618186,46.0618137,0
+            -64.7618642,46.0615457,0
+            -64.7619554,46.0613503,0
+            -64.7623336,46.0610488,0
+            -64.7624785,46.0608645,0
+            -64.7626474,46.0605444,0
+            -64.7626555,46.0603751,0
+            -64.7625428,46.0601368,0
+            -64.762516,46.0598781,0
+            -64.7624356,46.0596231,0
+            -64.762398,46.059491,0
+            -64.7622693,46.0593737,0
+            -64.7621807,46.0592062,0
+            -64.7622263,46.059022,0
+            -64.762288,46.058901,0
+            -64.7622719,46.0587539,0
+            -64.762123,46.0584098,0
+            -64.7620392,46.0581895,0
+            -64.7620707,46.057995,0
+            -64.7622826,46.0574594,0
+            -64.7623631,46.0569764,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-7CB342-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7626126,46.0602857,0
+            -64.7624248,46.0601759,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Reservoir Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/Reservoir.html]]></description>
+        <styleUrl>#line-FFEA00-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7629023,46.0570658,0
+            -64.7625107,46.0569839,0
+            -64.7619635,46.0569169,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/MillCreekTrail.html]]></description>
+        <styleUrl>#line-FFEA00-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7623122,46.0583277,0
+            -64.7620547,46.0588079,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/MillCreekTrail.html]]></description>
+        <styleUrl>#line-FFEA00-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7623175,46.0602783,0
+            -64.7624255,46.0601962,0
+            -64.7624034,46.0601108,0
+            -64.7622049,46.0600289,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/MillCreekTrail.html]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7616792,46.0616593,0
+            -64.7617221,46.0622325,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

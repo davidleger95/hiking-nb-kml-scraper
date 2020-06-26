@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>1958 Avenger Plane Crash Site</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1750-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1750-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1750-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1750-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1750-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5069-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5069-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Plane Crash site and memorial</name>
+        <description>25-NOV-17 2:26:52PM</description>
+        <styleUrl>#icon-1750-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -67.2482733428478,46.3049403671175,314.71484375
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.15 km</description>
+        <styleUrl>#line-E65100-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.2480735,46.3036705,0
+            -67.2480655,46.3038429,0
+            -67.2480789,46.3040022,0
+            -67.2481191,46.3041115,0
+            -67.2481164,46.3042023,0
+            -67.2481674,46.3042746,0
+            -67.2482698,46.3044084,0
+            -67.2482425,46.3044729,0
+            -67.2482681,46.304566,0
+            -67.2482827,46.3046359,0
+            -67.248221,46.3047341,0
+            -67.2481942,46.3048527,0
+            -67.248169,46.3049161,0
+            -67.248233,46.30495,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

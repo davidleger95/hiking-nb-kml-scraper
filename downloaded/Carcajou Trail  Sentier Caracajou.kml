@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Carcajou Trail / Sentier Caracajou</name>
+    <description><![CDATA[The Carijou Trail at Centennial Park in Moncton (Fundy Coastal East Region).<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1207-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1207-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1207">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5650-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.65</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5650-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.475</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5650-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5650-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5650-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-2744-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-2744-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-2938-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>2.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-3519-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>3.519</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-3519-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.2785</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-3519-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-3519-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-3519-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-3713-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>3.713</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-3713-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.5695</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-3713-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-3713-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-3713-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4100-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.1</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-4100-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.15</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4294-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.294</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-4294-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.441</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4294-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4294-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4294-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4488-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.488</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-4488-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.732</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4488-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4488-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4488-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>01-JUN-14 4:33:40PM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -64.830422,46.093282,39.3
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-5650-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8241371,46.0911988,0
+            -64.8247111,46.0913142,0
+            -64.8251349,46.0914481,0
+            -64.8254621,46.0916192,0
+            -64.8258966,46.0917197,0
+            -64.827206,46.092158,0
+            -64.827568,46.092273,0
+            -64.827836,46.092294,0
+            -64.8281926,46.0924042,0
+            -64.828622,46.092412,0
+            -64.829214,46.092389,0
+            -64.829402,46.092431,0
+            -64.829654,46.092593,0
+            -64.830029,46.092788,0
+            -64.830388,46.092852,0
+            -64.830789,46.092868,0
+            -64.830875,46.092826,0
+            -64.831175,46.09278,0
+            -64.831342,46.092777,0
+            -64.831582,46.092739,0
+            -64.831734,46.092738,0
+            -64.8320389,46.0928395,0
+            -64.832456,46.093037,0
+            -64.832697,46.093237,0
+            -64.832854,46.093319,0
+            -64.833271,46.093448,0
+            -64.833349,46.093439,0
+            -64.83357,46.093434,0
+            -64.833744,46.093415,0
+            -64.8336858,46.0933045,0
+            -64.833665,46.093045,0
+            -64.83368,46.092905,0
+            -64.833795,46.09268,0
+            -64.833909,46.092586,0
+            -64.8338896,46.092393,0
+            -64.833775,46.092269,0
+            -64.8335999,46.0921401,0
+            -64.833203,46.092016,0
+            -64.8328274,46.0919801,0
+            -64.8325753,46.091902,0
+            -64.8322535,46.0917234,0
+            -64.8320174,46.0916862,0
+            -64.831568,46.091611,0
+            -64.831465,46.091533,0
+            -64.830623,46.09138,0
+            -64.830492,46.091402,0
+            -64.8302311,46.0914593,0
+            -64.829649,46.091676,0
+            -64.829231,46.09183,0
+            -64.8289007,46.091995,0
+            -64.8285788,46.0920843,0
+            -64.8283213,46.0921103,0
+            -64.8280424,46.0921177,0
+            -64.82772,46.092084,0
+            -64.82752,46.091999,0
+            -64.8272592,46.0919466,0
+            -64.8269588,46.091742,0
+            -64.826656,46.091493,0
+            -64.826583,46.09137,0
+            -64.8261917,46.0911058,0
+            -64.8257357,46.0908863,0
+            -64.825345,46.090722,0
+            -64.824895,46.090689,0
+            -64.824756,46.090627,0
+            -64.82461,46.09041,0
+            -64.8244697,46.0903655,0
+            -64.8242658,46.0902278,0
+            -64.8237079,46.08996,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Fire Break Road continues / Chemin Coupe-feu continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/FireBreakRoad.html)</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8241371,46.0911988,0
+            -64.8241988,46.0909831,0
+            -64.8239735,46.0905069,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Park Road continues / Chemin Parc Centennial continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/CentennialParkRoad.html)</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8241371,46.0911988,0
+            -64.8233378,46.0909756,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Access Trail continues / Sentier D'Access  continues]]></name>
+        <styleUrl>#line-F4EB37-3713-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.824365,46.091247,0
+            -64.8244616,46.0914797,0
+            -64.8246011,46.0916881,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentier continues</name>
+        <styleUrl>#line-F4EB37-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.825068,46.091423,0
+            -64.825156,46.091265,0
+            -64.825129,46.09113,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentiers continues</name>
+        <styleUrl>#line-F4EB37-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8271841,46.0921531,0
+            -64.8272592,46.0919336,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lynx Trail continues / Sentier Lynx continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Lynx.html)</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8274469,46.0920936,0
+            -64.8272189,46.0920266,0
+            -64.8269936,46.091941,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentiers continues</name>
+        <styleUrl>#line-F4EB37-2744-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.830404,46.092717,0
+            -64.8303947,46.0928804,0
+            -64.830333,46.093031,0
+            -64.830313,46.093115,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lynx Trail continues / Sentier Lynx continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/Lynx.html)</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.832715,46.092099,0
+            -64.83286,46.092032,0
+            -64.832998,46.092,0
+            -64.8332137,46.0919168,0
+            -64.8334551,46.0918871,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentiers continues</name>
+        <styleUrl>#line-F4EB37-3519-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.830503,46.091393,0
+            -64.830392,46.0913179,0
+            -64.8303705,46.0912174,0
+            -64.8302874,46.0911319,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentiers continues</name>
+        <styleUrl>#line-F4EB37-4488-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.830384,46.0914258,0
+            -64.830349,46.091321,0
+            -64.830305,46.091285,0
+            -64.830166,46.091262,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentiers continues</name>
+        <styleUrl>#line-F4EB37-4100-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.826656,46.091493,0
+            -64.8267254,46.0913569,0
+            -64.8266906,46.0912267,0
+            -64.8266396,46.0911449,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentier continues</name>
+        <styleUrl>#line-F4EB37-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8261729,46.0910965,0
+            -64.826266,46.090984,0
+            -64.8264411,46.0909403,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues / Sentier continues</name>
+        <styleUrl>#line-F4EB37-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.825122,46.091025,0
+            -64.8250651,46.0908938,0
+            -64.8249632,46.0907003,0
+            -64.8249605,46.0906017,0
+            -64.8250008,46.0904734,0
+            -64.825024,46.090419,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fire Break Road continues / Chemin Coupe-feu continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/CentennialPark/FireBreakRoad.html)</description>
+        <styleUrl>#line-F4EB37-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.8238796,46.090332,0
+            -64.8235604,46.0896028,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

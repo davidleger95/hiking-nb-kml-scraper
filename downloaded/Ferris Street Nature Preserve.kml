@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ferris Street Nature Preserve</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1528-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1528-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1528-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1596-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1596-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1596-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1596-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1596-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1597-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1597-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1597-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1597-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1597-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1697-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1697-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1697-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1697-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1697-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-6038-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>6.038</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-6038-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>9.057</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-6038-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-6038-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-6038-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4875-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-4875-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5069-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5069-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5263-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5263-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5456-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5456-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5650-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5650-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5844-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5844-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6038-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6.038</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-6038-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9.057</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6038">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6038-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6038-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-3713-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>3.713</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-3713-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.5695</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-3713-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-3713-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-3713-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Northside Trail continues / Sentier Northside continues</name>
+        <description>For more information about the Northside Trail go to http://www.hikingnb.ca/Trails/LowerSJRiver/Fredericton/Northside.html</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6876447,45.9797679,0
+            -66.6867623,45.9799991,0
+            -66.6858369,45.9802395,0
+            -66.6847479,45.9804949,0
+            -66.6808265,45.9815144,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Access Road / Chemin D'access]]></name>
+        <styleUrl>#line-795046-6038-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6872182,45.9798406,0
+            -66.6872558,45.9797046,0
+            -66.6872987,45.9795573,0
+            -66.6872558,45.9793094,0
+            -66.6872478,45.979261,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Adjacent Property</name>
+        <styleUrl>#line-F4EB37-3713-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6826344,45.986526,0
+            -66.6821623,45.986034,0
+            -66.6820335,45.9856538,0
+            -66.6822267,45.9854675,0
+            -66.6822052,45.9851394,0
+            -66.6821301,45.9844461,0
+            -66.6820657,45.9837603,0
+            -66.6819692,45.9829999,0
+            -66.6819477,45.9824183,0
+            -66.6818726,45.9816281,0
+            -66.68179,45.98125,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name><![CDATA[Lookout / Poste D'Observation]]></name>
+        <description>10-MAR-16 5:49:17PM</description>
+        <styleUrl>#icon-1596-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.68964,45.98353,22
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ATV Bridge / Pont VTT</name>
+        <description>10-MAR-16 5:53:03PM</description>
+        <styleUrl>#icon-1528-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -66.689521,45.984077,15.51
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lookout / Poste D'Observation]]></name>
+        <description>10-MAR-16 6:10:49PM</description>
+        <styleUrl>#icon-1597-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.687305,45.983795,9.98
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bog Lookout </name>
+        <description>10-MAR-16 6:38:19PM</description>
+        <styleUrl>#icon-1597-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.687087,45.984873,8.78
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream / Ruisseau</name>
+        <styleUrl>#icon-1697-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.690098,45.982469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.6871431,45.979809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.6812825,45.9813075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.67 km</description>
+        <styleUrl>#line-DB4436-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6846702,45.980521,0
+            -66.684742,45.980593,0
+            -66.684884,45.980639,0
+            -66.684881,45.980837,0
+            -66.6848794,45.9811267,0
+            -66.6848391,45.9814585,0
+            -66.684815,45.9817567,0
+            -66.6847479,45.9824128,0
+            -66.6847184,45.9825693,0
+            -66.6846675,45.9826793,0
+            -66.6845763,45.9828004,0
+            -66.6844475,45.9830781,0
+            -66.6842732,45.9833242,0
+            -66.6840398,45.9835925,0
+            -66.6839701,45.9837006,0
+            -66.6838467,45.9838143,0
+            -66.6838789,45.9840435,0
+            -66.6839453,45.9842179,0
+            -66.684125,45.984302,0
+            -66.6842759,45.9843511,0
+            -66.6844263,45.9844925,0
+            -66.6844869,45.9845941,0
+            -66.6845325,45.9846643,0
+            -66.6845709,45.9848375,0
+            -66.6846782,45.9849903,0
+            -66.6848713,45.9851189,0
+            -66.6850483,45.9852699,0
+            -66.6851503,45.9853538,0
+            -66.6851985,45.9855196,0
+            -66.685282,45.985646,0
+            -66.6854131,45.9857153,0
+            -66.6855526,45.9857806,0
+            -66.6856197,45.9858178,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.57 km</description>
+        <styleUrl>#line-DB4436-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.687237,45.9798761,0
+            -66.6872638,45.9802414,0
+            -66.6872478,45.9804725,0
+            -66.6872156,45.9806999,0
+            -66.687237,45.980909,0
+            -66.687307,45.981159,0
+            -66.6874516,45.9815013,0
+            -66.6875643,45.9817138,0
+            -66.6876233,45.9818928,0
+            -66.6878164,45.9820195,0
+            -66.688031,45.9822171,0
+            -66.688355,45.982438,0
+            -66.6884601,45.9825087,0
+            -66.68855,45.9825842,0
+            -66.6886438,45.9826467,0
+            -66.688736,45.982791,0
+            -66.688812,45.982854,0
+            -66.6888812,45.9829971,0
+            -66.688857,45.983073,0
+            -66.6888893,45.9831704,0
+            -66.688963,45.9832449,0
+            -66.6890354,45.9833288,0
+            -66.6891494,45.9834444,0
+            -66.6891709,45.9835096,0
+            -66.6893023,45.9836839,0
+            -66.689415,45.9838171,0
+            -66.689479,45.983939,0
+            -66.689524,45.984059,0
+            -66.6894941,45.98412,0
+            -66.6895048,45.9841852,0
+            -66.6895947,45.9842924,0
+            -66.6897704,45.9844126,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.20 km</description>
+        <styleUrl>#line-DB4436-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.687376,45.981296,0
+            -66.6873014,45.9815871,0
+            -66.68727,45.981691,0
+            -66.687306,45.982109,0
+            -66.6872692,45.9823773,0
+            -66.6872478,45.9826383,0
+            -66.687224,45.982902,0
+            -66.6872317,45.9830259,0
+            -66.687216,45.983107,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.04 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6876125,45.981876,0
+            -66.68753,45.981999,0
+            -66.687304,45.982131,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.41 km</description>
+        <styleUrl>#line-DB4436-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6888812,45.9831378,0
+            -66.6887712,45.9831471,0
+            -66.688653,45.983136,0
+            -66.6884065,45.983162,0
+            -66.688293,45.983161,0
+            -66.688077,45.983093,0
+            -66.6878593,45.9831005,0
+            -66.687656,45.983143,0
+            -66.6873336,45.9831005,0
+            -66.6871351,45.9831098,0
+            -66.6868508,45.9831974,0
+            -66.6865718,45.9832496,0
+            -66.6863599,45.9832999,0
+            -66.6862124,45.9833465,0
+            -66.6860113,45.9833875,0
+            -66.6858798,45.9834751,0
+            -66.6856948,45.9836037,0
+            -66.6854507,45.9836801,0
+            -66.6850215,45.9837305,0
+            -66.6845119,45.9837808,0
+            -66.6841418,45.9837882,0
+            -66.6839942,45.983777,0
+            -66.6838977,45.9837864,0
+            -66.6838467,45.9838143,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.13 km</description>
+        <styleUrl>#line-DB4436-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6872424,45.9827669,0
+            -66.68706,45.9828452,0
+            -66.6868106,45.9828899,0
+            -66.686594,45.982967,0
+            -66.6863868,45.9830632,0
+            -66.6862044,45.9831061,0
+            -66.6860729,45.983134,0
+            -66.686022,45.9832403,0
+            -66.6859844,45.9833577,0
+            -66.6859844,45.9833968,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.12 km</description>
+        <styleUrl>#line-DB4436-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.686414,45.983061,0
+            -66.6863975,45.9831601,0
+            -66.686389,45.983267,0
+            -66.6864726,45.9833391,0
+            -66.6866148,45.9834211,0
+            -66.6867489,45.9835609,0
+            -66.6868401,45.9836932,0
+            -66.6869527,45.9837677,0
+            -66.687068,45.9838162,0
+            -66.6872022,45.9837864,0
+            -66.6872773,45.9837733,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.13 km</description>
+        <styleUrl>#line-DB4436-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6889831,45.9832757,0
+            -66.689182,45.983166,0
+            -66.689383,45.983222,0
+            -66.689464,45.983315,0
+            -66.689518,45.983464,0
+            -66.6896215,45.9835068,0
+            -66.6895786,45.9835646,0
+            -66.68946,45.983599,0
+            -66.6893828,45.9835105,0
+            -66.689305,45.9834658,0
+            -66.6892084,45.9834378,0
+            -66.6891548,45.9834639,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.28 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6888276,45.9828918,0
+            -66.6890153,45.9828694,0
+            -66.689142,45.982834,0
+            -66.6892594,45.9827259,0
+            -66.689348,45.982676,0
+            -66.6893587,45.9825954,0
+            -66.6894659,45.9824799,0
+            -66.6896001,45.9823345,0
+            -66.6896403,45.982232,0
+            -66.6895518,45.9821295,0
+            -66.6894794,45.9820158,0
+            -66.6891521,45.9820046,0
+            -66.688664,45.981999,0
+            -66.6882214,45.981958,0
+            -66.6878459,45.9819114,0
+            -66.6876233,45.9818928,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.05 km</description>
+        <styleUrl>#line-DB4436-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6896188,45.9822823,0
+            -66.6897476,45.9823438,0
+            -66.68983,45.982394,0
+            -66.689942,45.982381,0
+            -66.6900131,45.982396,0
+            -66.6900694,45.9824128,0
+            -66.6900855,45.9824575,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.03 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6892782,45.9827203,0
+            -66.6893989,45.9827445,0
+            -66.6894794,45.9828191,0
+            -66.689569,45.982871,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.21 km</description>
+        <styleUrl>#line-DB4436-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.687237,45.980909,0
+            -66.6871914,45.9809981,0
+            -66.6870466,45.9810317,0
+            -66.6867998,45.9810261,0
+            -66.686419,45.981054,0
+            -66.6859227,45.9811193,0
+            -66.6854936,45.981218,0
+            -66.6850618,45.9813429,0
+            -66.6849115,45.9814082,0
+            -66.6848364,45.9815256,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.25 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.686711,45.983527,0
+            -66.686557,45.983638,0
+            -66.686506,45.983758,0
+            -66.686147,45.983797,0
+            -66.686057,45.983901,0
+            -66.6857967,45.9839914,0
+            -66.685613,45.984095,0
+            -66.6854963,45.9842094,0
+            -66.685285,45.984367,0
+            -66.685222,45.984464,0
+            -66.685128,45.984538,0
+            -66.6850618,45.9846735,0
+            -66.6850215,45.9848021,0
+            -66.685033,45.984892,0
+            -66.6850001,45.9849848,0
+            -66.6849089,45.985145,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.03 km</description>
+        <styleUrl>#line-DB4436-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6850215,45.9848021,0
+            -66.6849303,45.9848711,0
+            -66.684858,45.984938,0
+            -66.684697,45.9849978,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.17 km</description>
+        <styleUrl>#line-DB4436-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6851503,45.9853538,0
+            -66.6853058,45.9853855,0
+            -66.685518,45.985454,0
+            -66.6857001,45.985419,0
+            -66.6860354,45.9853538,0
+            -66.686151,45.985324,0
+            -66.68638,45.985228,0
+            -66.686504,45.985117,0
+            -66.6866577,45.9850947,0
+            -66.6868025,45.9850742,0
+            -66.6869473,45.9850053,0
+            -66.687044,45.984957,0
+            -66.687087,45.984873,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.20 km</description>
+        <styleUrl>#line-DB4436-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.682799,45.980988,0
+            -66.68296,45.981093,0
+            -66.6830957,45.9812106,0
+            -66.6832888,45.9812814,0
+            -66.683544,45.98136,0
+            -66.683653,45.981466,0
+            -66.683717,45.98161,0
+            -66.683679,45.981707,0
+            -66.683673,45.981833,0
+            -66.683705,45.981981,0
+            -66.683903,45.982187,0
+            -66.684013,45.9822506,0
+            -66.684119,45.982393,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.19 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6831708,45.9808937,0
+            -66.683084,45.981085,0
+            -66.6830957,45.9812106,0
+            -66.6830742,45.9813224,0
+            -66.682965,45.981417,0
+            -66.6829079,45.9814827,0
+            -66.682916,45.981554,0
+            -66.6828382,45.9816057,0
+            -66.682799,45.981742,0
+            -66.682793,45.981834,0
+            -66.682614,45.981924,0
+            -66.682452,45.9818368,0
+            -66.6822267,45.9817436,0
+            -66.682055,45.981684,0
+            -66.6818833,45.9816989,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.09 km</description>
+        <styleUrl>#line-DB4436-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6836965,45.9816654,0
+            -66.6839057,45.981643,0
+            -66.68403,45.98159,0
+            -66.6843027,45.9816505,0
+            -66.6845495,45.981725,0
+            -66.684777,45.981837,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.18 km</description>
+        <styleUrl>#line-DB4436-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.684732,45.982332,0
+            -66.684587,45.982314,0
+            -66.6843992,45.9823773,0
+            -66.68419,45.982386,0
+            -66.683991,45.982409,0
+            -66.6837126,45.9825078,0
+            -66.683529,45.982501,0
+            -66.683319,45.982602,0
+            -66.6829884,45.982806,0
+            -66.6828114,45.9830297,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.20 km</description>
+        <styleUrl>#line-DB4436-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6819638,45.982724,0
+            -66.6821569,45.9827352,0
+            -66.682269,45.982796,0
+            -66.682452,45.9829104,0
+            -66.6825324,45.9829738,0
+            -66.6827255,45.9830148,0
+            -66.6828758,45.9830781,0
+            -66.682982,45.983135,0
+            -66.683116,45.983296,0
+            -66.683313,45.983439,0
+            -66.6835785,45.9835292,0
+            -66.683768,45.983639,0
+            -66.683952,45.983745,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.19 km</description>
+        <styleUrl>#line-DB4436-6038</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6838467,45.9838143,0
+            -66.6836268,45.9838386,0
+            -66.6833049,45.9838684,0
+            -66.683203,45.9839951,0
+            -66.683144,45.9841927,0
+            -66.683072,45.984327,0
+            -66.6828865,45.984502,0
+            -66.682677,45.984636,0
+            -66.6824627,45.9847816,0
+            -66.682209,45.984893,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.23 km</description>
+        <styleUrl>#line-DB4436-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6845924,45.9848711,0
+            -66.6843027,45.98505,0
+            -66.6839647,45.9852252,0
+            -66.683701,45.985344,0
+            -66.6834176,45.9854749,0
+            -66.683194,45.985576,0
+            -66.6830313,45.985624,0
+            -66.682951,45.98571,0
+            -66.682791,45.9858,0
+            -66.682605,45.985899,0
+            -66.682439,45.986044,0
+            -66.682265,45.986032,0
+            -66.6821784,45.9860564,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.21 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6839453,45.9842179,0
+            -66.683783,45.984391,0
+            -66.6834176,45.9846586,0
+            -66.6832,45.984796,0
+            -66.6829133,45.9849195,0
+            -66.6827041,45.9851208,0
+            -66.68259,45.985271,0
+            -66.682511,45.985419,0
+            -66.682333,45.985542,0
+            -66.6821784,45.9855159,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name> Deer Trail / Sentier du Chevreuil</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1197-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1197-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1197">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1197-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1197-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1207-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1207-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1207">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5069-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.069</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5069-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.6035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5069-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5069-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5069-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4681-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4681-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4875-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4875-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Shelter and Picnic Table / Table de Pique-Nique</name>
+        <description>27-OCT-14 10:48:47AM</description>
+        <styleUrl>#icon-1197</styleUrl>
+        <Point>
+          <coordinates>
+            -66.1321049,45.2144043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 2:06:57PM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -66.133922,45.2164826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Deer Trail / Sentier du Chevreuil</name>
+        <styleUrl>#line-DB4436-5069-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.132172,45.214393,0
+            -66.1324087,45.2144736,0
+            -66.1327815,45.2145662,0
+            -66.1330739,45.2146267,0
+            -66.133377,45.214706,0
+            -66.1335513,45.2148175,0
+            -66.1336613,45.2149441,0
+            -66.1340073,45.2150877,0
+            -66.133997,45.215133,0
+            -66.1339429,45.2152351,0
+            -66.1338571,45.2154524,0
+            -66.133782,45.2156111,0
+            -66.1337471,45.215681,0
+            -66.1337203,45.2158831,0
+            -66.1337444,45.216108,0
+            -66.1338168,45.2162913,0
+            -66.1338598,45.2164235,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentier Adjacent</name>
+      <Placemark>
+        <name>Seal Trail continues / Sentier du Phoque continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Seal.html</description>
+        <styleUrl>#line-F4EB37-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.134295,45.216601,0
+            -66.134166,45.216604,0
+            -66.1340824,45.2165785,0
+            -66.13401,45.2165992,0
+            -66.1338651,45.2165652,0
+            -66.133705,45.216665,0
+            -66.133586,45.216657,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Seal Trail continues / Sentier du Phoque continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Seal.html</description>
+        <styleUrl>#line-F4EB37-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.131734,45.214505,0
+            -66.132061,45.214359,0
+            -66.132111,45.214295,0
+            -66.13205,45.214186,0
+            -66.1321029,45.2140031,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

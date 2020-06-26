@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Escuminac Dunes</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1644-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5844-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5844-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.9141288,47.077077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Beach / Plage</name>
+        <description>3.2 km one way</description>
+        <styleUrl>#line-E65100-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.914128,47.0771687,0
+            -64.9143373,47.0772491,0
+            -64.9148656,47.0771705,0
+            -64.914981,47.0770609,0
+            -64.9150963,47.0770555,0
+            -64.915791,47.0769952,0
+            -64.9166198,47.0769952,0
+            -64.917234,47.077081,0
+            -64.9178241,47.077123,0
+            -64.9181487,47.0771815,0
+            -64.9184303,47.0771815,0
+            -64.9187227,47.0771157,0
+            -64.9190177,47.0770226,0
+            -64.919066,47.0768838,0
+            -64.9193798,47.0767175,0
+            -64.9200504,47.0763705,0
+            -64.9204285,47.076175,0
+            -64.920847,47.0760435,0
+            -64.9214451,47.0759339,0
+            -64.9224295,47.0758864,0
+            -64.9238081,47.0757403,0
+            -64.9250285,47.0756654,0
+            -64.9256294,47.0756325,0
+            -64.9271099,47.0755448,0
+            -64.9276732,47.0755138,0
+            -64.9294461,47.0754717,0
+            -64.9301221,47.0754443,0
+            -64.9307416,47.0754316,0
+            -64.9318065,47.0754955,0
+            -64.932528,47.0755229,0
+            -64.9341212,47.0755284,0
+            -64.9346148,47.0755759,0
+            -64.9358513,47.0757512,0
+            -64.936562,47.0758206,0
+            -64.9377583,47.0758864,0
+            -64.9387158,47.0759668,0
+            -64.9399631,47.0759686,0
+            -64.9408375,47.0760325,0
+            -64.9421947,47.076122,0
+            -64.9437852,47.0761622,0
+            -64.9443565,47.0762115,0
+            -64.9453141,47.0761878,0
+            -64.9468698,47.0760636,0
+            -64.9486963,47.0757512,0
+            -64.9498712,47.0752726,0
+            -64.9504478,47.0749347,0
+            -64.950708,47.074657,0
+            -64.9507643,47.0743903,0
+            -64.9510004,47.0740926,0
+            -64.9513115,47.0735336,0
+            -64.9514215,47.073002,0
+            -64.9513732,47.0726257,0
+            -64.9510486,47.0721654,0
+            -64.9505283,47.0717982,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

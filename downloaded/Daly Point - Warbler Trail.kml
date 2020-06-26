@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Daly Point - Warbler Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-4186F0-4875-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-4875-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-5456-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-5456-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6600-5000-normal">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF6600-5000-highlight">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF6600-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6600-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6600-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Warbler Trail</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.61859,47.63487,0
+            -65.61846,47.63467,0
+            -65.61731,47.63416,0
+            -65.61696,47.63388,0
+            -65.61637,47.63366,0
+            -65.6161,47.63332,0
+            -65.61609,47.63323,0
+            -65.61619,47.63306,0
+            -65.6163,47.633,0
+            -65.6165,47.63298,0
+            -65.61684,47.63263,0
+            -65.61696,47.63259,0
+            -65.61715,47.6326,0
+            -65.61778,47.63286,0
+            -65.61824,47.633071,0
+            -65.619106,47.633385,0
+            -65.62009,47.63363,0
+            -65.62011,47.6337,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Woodland Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : <br>http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/Woodland.html]]></description>
+        <styleUrl>#line-FF6600-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.61736,47.634182,0
+            -65.616955,47.634137,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Salt Marsh Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : <br>http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/SaltMarsh.html]]></description>
+        <styleUrl>#line-4186F0-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.618575,47.635014,0
+            -65.618591,47.63486,0
+            -65.618717,47.634706,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Salt Marsh Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/SaltMarsh.html]]></description>
+        <styleUrl>#line-4186F0-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.62037,47.633729,0
+            -65.620109,47.6337,0
+            -65.619841,47.633714,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

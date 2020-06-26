@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapleteon - Floodplain Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-77-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-77-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3366FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6633</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3366FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6633</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3366FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3366FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3366FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Floodplain Trail</name>
+        <styleUrl>#line-3366FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.857962,46.128289,0
+            -64.857788,46.128278,0
+            -64.857635,46.128216,0
+            -64.857501,46.128114,0
+            -64.857182,46.127486,0
+            -64.856278,46.127159,0
+            -64.8562,46.127034,0
+            -64.856214,46.126939,0
+            -64.855269,46.12696,0
+            -64.854851,46.127041,0
+            -64.854406,46.126982,0
+            -64.853121,46.127382,0
+            -64.85256,46.127402,0
+            -64.852276,46.12735,0
+            -64.851726,46.127389,0
+            -64.851496,46.127318,0
+            -64.851171,46.127088,0
+            -64.849913,46.126698,0
+            -64.848856,46.126158,0
+            -64.848119,46.12587,0
+            -64.847518,46.12587,0
+            -64.846633,46.125777,0
+            -64.846024,46.125848,0
+            -64.845533,46.125861,0
+            -64.845399,46.125815,0
+            -64.845276,46.125701,0
+            -64.844675,46.12575,0
+            -64.844259,46.12569,0
+            -64.843739,46.125759,0
+            -64.843245,46.125692,0
+            -64.841327,46.12522,0
+            -64.84096,46.125045,0
+            -64.840472,46.124902,0
+            -64.839801,46.124504,0
+            -64.838661,46.12405,0
+            -64.838023,46.124,0
+            -64.837098,46.124037,0
+            -64.836811,46.124004,0
+            -64.836344,46.123868,0
+            -64.836121,46.123876,0
+            -64.835526,46.12377,0
+            -64.834211,46.123231,0
+            -64.834024,46.123203,0
+            -64.833133,46.123273,0
+            -64.832098,46.123249,0
+            -64.831688,46.123169,0
+            -64.831315,46.12297,0
+            -64.831103,46.123024,0
+            -64.830979,46.123093,0
+            -64.830894,46.123212,0
+            -64.830749,46.123837,0
+            -64.830869,46.124361,0
+            -64.83091,46.124842,0
+            -64.83136,46.12492,0
+            -64.831607,46.125203,0
+            -64.832275,46.125554,0
+            -64.832798,46.12558,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cross Trail</name>
+        <styleUrl>#line-3366FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.840332,46.12482,0
+            -64.840257,46.12485,0
+            -64.840043,46.124792,0
+            -64.839627,46.124991,0
+            -64.83942,46.125348,0
+            -64.839402,46.125697,0
+            -64.839281,46.1258,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mapleton Road Access</name>
+        <styleUrl>#line-3366FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.830915,46.124844,0
+            -64.830835,46.125108,0
+            -64.830711,46.125177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wetland Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/MapletonPark/Wetland.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.839796,46.125965,0
+            -64.839115,46.12575,0
+            -64.838975,46.125631,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wetland Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Moncton/MapletonPark/Wetland.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.849307,46.126385,0
+            -64.849049,46.126593,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail Map Sign</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.857871,46.128257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

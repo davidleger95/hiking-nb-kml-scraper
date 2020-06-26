@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chickadee Trial / Seniter du la Mésange</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1211-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1211-fac-poi.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1211-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1211-fac-poi.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1211">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1211-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1211-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4875-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4875-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Cliffs / Falaises</name>
+        <description>27-OCT-14 1:42:33PM</description>
+        <styleUrl>#icon-1211</styleUrl>
+        <Point>
+          <coordinates>
+            -66.135292,45.212186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Chickadee Trail / Sentier du la Mésange
+</name>
+        <styleUrl>#line-DB4436-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.135908,45.211203,0
+            -66.135917,45.211432,0
+            -66.135815,45.211655,0
+            -66.1355603,45.2118623,0
+            -66.135503,45.211894,0
+            -66.13538,45.212104,0
+            -66.135292,45.212186,0
+            -66.135282,45.212231,0
+            -66.135186,45.212364,0
+            -66.1351687,45.2125123,0
+            -66.135122,45.212652,0
+            -66.134899,45.212828,0
+            -66.134843,45.212933,0
+            -66.13483,45.212989,0
+            -66.13467,45.21315,0
+            -66.13437,45.21331,0
+            -66.134033,45.213287,0
+            -66.133811,45.213207,0
+            -66.133626,45.21317,0
+            -66.1335057,45.2130187,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentier Adjacent</name>
+      <Placemark>
+        <name>Seal Trail continues / Sentier du Phoque continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Seal.html</description>
+        <styleUrl>#line-F4EB37-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.1363274,45.2114976,0
+            -66.1362362,45.2113615,0
+            -66.1361691,45.2113067,0
+            -66.1360672,45.2112444,0
+            -66.135908,45.211203,0
+            -66.135727,45.211146,0
+            -66.135602,45.211106,0
+            -66.135314,45.211128,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Seal Trail continues / Sentier du Phoque continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/IrvingNaturePark/Seal.html</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.1337578,45.2126502,0
+            -66.1336881,45.2128429,0
+            -66.1335969,45.2129374,0
+            -66.1334816,45.2130281,0
+            -66.133351,45.213135,0
+            -66.133196,45.213253,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

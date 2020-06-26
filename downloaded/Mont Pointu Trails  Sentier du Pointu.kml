@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mont Pointu Trails / Sentier du Pointu</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1634-757575-nodesc-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1634-757575-nodesc-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1634-757575-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1634-757575-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1634-757575-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-5263-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-5263-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-5650-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3F5BA9-5650-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-62AF44-5650-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-62AF44-5650-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-62AF44-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-62AF44-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-62AF44-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-777777-5456-normal">
+      <LineStyle>
+        <color>ff777777</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-777777-5456-highlight">
+      <LineStyle>
+        <color>ff777777</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-777777-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-777777-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-777777-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-5456-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-795046-5456-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-795046-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7C3592-5263-normal">
+      <LineStyle>
+        <color>ff92357c</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7C3592-5263-highlight">
+      <LineStyle>
+        <color>ff92357c</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7C3592-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7C3592-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7C3592-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC6600-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0066cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC6600-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0066cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC6600-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC6600-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC6600-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5844-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5844-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5844-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5844-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F8971B-5456-normal">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F8971B-5456-highlight">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F8971B-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F8971B-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F8971B-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Access Roads</name>
+      <Placemark>
+        <name>Dirt Road / Chemin de terre</name>
+        <styleUrl>#line-CC6600-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.1274073,47.380946,0
+            -68.127137,47.380189,0
+            -68.1264353,47.379158,0
+            -68.125841,47.37865,0
+            -68.126056,47.377836,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lookout Tower / Tour d'observation]]></name>
+        <styleUrl>#icon-1634-757575-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -68.1315369,47.3822757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>10-OCT-14 3:38:58PM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -68.126527,47.379113,333.22
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Les Merles</name>
+        <description>0.44 km</description>
+        <styleUrl>#line-F8971B-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.129322,47.380956,0
+            -68.1293,47.380835,0
+            -68.1291738,47.3806207,0
+            -68.129044,47.380444,0
+            -68.128947,47.380354,0
+            -68.128868,47.3801812,0
+            -68.1288385,47.3800232,0
+            -68.128791,47.379854,0
+            -68.128709,47.379745,0
+            -68.128499,47.379731,0
+            -68.12847,47.37972,0
+            -68.1284443,47.3795383,0
+            -68.128404,47.379404,0
+            -68.1282485,47.3792604,0
+            -68.1281385,47.3791677,0
+            -68.128098,47.379114,0
+            -68.127962,47.379034,0
+            -68.127822,47.379076,0
+            -68.1278113,47.3789934,0
+            -68.127838,47.378741,0
+            -68.127852,47.378712,0
+            -68.127746,47.378623,0
+            -68.1276,47.378663,0
+            -68.127436,47.37874,0
+            -68.127345,47.378812,0
+            -68.1271595,47.379037,0
+            -68.12705,47.379079,0
+            -68.126936,47.379002,0
+            -68.126831,47.37903,0
+            -68.126736,47.379112,0
+            -68.126665,47.379154,0
+            -68.126527,47.379113,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail / Sentier VTT</name>
+        <description>0.44 km</description>
+        <styleUrl>#line-795046-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.132256,47.380356,0
+            -68.131572,47.38054,0
+            -68.13128,47.380544,0
+            -68.130959,47.380519,0
+            -68.130551,47.380591,0
+            -68.13019,47.380731,0
+            -68.129864,47.38074,0
+            -68.129679,47.380779,0
+            -68.129471,47.380897,0
+            -68.129322,47.380956,0
+            -68.1291604,47.3809422,0
+            -68.128837,47.380966,0
+            -68.128645,47.3809,0
+            -68.1283718,47.3808296,0
+            -68.1277764,47.3806262,0
+            -68.127395,47.380417,0
+            -68.1270897,47.3800958,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sentier Hibou / Owl Trail</name>
+        <description>0.29 km</description>
+        <styleUrl>#line-7C3592-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.132206,47.380341,0
+            -68.132121,47.380234,0
+            -68.132273,47.38014,0
+            -68.132094,47.380054,0
+            -68.131936,47.38007,0
+            -68.1316656,47.380045,0
+            -68.131605,47.380062,0
+            -68.131457,47.380119,0
+            -68.1312096,47.3801648,0
+            -68.131046,47.380109,0
+            -68.1307697,47.3801285,0
+            -68.130639,47.38016,0
+            -68.130443,47.380259,0
+            -68.1303,47.380352,0
+            -68.130092,47.380403,0
+            -68.129847,47.380545,0
+            -68.129664,47.380588,0
+            -68.1294608,47.3806661,0
+            -68.12936,47.380679,0
+            -68.1292462,47.3807315,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Les Mesanges</name>
+        <description>0.30 km</description>
+        <styleUrl>#line-DB4436-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.13015,47.382172,0
+            -68.129922,47.38202,0
+            -68.1299114,47.3819229,0
+            -68.129935,47.381592,0
+            -68.130218,47.381434,0
+            -68.130591,47.381335,0
+            -68.13069,47.381334,0
+            -68.130884,47.381287,0
+            -68.131039,47.381219,0
+            -68.13121,47.381008,0
+            -68.131328,47.380925,0
+            -68.13144,47.380906,0
+            -68.131653,47.380816,0
+            -68.1319928,47.3806334,0
+            -68.132169,47.380522,0
+            -68.13228,47.380391,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Les Parulines</name>
+        <description>0.29 km</description>
+        <styleUrl>#line-62AF44-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.133283,47.380866,0
+            -68.1330711,47.3808768,0
+            -68.132603,47.380934,0
+            -68.132461,47.380997,0
+            -68.1320304,47.3811565,0
+            -68.131608,47.381297,0
+            -68.131289,47.381483,0
+            -68.1307912,47.3817122,0
+            -68.13064,47.381761,0
+            -68.130414,47.381924,0
+            -68.130261,47.382095,0
+            -68.130162,47.382169,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Les Pinsons</name>
+        <description>0.31 km</description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.131427,47.382206,0
+            -68.131317,47.382129,0
+            -68.131235,47.38203,0
+            -68.131291,47.381947,0
+            -68.131355,47.381878,0
+            -68.131408,47.381759,0
+            -68.13148,47.381724,0
+            -68.131698,47.381546,0
+            -68.131893,47.381504,0
+            -68.131994,47.381511,0
+            -68.132284,47.381414,0
+            -68.132436,47.381399,0
+            -68.132571,47.381326,0
+            -68.132622,47.381253,0
+            -68.132706,47.38119,0
+            -68.132775,47.381181,0
+            -68.133171,47.380956,0
+            -68.133283,47.380866,0
+            -68.133438,47.380852,0
+            -68.13369,47.380817,0
+            -68.133844,47.380779,0
+            -68.133964,47.380725,0
+            -68.134156,47.3807,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail / Sentier VTT</name>
+        <description>0.78 km</description>
+        <styleUrl>#line-000000-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.132206,47.380341,0
+            -68.132362,47.380405,0
+            -68.1326678,47.3804796,0
+            -68.132894,47.3803974,0
+            -68.1329254,47.3801671,0
+            -68.1330442,47.3801285,0
+            -68.133195,47.380147,0
+            -68.133463,47.38027,0
+            -68.133755,47.38046,0
+            -68.13391,47.380555,0
+            -68.134007,47.380585,0
+            -68.134156,47.3807,0
+            -68.134358,47.380976,0
+            -68.134663,47.381247,0
+            -68.134675,47.3814725,0
+            -68.134602,47.381591,0
+            -68.134374,47.381724,0
+            -68.134252,47.381847,0
+            -68.134116,47.382087,0
+            -68.1339133,47.3823479,0
+            -68.13378,47.382436,0
+            -68.133637,47.382591,0
+            -68.133231,47.382835,0
+            -68.13293,47.382952,0
+            -68.1326205,47.3831143,0
+            -68.132412,47.383194,0
+            -68.132142,47.38336,0
+            -68.131831,47.383483,0
+            -68.1316924,47.3834593,0
+            -68.13143,47.383449,0
+            -68.131289,47.383392,0
+            -68.13121,47.383328,0
+            -68.131167,47.383207,0
+            -68.13112,47.383095,0
+            -68.13104,47.382968,0
+            -68.131027,47.382857,0
+            -68.131118,47.382801,0
+            -68.131224,47.382712,0
+            -68.131353,47.382621,0
+            -68.131427,47.382488,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Shortcut Trail / Sentier Raccourci</name>
+        <description>0.10 km</description>
+        <styleUrl>#line-777777-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.132412,47.383194,0
+            -68.132259,47.383123,0
+            -68.132015,47.382953,0
+            -68.1318,47.382819,0
+            -68.131592,47.382679,0
+            -68.1314886,47.3825477,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Les Cardinaux</name>
+        <description>0.13 km</description>
+        <styleUrl>#line-3F5BA9-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -68.13015,47.382172,0
+            -68.130112,47.382228,0
+            -68.130191,47.382338,0
+            -68.13012,47.382402,0
+            -68.1301045,47.3825113,0
+            -68.130133,47.382587,0
+            -68.1302601,47.3826276,0
+            -68.1303459,47.3826639,0
+            -68.130522,47.382687,0
+            -68.1306463,47.3827365,0
+            -68.130767,47.382825,0
+            -68.130806,47.382891,0
+            -68.130948,47.382908,0
+            -68.131027,47.382857,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

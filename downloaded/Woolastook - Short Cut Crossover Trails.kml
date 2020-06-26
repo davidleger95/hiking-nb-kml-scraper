@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Woolastook - Short Cut Crossover Trails</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-999999-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff999999</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-999999-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff999999</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-999999-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-999999-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-999999-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Short Cut Crossover Trail</name>
+        <styleUrl>#line-999999-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.905279,45.871071,0
+            -66.905038,45.871127,0
+            -66.904904,45.871306,0
+            -66.905027,45.871694,0
+            -66.904893,45.872034,0
+            -66.904812,45.872561,0
+            -66.904609,45.872725,0
+            -66.90448,45.872882,0
+            -66.904571,45.872931,0
+            -66.904539,45.872961,0
+            -66.904297,45.872979,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Short Cut Crossover Trail</name>
+        <styleUrl>#line-999999-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.901395,45.869521,0
+            -66.901202,45.869778,0
+            -66.900939,45.869965,0
+            -66.900038,45.870241,0
+            -66.899706,45.870413,0
+            -66.899679,45.870667,0
+            -66.899432,45.871082,0
+            -66.899217,45.871276,0
+            -66.898944,45.871407,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Short Cut Crossover Trail</name>
+        <styleUrl>#line-999999-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.89521,45.871758,0
+            -66.895055,45.871538,0
+            -66.894701,45.871463,0
+            -66.894454,45.871328,0
+            -66.893671,45.871246,0
+            -66.893418,45.871149,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Short Cut Crossover Trail</name>
+        <styleUrl>#line-999999-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.894454,45.871336,0
+            -66.894888,45.871037,0
+            -66.895216,45.870708,0
+            -66.895307,45.870566,0
+            -66.895199,45.870387,0
+            -66.89491,45.87032,0
+            -66.894137,45.870021,0
+            -66.893241,45.870077,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Kellys Creek Shoreline Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/WoolastookPark/KellysCreek.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.895387,45.871866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kellys Creek Shoreline Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.895511,45.871952,0
+            -66.895216,45.871758,0
+            -66.89484,45.871806,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/WoolastookPark/SummitLoop.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.893424,45.871276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.893413,45.871366,0
+            -66.893402,45.871149,0
+            -66.893268,45.871015,0
+            -66.893236,45.870876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/WoolastookPark/SummitLoop.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.893166,45.870238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.893102,45.870372,0
+            -66.893311,45.869846,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/WoolastookPark/SummitLoop.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.901642,45.869558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.90183,45.869603,0
+            -66.901395,45.869524,0
+            -66.901031,45.869408,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/WoolastookPark/SummitLoop.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.905429,45.871104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.905526,45.871127,0
+            -66.904941,45.870988,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/WoolastookPark/SummitLoop.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.904539,45.873069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Loop Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.904657,45.873117,0
+            -66.904297,45.872976,0
+            -66.903943,45.872938,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/LowerSJRiver/WoolastookPark/MountainBike.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.898804,45.871287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.898944,45.871411,0
+            -66.898799,45.871287,0
+            -66.898815,45.871168,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.898955,45.871399,0
+            -66.898815,45.871612,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fundy - Kinnie Brook</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-143-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-143-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-143">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-16-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-16-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-16">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-93-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-93">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Bench lookout and end of trail</name>
+        <description>16-JUL-11 6:05:14PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -64.987449,45.611155,237
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kinnie Brook Parking</name>
+        <description>16-JUL-11 5:29:16PM</description>
+        <styleUrl>#icon-93</styleUrl>
+        <Point>
+          <coordinates>
+            -64.998497,45.606059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rock Pinnacle</name>
+        <description>16-JUL-11 5:58:41PM</description>
+        <styleUrl>#icon-16</styleUrl>
+        <Point>
+          <coordinates>
+            -64.987317,45.610811,246
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rock Slide</name>
+        <description>16-JUL-11 5:50:47PM</description>
+        <styleUrl>#icon-16</styleUrl>
+        <Point>
+          <coordinates>
+            -64.98619,45.610362,252.95
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.998475,45.606223,0
+            -64.998419,45.60642,0
+            -64.998304,45.606573,0
+            -64.998105,45.606695,0
+            -64.997864,45.606821,0
+            -64.997655,45.606958,0
+            -64.997244,45.607288,0
+            -64.997153,45.607328,0
+            -64.996764,45.607399,0
+            -64.99656,45.607457,0
+            -64.996144,45.607626,0
+            -64.995895,45.607647,0
+            -64.995461,45.607682,0
+            -64.995157,45.607808,0
+            -64.994911,45.607894,0
+            -64.994693,45.60793,0
+            -64.994213,45.608105,0
+            -64.994028,45.608183,0
+            -64.993765,45.60833,0
+            -64.99357,45.608471,0
+            -64.993395,45.608572,0
+            -64.993154,45.608707,0
+            -64.992934,45.608816,0
+            -64.99273,45.608889,0
+            -64.992443,45.608934,0
+            -64.992239,45.609024,0
+            -64.992049,45.609077,0
+            -64.99166,45.609397,0
+            -64.991319,45.609435,0
+            -64.991207,45.609431,0
+            -64.990756,45.609347,0
+            -64.990587,45.609281,0
+            -64.990453,45.609206,0
+            -64.990158,45.609077,0
+            -64.990018,45.609026,0
+            -64.989898,45.609013,0
+            -64.989804,45.609065,0
+            -64.989696,45.60912,0
+            -64.989412,45.609236,0
+            -64.989098,45.609367,0
+            -64.988825,45.609504,0
+            -64.98828,45.609666,0
+            -64.988127,45.609724,0
+            -64.987755,45.609936,0
+            -64.987556,45.609973,0
+            -64.987097,45.610047,0
+            -64.986577,45.610056,0
+            -64.986121,45.610092,0
+            -64.985904,45.610133,0
+            -64.986134,45.610349,0
+            -64.986277,45.610383,0
+            -64.98643,45.610398,0
+            -64.9868,45.61051,0
+            -64.986971,45.610583,0
+            -64.987127,45.610737,0
+            -64.98725,45.610782,0
+            -64.987328,45.610906,0
+            -64.987366,45.611045,0
+            -64.98739,45.611165,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Campground Access Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.989898,45.609011,0
+            -64.98982,45.608943,0
+            -64.989782,45.608881,0
+            -64.98938,45.608651,0
+            -64.989278,45.608549,0
+            -64.98898,45.608307,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

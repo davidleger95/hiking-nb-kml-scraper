@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Shogomoc Walking Bridge</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1147-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1147-crisis-fire.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1147-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1147-crisis-fire.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1147">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1147-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1147-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1381-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1381-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1381-rec-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1381-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1381-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1381-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1453-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1453-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1453-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1453-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1453-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-6000-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-6000-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-6000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Firepit</name>
+        <description>09-OCT-15 8:43:57AM</description>
+        <styleUrl>#icon-1147</styleUrl>
+        <Point>
+          <coordinates>
+            -67.329486,45.95539,37.62
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <styleUrl>#icon-1453-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.3319113,45.9562592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <styleUrl>#icon-1453-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.3299909,45.9563636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Picnic Table</name>
+        <styleUrl>#icon-1381-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.331627,45.9560951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.30 km</description>
+        <styleUrl>#line-DB4436-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.3295885,45.95633,0
+            -67.3294115,45.9561995,0
+            -67.329367,45.95604,0
+            -67.329391,45.95586,0
+            -67.3294759,45.955711,0
+            -67.3295403,45.9555916,0
+            -67.329554,45.955471,0
+            -67.3295188,45.9553977,0
+            -67.3293257,45.9553753,0
+            -67.32921,45.955318,0
+            -67.329066,45.955231,0
+            -67.3286659,45.9550471,0
+            -67.328344,45.9549017,0
+            -67.3280972,45.954842,0
+            -67.3278451,45.954704,0
+            -67.3274803,45.9546033,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>0.09 km</description>
+        <styleUrl>#line-4186F0-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.3313481,45.9561436,0
+            -67.330173,45.956227,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

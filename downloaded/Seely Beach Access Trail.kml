@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Seely Beach Access Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1644-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1697-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1697-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1697-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1697-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1697-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1733-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1733-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1733-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5456-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5456-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFD600-5456-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFD600-5456-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFD600-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFD600-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFD600-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFD600-6038-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>6.038</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFD600-6038-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>9.057</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFD600-6038">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFD600-6038-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFD600-6038-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>1.6 km</description>
+        <styleUrl>#line-E65100-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.3569216,45.4382909,0
+            -65.3567606,45.4384114,0
+            -65.3566802,45.4385488,0
+            -65.3566077,45.4387539,0
+            -65.3565326,45.438865,0
+            -65.3563851,45.4390174,0
+            -65.3562537,45.4391981,0
+            -65.356133,45.4393185,0
+            -65.3559721,45.4394371,0
+            -65.3558299,45.4395406,0
+            -65.3556395,45.4395764,0
+            -65.3555375,45.4396272,0
+            -65.3554115,45.4396799,0
+            -65.3552988,45.4397514,0
+            -65.355154,45.4399358,0
+            -65.3550762,45.4400864,0
+            -65.3550842,45.440188,0
+            -65.3550252,45.4403273,0
+            -65.3549609,45.4405061,0
+            -65.354816,45.4407037,0
+            -65.3546095,45.4408128,0
+            -65.3544834,45.4408505,0
+            -65.3543359,45.4409201,0
+            -65.3540409,45.4411309,0
+            -65.3538048,45.4413417,0
+            -65.353668,45.4414188,0
+            -65.3535634,45.441511,0
+            -65.3535044,45.441592,0
+            -65.3533274,45.4416973,0
+            -65.3531933,45.4418554,0
+            -65.3530769,45.4420564,0
+            -65.3529412,45.4421641,0
+            -65.3528312,45.442292,0
+            -65.3526837,45.4423692,0
+            -65.3525227,45.442531,0
+            -65.352394,45.442627,0
+            -65.3522679,45.4427531,0
+            -65.3521043,45.4428303,0
+            -65.3519597,45.4429561,0
+            -65.3517422,45.4431219,0
+            -65.3515464,45.4432518,0
+            -65.3513345,45.4433327,0
+            -65.3511333,45.4434776,0
+            -65.3509054,45.4436037,0
+            -65.3507337,45.4438145,0
+            -65.3505138,45.4439613,0
+            -65.3502107,45.4440968,0
+            -65.349929,45.4442059,0
+            -65.3496631,45.4442624,0
+            -65.3495669,45.4442097,0
+            -65.349465,45.4442153,0
+            -65.3492478,45.4442435,0
+            -65.3490072,45.4443155,0
+            -65.3487403,45.4443423,0
+            -65.3484377,45.4443903,0
+            -65.3482875,45.444347,0
+            -65.3481293,45.4442435,0
+            -65.3480032,45.4441589,0
+            -65.347912,45.4440441,0
+            -65.3478584,45.4439086,0
+            -65.3478342,45.4436903,0
+            -65.3477967,45.4434588,0
+            -65.3477108,45.4432951,0
+            -65.3474963,45.4431897,0
+            -65.3473219,45.4430843,0
+            -65.3471208,45.4429206,0
+            -65.3468204,45.4427437,0
+            -65.3466031,45.4426835,0
+            -65.3463483,45.4426477,0
+            -65.3461283,45.4427324,0
+            -65.3459781,45.4427719,0
+            -65.3457126,45.4429394,0
+            -65.3453961,45.4431633,0
+            -65.345034,45.4433911,0
+            -65.3448007,45.4435736,0
+            -65.3447148,45.4438258,0
+            -65.3449653,45.4444349,0
+            -65.3449879,45.444934,0
+            -65.3448275,45.4453256,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking Stationnement</name>
+        <description>23-JUN-19 3:35:23PM</description>
+        <styleUrl>#icon-1644-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -65.3569460101426,45.4381865356117,124.135009765625
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seely Brook crossing</name>
+        <description>23-JUN-19 2:31:43PM</description>
+        <styleUrl>#icon-1697-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.3480634558946,45.4442489147186,20.7940673828125
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porta Potty</name>
+        <styleUrl>#icon-1733-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.3571481816471,45.4381868708879,143.854370117188
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Fundy Footpath continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/FundyFootpath.html]]></description>
+        <styleUrl>#line-FFD600-6038</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.3464565,45.4426672,0
+            -65.3467784,45.4425881,0
+            -65.3473041,45.4427424,0
+            -65.3473953,45.4426747,0
+            -65.3472987,45.4423096,0
+            -65.3472987,45.4421214,0
+            -65.3479585,45.4418391,0
+            -65.3485808,45.4419106,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fundy Footpath continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/FundyFootpath.html]]></description>
+        <styleUrl>#line-FFD600-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.3455538,45.4450526,0
+            -65.3449879,45.444934,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Anchorage Beach / Plage Anchorage</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1644-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1882-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1882-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1882-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1882-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1882-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5844-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5844-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5069-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5069-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5650-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5650-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Anchorage Beach / Plage Anchorage</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/GrandManan/TheAnchorage/AnchorageBeach.html]]></description>
+        <styleUrl>#line-0288D1-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.7735183,44.6561113,0
+            -66.7736739,44.6560846,0
+            -66.7738724,44.6564319,0
+            -66.7741728,44.6567677,0
+            -66.7747736,44.6571721,0
+            -66.7756158,44.6575003,0
+            -66.7766404,44.6577712,0
+            -66.77715,44.6579048,0
+            -66.7773968,44.6580421,0
+            -66.7781478,44.6583054,0
+            -66.7792422,44.6586756,0
+            -66.7810661,44.659183,0
+            -66.7823321,44.6594501,0
+            -66.7832869,44.6596333,0
+            -66.7847568,44.6598508,0
+            -66.7862427,44.6600339,0
+            -66.7877072,44.6601637,0
+            -66.7892092,44.6602476,0
+            -66.7900354,44.6601904,0
+            -66.7906952,44.6601332,0
+            -66.7916179,44.6601713,0
+            -66.7923528,44.660156,0
+            -66.7928463,44.6600454,0
+            -66.7935061,44.660095,0
+            -66.7948902,44.6599576,0
+            -66.7961991,44.6596791,0
+            -66.7975563,44.659454,0
+            -66.7986667,44.65937,0
+            -66.8002707,44.6590915,0
+            -66.8016064,44.6588129,0
+            -66.8019229,44.6586832,0
+            -66.8023252,44.6584123,0
+            -66.8027169,44.658107,0
+            -66.8029475,44.6577903,0
+            -66.8032801,44.6576148,0
+            -66.8036288,44.6574125,0
+            -66.803956,44.6571454,0
+            -66.8041706,44.656947,0
+            -66.8045568,44.6567219,0
+            -66.8048251,44.6564013,0
+            -66.8049753,44.6561876,0
+            -66.805619,44.6558442,0
+            -66.8060964,44.655558,0
+            -66.8068743,44.6552413,0
+            -66.807282,44.654978,0
+            -66.8077594,44.6545391,0
+            -66.8082368,44.6541652,0
+            -66.8089342,44.6536996,0
+            -66.8100822,44.6529898,0
+            -66.8106025,44.6526998,0
+            -66.8109244,44.6525013,0
+            -66.811198,44.6522495,0
+            -66.8116325,44.6518984,0
+            -66.8119973,44.6514328,0
+            -66.8121529,44.6512267,0
+            -66.8122494,44.651013,0
+            -66.8123782,44.6508451,0
+            -66.8124372,44.6506848,0
+            -66.8125176,44.6505131,0
+            -66.8128234,44.6502116,0
+            -66.8131506,44.6499521,0
+            -66.8134832,44.6498109,0
+            -66.8139178,44.649601,0
+            -66.8143791,44.6493758,0
+            -66.8148565,44.6491278,0
+            -66.8152696,44.6489064,0
+            -66.815511,44.6487614,0
+            -66.8159294,44.6485286,0
+            -66.8163425,44.6483378,0
+            -66.816836,44.6481699,0
+            -66.81741,44.6478149,0
+            -66.8177265,44.6475859,0
+            -66.8178338,44.6474333,0
+            -66.8179035,44.6472921,0
+            -66.818161,44.6471776,0
+            -66.8184078,44.6472043,0
+            -66.8183702,44.6472997,0
+            -66.8182576,44.6473569,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>24-JUN-17 3:18:52PM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -66.801406,44.659356,19.83
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>25-JUN-17 6:39:06AM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -66.7848813,44.6602302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>25-JUN-17 8:51:51AM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -66.8181078,44.647407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fault Line </name>
+        <description>This is where the island splits between volcanic origins to the west and sedimentary origins to the east.</description>
+        <styleUrl>#icon-1882-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -66.820811,44.6476966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Red Point Trail continues / Sentier Red Point continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/GrandManan/TheAnchorage/RedPoint.html]]></description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.8007588,44.6590838,0
+            -66.8011236,44.6591258,0
+            -66.801542,44.6590648,0
+            -66.8020892,44.658977,0
+            -66.8024808,44.6586565,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ox Head Trail continues / Sentier Ox Head continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/GrandManan/TheAnchorage/OxHead.html]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.7852664,44.6599843,0
+            -66.7851913,44.6601599,0
+            -66.7850035,44.6603087,0
+            -66.7844108,44.6601904,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ox Head Trail continues / Sentier Ox Head continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/GrandManan/TheAnchorage/OxHead.html]]></description>
+        <styleUrl>#line-FFEA00-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.773488,44.656142,0
+            -66.7736363,44.6563002,0
+            -66.7736953,44.6564662,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ox Head Trail continues / Sentier Ox Head continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/GrandManan/TheAnchorage/OxHead.html]]></description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.7773485,44.6581833,0
+            -66.777465,44.658266,0
+            -66.7778528,44.6584008,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ox Head Trail continues / Sentier Ox Head continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/GrandManan/TheAnchorage/OxHead.html]]></description>
+        <styleUrl>#line-FFEA00-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.7771018,44.6581604,0
+            -66.776983,44.658182,0
+            -66.7765036,44.6579715,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

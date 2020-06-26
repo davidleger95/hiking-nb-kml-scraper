@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Friar's Nose Trail]]></name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1377-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1377-rec-mountain.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1377-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1377-rec-mountain.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1377">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1377-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1377-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1453-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1453-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1453">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1453-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1453-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5456-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5456-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5650-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.65</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5650-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.475</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5650-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5650-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5650-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name><![CDATA[Lookout / Poste D'Observation]]></name>
+        <description>01-FEB-16 8:48:58AM</description>
+        <styleUrl>#icon-1377</styleUrl>
+        <Point>
+          <coordinates>
+            -65.4177503,45.6486315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <description>01-FEB-16 11:23:43AM</description>
+        <styleUrl>#icon-1453</styleUrl>
+        <Point>
+          <coordinates>
+            -65.408474,45.6508328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name><![CDATA[Friar's Nose Trail]]></name>
+        <description>1.75 km</description>
+        <styleUrl>#line-DB4436-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.4081452,45.6513233,0
+            -65.408398,45.651427,0
+            -65.4086709,45.6514733,0
+            -65.4088748,45.6515071,0
+            -65.409082,45.651517,0
+            -65.409438,45.6514508,0
+            -65.409674,45.6514546,0
+            -65.4099369,45.6515596,0
+            -65.410054,45.651661,0
+            -65.4102588,45.6517396,0
+            -65.4104787,45.6519346,0
+            -65.4106826,45.6522758,0
+            -65.410853,45.65251,0
+            -65.4112887,45.652767,0
+            -65.411734,45.6530445,0
+            -65.4119378,45.6532095,0
+            -65.4123402,45.653397,0
+            -65.412783,45.653677,0
+            -65.413223,45.653916,0
+            -65.413598,45.654031,0
+            -65.4139924,45.6541132,0
+            -65.4144484,45.6542669,0
+            -65.4147863,45.6543081,0
+            -65.4151565,45.6543344,0
+            -65.4155964,45.6542744,0
+            -65.4160523,45.6541507,0
+            -65.4164279,45.6539482,0
+            -65.4168141,45.6538207,0
+            -65.417329,45.653736,0
+            -65.4181498,45.6535995,0
+            -65.4192173,45.6533857,0
+            -65.4198343,45.653172,0
+            -65.420277,45.652965,0
+            -65.4201669,45.6527145,0
+            -65.420067,45.652272,0
+            -65.4199576,45.6518221,0
+            -65.4199791,45.6516571,0
+            -65.419985,45.651388,0
+            -65.4198718,45.6512258,0
+            -65.419826,45.651047,0
+            -65.419727,45.6508471,0
+            -65.4196572,45.6506521,0
+            -65.4195929,45.6504384,0
+            -65.4195821,45.6503109,0
+            -65.4194319,45.6500334,0
+            -65.4193622,45.6498721,0
+            -65.4192227,45.6496771,0
+            -65.4191691,45.6494671,0
+            -65.419153,45.6493021,0
+            -65.4191798,45.6491896,0
+            -65.4192388,45.6490734,0
+            -65.4193676,45.6489421,0
+            -65.419484,45.648796,0
+            -65.4193032,45.6487996,0
+            -65.4190725,45.6488521,0
+            -65.4189008,45.6488671,0
+            -65.418691,45.648927,0
+            -65.418611,45.648861,0
+            -65.4184288,45.6489121,0
+            -65.418278,45.648914,0
+            -65.4182249,45.6488709,0
+            -65.418168,45.648912,0
+            -65.4178383,45.6486642,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Trail continues / Sentier continues</name>
+        <styleUrl>#line-F4EB37-5456-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.419496,45.648792,0
+            -65.4196358,45.6486121,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arnolds Hollow Drive continues</name>
+        <styleUrl>#line-F4EB37-5650-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.420277,45.652965,0
+            -65.420773,45.6526958,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Roads / Chemins</name>
+    </Folder>
+  </Document>
+</kml>

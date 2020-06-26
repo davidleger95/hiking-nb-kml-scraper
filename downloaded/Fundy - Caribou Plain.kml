@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fundy - Caribou Plain</name>
+    <description><![CDATA[Fundy National Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-141-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/141-toilets.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-141-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/141-toilets.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-141">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-141-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-141-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-143-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-143-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-143">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-93-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-93">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF9900-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Boardwalk Lookout</name>
+        <description>16-JUL-11 7:38:28PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -65.05887,45.62653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>View of Bog</name>
+        <description>16-JUL-11 7:33:23PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -65.058607,45.625223,345
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouses</name>
+        <description>16-JUL-11 6:50:15PM</description>
+        <styleUrl>#icon-141</styleUrl>
+        <Point>
+          <coordinates>
+            -65.058545,45.627501,346
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Lot</name>
+        <description>16-JUL-11 6:50:05PM</description>
+        <styleUrl>#icon-93</styleUrl>
+        <Point>
+          <coordinates>
+            -65.058458,45.627604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caribou Lake Lookout</name>
+        <description>16-JUL-11 7:07:54PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -65.05739,45.621227,354
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caribou Lake Lookout</name>
+        <description>16-JUL-11 7:23:07PM</description>
+        <styleUrl>#icon-143</styleUrl>
+        <Point>
+          <coordinates>
+            -65.060024,45.620547,351
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boardwalk Trail</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.058331,45.627546,0
+            -65.058289,45.627248,0
+            -65.058364,45.62716,0
+            -65.058179,45.626886,0
+            -65.058101,45.626818,0
+            -65.058259,45.626556,0
+            -65.058503,45.626466,0
+            -65.05871,45.626483,0
+            -65.059015,45.626591,0
+            -65.059257,45.626678,0
+            -65.059622,45.626845,0
+            -65.05993,45.627068,0
+            -65.05985,45.627212,0
+            -65.059466,45.627542,0
+            -65.059243,45.627634,0
+            -65.058648,45.627698,0
+            -65.058581,45.627691,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Caribou Plains Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.0581,45.62682,0
+            -65.05787,45.62651,0
+            -65.05766,45.6264,0
+            -65.05689,45.62636,0
+            -65.05572,45.62643,0
+            -65.0554,45.62633,0
+            -65.05523,45.62593,0
+            -65.05508,45.62582,0
+            -65.05452,45.62495,0
+            -65.0542,45.6246,0
+            -65.05428,45.62361,0
+            -65.05412,45.6232,0
+            -65.05439,45.62288,0
+            -65.05481,45.62269,0
+            -65.05498,45.62271,0
+            -65.0552,45.62265,0
+            -65.05537,45.62254,0
+            -65.05547,45.6223,0
+            -65.0556,45.62213,0
+            -65.05586,45.62204,0
+            -65.05616,45.62207,0
+            -65.05633,45.62203,0
+            -65.05651,45.62212,0
+            -65.0568,45.62215,0
+            -65.05704,45.62223,0
+            -65.05744,45.62224,0
+            -65.05795,45.62213,0
+            -65.05819,45.62202,0
+            -65.05932,45.62222,0
+            -65.05982,45.62214,0
+            -65.06003,45.62205,0
+            -65.06027,45.62186,0
+            -65.06048,45.62152,0
+            -65.06081,45.6216,0
+            -65.0609,45.62167,0
+            -65.061041,45.621906,0
+            -65.060933,45.622059,0
+            -65.060968,45.622309,0
+            -65.060955,45.622412,0
+            -65.060697,45.622639,0
+            -65.060005,45.622812,0
+            -65.059445,45.62307,0
+            -65.059407,45.623346,0
+            -65.05926,45.623588,0
+            -65.058637,45.624224,0
+            -65.05849,45.624798,0
+            -65.05861,45.625237,0
+            -65.058294,45.625704,0
+            -65.058348,45.626047,0
+            -65.058326,45.626239,0
+            -65.058251,45.62655,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.056095,45.622063,0
+            -65.056113,45.621894,0
+            -65.056151,45.621679,0
+            -65.056213,45.621594,0
+            -65.056384,45.621459,0
+            -65.056768,45.621322,0
+            -65.057264,45.621247,0
+            -65.057393,45.62121,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Boardwalk Trail</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.060488,45.621523,0
+            -65.060075,45.62124,0
+            -65.060011,45.621195,0
+            -65.059909,45.621043,0
+            -65.060021,45.620542,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

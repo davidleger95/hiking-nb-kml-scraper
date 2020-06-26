@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>St-Anselme - Mountain Bike</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-117-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-117-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-117">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3333FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3333FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3333FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3333FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3333FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-993399-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff993399</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-993399-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff993399</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-993399-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-993399-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-993399-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-999999-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff999999</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-999999-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff999999</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-999999-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-999999-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-999999-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC6600-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff0066cc</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC6600-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0066cc</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC6600-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC6600-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC6600-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-33CC00-3000-64-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4000cc33</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-33CC00-3000-64-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4000cc33</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-33CC00-3000-64-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-33CC00-3000-64-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-33CC00-3000-64-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Mountain Bike Trail</name>
+        <styleUrl>#line-CC6600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.710411,46.065994,0
+            -64.71036,46.06591,0
+            -64.710481,46.065718,0
+            -64.710425,46.065422,0
+            -64.710513,46.06508,0
+            -64.710524,46.064842,0
+            -64.71039,46.06479,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trail</name>
+        <styleUrl>#line-CC6600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.710462,46.065746,0
+            -64.711069,46.065633,0
+            -64.711168,46.06553,0
+            -64.710521,46.065391,0
+            -64.71047,46.065296,0
+            -64.710151,46.065474,0
+            -64.70977,46.06569,0
+            -64.70943,46.065813,0
+            -64.709271,46.065672,0
+            -64.70932,46.065545,0
+            -64.709529,46.065437,0
+            -64.709532,46.065337,0
+            -64.70936,46.065417,0
+            -64.709129,46.06548,0
+            -64.709033,46.065709,0
+            -64.709229,46.065932,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trail</name>
+        <styleUrl>#line-CC6600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.70988,46.065623,0
+            -64.710462,46.065748,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Shelter and Picnic Table</name>
+        <description>21-MAY-12 12:03:40PM</description>
+        <styleUrl>#icon-117</styleUrl>
+        <Point>
+          <coordinates>
+            -64.710385,46.066066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail continues</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.710782,46.066007,0
+            -64.710001,46.065968,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Purple Trail continues</name>
+        <styleUrl>#line-993399-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.710411,46.065992,0
+            -64.710422,46.066262,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail continues</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.70954,46.065951,0
+            -64.709231,46.065936,0
+            -64.709137,46.065923,0
+            -64.708856,46.065867,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trail</name>
+        <styleUrl>#line-CC6600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.70368,46.06597,0
+            -64.70334,46.06623,0
+            -64.70327,46.06634,0
+            -64.70337,46.06656,0
+            -64.70359,46.0668,0
+            -64.70407,46.06691,0
+            -64.70421,46.06701,0
+            -64.70448,46.06773,0
+            -64.70473,46.06799,0
+            -64.70492,46.06847,0
+            -64.70488,46.06863,0
+            -64.70498,46.0688,0
+            -64.70532,46.06892,0
+            -64.70556,46.06894,0
+            -64.70566,46.06907,0
+            -64.70557,46.06907,0
+            -64.70569,46.0692,0
+            -64.70601,46.06923,0
+            -64.70602,46.06929,0
+            -64.70628,46.06939,0
+            -64.7066,46.06991,0
+            -64.70659,46.07,0
+            -64.70668,46.07002,0
+            -64.70698,46.07044,0
+            -64.70711,46.07051,0
+            -64.70711,46.07073,0
+            -64.70736,46.07092,0
+            -64.70781,46.07098,0
+            -64.70801,46.07093,0
+            -64.70821,46.07094,0
+            -64.70837,46.07066,0
+            -64.70838,46.07033,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Bike Trail</name>
+        <styleUrl>#line-CC6600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7041,46.066465,0
+            -64.703843,46.066518,0
+            -64.703515,46.066718,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail continues</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.703853,46.066331,0
+            -64.704293,46.066567,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail continues</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.703768,46.066206,0
+            -64.703679,46.065958,0
+            -64.703553,46.065822,0
+            -64.703526,46.065741,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Moutain Bike Trail</name>
+        <styleUrl>#line-CC6600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.706761,46.069766,0
+            -64.706554,46.069837,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail continues</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.706951,46.069883,0
+            -64.706804,46.069812,0
+            -64.706672,46.069662,0
+            -64.706619,46.069552,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BMX Track Access Trail continues</name>
+        <styleUrl>#line-999999-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.70867,46.07033,0
+            -64.70837,46.07033,0
+            -64.70801,46.07028,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BMX Track Access Trail continues</name>
+        <styleUrl>#line-999999-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.708378,46.07033,0
+            -64.708416,46.07019,0
+            -64.708561,46.070106,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Field</name>
+        <styleUrl>#poly-33CC00-3000-64-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -64.704741,46.067112,0
+                -64.70457,46.06709,0
+                -64.704355,46.067004,0
+                -64.704146,46.067019,0
+                -64.704124,46.067105,0
+                -64.70421,46.067257,0
+                -64.704296,46.067414,0
+                -64.70458,46.067402,0
+                -64.704795,46.067313,0
+                -64.704741,46.067112,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail continues</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.704832,46.067518,0
+            -64.704704,46.066893,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Dieppe/SaintAnselmePark/BlueTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.706855,46.069732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Dieppe/SaintAnselmePark/BlueTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.704827,46.06744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Dieppe/SaintAnselmePark/BlueTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.703593,46.065809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Dieppe/SaintAnselmePark/BlueTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.709408,46.065936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Purple Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Dieppe/SaintAnselmePark/PurpleTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -64.710417,46.066234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Little River Reservoir Park - Waterfall Trail</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1391-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1391-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1391">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1391-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1391-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-5844-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-5844-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4294-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.294</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4294-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.441</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4294">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4294-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4294-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Waterfall</name>
+        <description>08-JUN-16 10:04:18AM</description>
+        <styleUrl>#icon-1391</styleUrl>
+        <Point>
+          <coordinates>
+            -65.965793,45.3035841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.09 km</description>
+        <styleUrl>#line-4186F0-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.965829,45.304369,0
+            -65.9659481,45.3042519,0
+            -65.96605,45.3041349,0
+            -65.9660983,45.3040255,0
+            -65.9660983,45.3039048,0
+            -65.9660017,45.3038142,0
+            -65.965864,45.303652,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Rez Trail continues</name>
+        <description>For more information on this trail go to: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/LittleRiver/Rez.html</description>
+        <styleUrl>#line-F4EB37-4294</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9662646,45.3046783,0
+            -65.9661144,45.3045311,0
+            -65.9659374,45.3044141,0
+            -65.9657067,45.3043047,0
+            -65.9653151,45.3042708,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

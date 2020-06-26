@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fundy - Moosehorn</name>
+    <description><![CDATA[Fundy National Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-141-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/141-toilets.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-141-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/141-toilets.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-141">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-141-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-141-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-149-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-149-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/149-water.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-149">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-149-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-149-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-93-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-93">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-99-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-99-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/99-picnic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-99">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-99-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-99-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33CC00-5000-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-996633-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-996633-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF9900-5000-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-3000-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF66-3000-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-996633-3000-64-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40336699</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-996633-3000-64-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>40336699</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-996633-3000-64">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-996633-3000-64-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-996633-3000-64-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Picnic Table</name>
+        <description>17-JUL-11 10:06:35AM</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.014713,45.657558,359
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outhouses</name>
+        <description>17-JUL-11 9:54:24AM</description>
+        <styleUrl>#icon-141</styleUrl>
+        <Point>
+          <coordinates>
+            -65.014721,45.657377,347
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterfall</name>
+        <description>17-JUL-11 12:41:22PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -64.995267,45.665451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small Stairstep Falls</name>
+        <description>17-JUL-11 11:39:22AM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -64.994152,45.669321,194
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stair Step Falls</name>
+        <description>17-JUL-11 12:10:01PM</description>
+        <styleUrl>#icon-149</styleUrl>
+        <Point>
+          <coordinates>
+            -64.993336,45.666403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Access Road</name>
+        <styleUrl>#line-996633-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.034288,45.657668,0
+            -65.033741,45.657825,0
+            -65.033247,45.657773,0
+            -65.032668,45.657645,0
+            -65.03226,45.657593,0
+            -65.031745,45.657675,0
+            -65.031241,45.65793,0
+            -65.030994,45.65799,0
+            -65.027626,45.6579,0
+            -65.026488,45.657728,0
+            -65.025609,45.657623,0
+            -65.024761,45.65763,0
+            -65.023913,45.657578,0
+            -65.022658,45.657638,0
+            -65.02033,45.65769,0
+            -65.019772,45.657525,0
+            -65.018549,45.657375,0
+            -65.017251,45.657503,0
+            -65.016747,45.657413,0
+            -65.016242,45.657368,0
+            -65.016033,45.657402,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Parking Lot</name>
+        <description>Fundy National Park</description>
+        <styleUrl>#icon-93</styleUrl>
+        <Point>
+          <coordinates>
+            -65.015561,45.657338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Lot</name>
+        <description>Fundy National Park</description>
+        <styleUrl>#poly-996633-3000-64</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -65.016055,45.657447,0
+                -65.01606,45.657267,0
+                -65.015041,45.657248,0
+                -65.015035,45.657447,0
+                -65.016055,45.657447,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Picnic Table</name>
+        <description>Fundy National Park</description>
+        <styleUrl>#icon-99</styleUrl>
+        <Point>
+          <coordinates>
+            -65.014789,45.657608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forks/Salmon River Trail Continues</name>
+        <description>Fundy National Park</description>
+        <styleUrl>#line-FFFF66-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.011843,45.657836,0
+            -65.012557,45.658091,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Stairs down to waterfall</name>
+        <description>Fundy National Park</description>
+        <styleUrl>#line-FF9900-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.995117,45.665166,0
+            -64.994946,45.665369,0
+            -64.995042,45.665518,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Laverty Falls Trail Continues</name>
+        <styleUrl>#line-FFFF66-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.009556,45.677308,0
+            -65.008574,45.677427,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Laverty Falls Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/FundyPark/Laverty.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.009108,45.677341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dobson Trail Continues</name>
+        <description>Fundy National Park</description>
+        <styleUrl>#line-FFFF66-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.008579,45.677431,0
+            -65.008257,45.677881,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Moosehorn Trail</name>
+        <description>Fundy National Park</description>
+        <styleUrl>#line-33CC00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.008577,45.677431,0
+            -65.008174,45.67736,0
+            -65.007724,45.677126,0
+            -65.007455,45.677071,0
+            -65.007268,45.676938,0
+            -65.006989,45.676921,0
+            -65.006597,45.676781,0
+            -65.006254,45.676562,0
+            -65.005985,45.676532,0
+            -65.005951,45.676498,0
+            -65.005688,45.676502,0
+            -65.005192,45.676256,0
+            -65.004596,45.676132,0
+            -65.004223,45.676179,0
+            -65.003885,45.676371,0
+            -65.003606,45.676311,0
+            -65.003376,45.676419,0
+            -65.003201,45.676402,0
+            -65.003078,45.676445,0
+            -65.002957,45.676592,0
+            -65.002888,45.676564,0
+            -65.002686,45.676659,0
+            -65.002491,45.676575,0
+            -65.002035,45.676532,0
+            -65.001482,45.67668,0
+            -65.001332,45.676773,0
+            -65.001166,45.676802,0
+            -65.000989,45.676757,0
+            -65.000516,45.676903,0
+            -65.000297,45.676931,0
+            -64.999926,45.676897,0
+            -64.999476,45.676777,0
+            -64.999293,45.676659,0
+            -64.999237,45.676565,0
+            -64.999141,45.676275,0
+            -64.999186,45.676131,0
+            -64.999151,45.675896,0
+            -64.999208,45.675645,0
+            -64.999146,45.675583,0
+            -64.999186,45.675546,0
+            -64.999141,45.675306,0
+            -64.998969,45.675312,0
+            -64.998159,45.67518,0
+            -64.997748,45.674903,0
+            -64.997279,45.674676,0
+            -64.997284,45.674601,0
+            -64.99681,45.674223,0
+            -64.996729,45.673988,0
+            -64.996295,45.673767,0
+            -64.996206,45.673657,0
+            -64.996185,45.673537,0
+            -64.99597,45.673404,0
+            -64.995683,45.673329,0
+            -64.995455,45.673207,0
+            -64.99523,45.672795,0
+            -64.995147,45.672718,0
+            -64.995066,45.672551,0
+            -64.995026,45.672084,0
+            -64.994956,45.671983,0
+            -64.995222,45.671668,0
+            -64.995273,45.671447,0
+            -64.995117,45.67063,0
+            -64.994667,45.669807,0
+            -64.99446,45.669736,0
+            -64.99428,45.669496,0
+            -64.994211,45.669472,0
+            -64.994178,45.669385,0
+            -64.994278,45.669217,0
+            -64.99417,45.669087,0
+            -64.994082,45.66869,0
+            -64.993502,45.66824,0
+            -64.993449,45.667996,0
+            -64.993658,45.667614,0
+            -64.99358,45.667337,0
+            -64.993387,45.66714,0
+            -64.993511,45.666969,0
+            -64.99346,45.666782,0
+            -64.99335,45.666767,0
+            -64.993317,45.666636,0
+            -64.993234,45.666649,0
+            -64.993124,45.666587,0
+            -64.993079,45.66651,0
+            -64.993165,45.66645,0
+            -64.993191,45.666339,0
+            -64.993154,45.666266,0
+            -64.993178,45.666139,0
+            -64.993237,45.666096,0
+            -64.992899,45.665882,0
+            -64.992942,45.665638,0
+            -64.992985,45.665547,0
+            -64.993173,45.665419,0
+            -64.993481,45.66537,0
+            -64.993567,45.66531,0
+            -64.993757,45.6654,0
+            -64.993717,45.665196,0
+            -64.993803,45.665102,0
+            -64.994168,45.664949,0
+            -64.994516,45.664969,0
+            -64.99476,45.664922,0
+            -64.995106,45.665164,0
+            -64.995434,45.66522,0
+            -64.995753,45.665183,0
+            -64.995973,45.665063,0
+            -64.996407,45.664958,0
+            -64.996681,45.664973,0
+            -64.997035,45.664932,0
+            -64.99733,45.664981,0
+            -64.997531,45.664956,0
+            -64.997901,45.664851,0
+            -64.998585,45.664771,0
+            -64.998856,45.664782,0
+            -64.999141,45.664703,0
+            -64.999269,45.664549,0
+            -65.000471,45.664184,0
+            -65.000688,45.663886,0
+            -65.000852,45.663805,0
+            -65.001066,45.663586,0
+            -65.000956,45.663215,0
+            -65.001048,45.663044,0
+            -65.001694,45.66263,0
+            -65.00211,45.66245,0
+            -65.002238,45.662313,0
+            -65.002466,45.66191,0
+            -65.002528,45.661646,0
+            -65.00289,45.661203,0
+            -65.003121,45.66108,0
+            -65.003285,45.661061,0
+            -65.003338,45.660922,0
+            -65.003496,45.660808,0
+            -65.004323,45.660334,0
+            -65.004593,45.660328,0
+            -65.00499,45.660152,0
+            -65.005516,45.66015,0
+            -65.006219,45.65984,0
+            -65.007109,45.659709,0
+            -65.007466,45.659497,0
+            -65.008013,45.659385,0
+            -65.00911,45.659033,0
+            -65.009649,45.658952,0
+            -65.010068,45.658742,0
+            -65.010639,45.658658,0
+            -65.011481,45.65844,0
+            -65.011683,45.658328,0
+            -65.011967,45.65823,0
+            -65.012898,45.658011,0
+            -65.013638,45.65794,0
+            -65.013879,45.65785,0
+            -65.013949,45.657758,0
+            -65.014032,45.657726,0
+            -65.014649,45.657608,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Dobson Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/FundyEast/Dobson.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.008421,45.677641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

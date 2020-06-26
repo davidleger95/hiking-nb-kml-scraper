@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Friars Bay Trail / Sentier Friars Bay</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1528-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1528-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1528-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5456-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5456-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5844-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.844</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7CB342-5844-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>8.766</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5844-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5844-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5844-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-5456-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-6038-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>6.038</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-6038-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>9.057</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-6038-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-6038-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-6038-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFD600-5650-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFD600-5650-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFD600-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFD600-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFD600-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5844-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5844-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>04-JUN-17 8:44:09AM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.953196,44.878589,9.5
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>04-JUN-17 8:47:02AM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.951762,44.878439,5.89
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>04-JUN-17 8:48:24AM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.950798,44.87853,10.94
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>04-JUN-17 8:48:47AM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.950608,44.878687,8.78
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.57 km</description>
+        <styleUrl>#line-7CB342-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.955914,44.878466,0
+            -66.9555438,44.8783158,0
+            -66.9553077,44.8782056,0
+            -66.9550502,44.878122,0
+            -66.9548786,44.878065,0
+            -66.9547525,44.8780536,0
+            -66.9546479,44.8779946,0
+            -66.9545433,44.8779927,0
+            -66.954436,44.8780517,0
+            -66.9543475,44.8781505,0
+            -66.9542724,44.8782512,0
+            -66.9541785,44.878428,0
+            -66.9541383,44.8785534,0
+            -66.9540444,44.8786694,0
+            -66.9539613,44.8787511,0
+            -66.9537574,44.8788328,0
+            -66.9535482,44.8788461,0
+            -66.9534194,44.8787435,0
+            -66.9533148,44.8786485,0
+            -66.9531298,44.8786085,0
+            -66.9529447,44.8785591,0
+            -66.9527918,44.8785116,0
+            -66.95263,44.878491,0
+            -66.952472,44.878457,0
+            -66.9522554,44.8784679,0
+            -66.9520703,44.8784565,0
+            -66.9518343,44.8784603,0
+            -66.9516787,44.8784679,0
+            -66.9514588,44.8784964,0
+            -66.95122,44.8784812,0
+            -66.9510081,44.878485,0
+            -66.9507748,44.8785002,0
+            -66.9506675,44.8785534,0
+            -66.9505763,44.8786694,0
+            -66.9505066,44.8787739,0
+            -66.9504985,44.8789488,0
+            -66.9505119,44.8791236,0
+            -66.950513,44.879208,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-7CB342-5844-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9563109,44.8773845,0
+            -66.9561124,44.8778103,0
+            -66.9558334,44.8781296,0
+            -66.9555652,44.8784489,0
+            -66.9552755,44.878734,0
+            -66.95512,44.8790647,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Carriage Road Trail continues / Sentier Carriage Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/Campobello/HerringCovePark/CarriageRoad.html]]></description>
+        <styleUrl>#line-FFD600-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.952206,44.878463,0
+            -66.952177,44.878529,0
+            -66.952135,44.87856,0
+            -66.952122,44.878683,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Glensevern Lake Trail continues / Sentier Lac Glensevern continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/Campobello/HerringCovePark/Glensevern.html]]></description>
+        <styleUrl>#line-FFEA00-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9519925,44.8784584,0
+            -66.951977,44.878262,0
+            -66.9520998,44.8781011,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail continues / Sentier VTT continues</name>
+        <styleUrl>#line-BDBDBD-6038-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9514078,44.8784926,0
+            -66.951211,44.878416,0
+            -66.9510698,44.878293,0
+            -66.950931,44.878251,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ATV Trail continues / Sentier VTT continues</name>
+        <styleUrl>#line-BDBDBD-5456-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9510859,44.878485,0
+            -66.9511262,44.8783444,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Adams Estate Trail continues / Sentier Adams Estate continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyWest/Campobello/HerringCovePark/AdamsEstate.html]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.950699,44.879278,0
+            -66.950528,44.879186,0
+            -66.9503832,44.8792567,0
+            -66.950209,44.87931,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

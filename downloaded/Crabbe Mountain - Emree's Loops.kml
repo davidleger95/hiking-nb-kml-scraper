@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Crabbe Mountain - Emree's Loops]]></name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1670-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1670-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1670-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1765-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1765-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1765-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1765-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1765-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5844-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5844-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0F9D58-7394-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>7.394</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0F9D58-7394-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>11.091</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0F9D58-7394">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0F9D58-7394-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0F9D58-7394-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795548-6231-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>6.231</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-795548-6231-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>9.3465</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-795548-6231">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795548-6231-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795548-6231-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-5650-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-9C27B0-5650-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5844-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5844-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5263-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5263-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5650-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5650-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Small Graveyard</name>
+        <description>04-FEB-17 10:33:29AM</description>
+        <styleUrl>#icon-1670-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -67.094342,46.116363,297.41
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Treehouse</name>
+        <description>04-FEB-17 11:01:35AM</description>
+        <styleUrl>#icon-1765-795548</styleUrl>
+        <Point>
+          <coordinates>
+            -67.096876,46.116789,309.91
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>ATV Trail</name>
+        <description>0.74 km</description>
+        <styleUrl>#line-795548-6231</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0986798,46.1194955,0
+            -67.0983794,46.1195959,0
+            -67.0981754,46.1194847,0
+            -67.0979674,46.1193657,0
+            -67.0976824,46.1192427,0
+            -67.0974094,46.1190647,0
+            -67.0969484,46.1188387,0
+            -67.0964484,46.1187647,0
+            -67.0960074,46.1186197,0
+            -67.0956594,46.1185557,0
+            -67.0952412,46.1183726,0
+            -67.0946094,46.1181287,0
+            -67.0943314,46.1180137,0
+            -67.0943884,46.1178657,0
+            -67.0945117,46.1177032,0
+            -67.0945504,46.1175707,0
+            -67.0945464,46.1172337,0
+            -67.0946704,46.1170617,0
+            -67.0948121,46.116781,0
+            -67.0948384,46.1167047,0
+            -67.0945707,46.1165431,0
+            -67.0942224,46.1163937,0
+            -67.0938744,46.1162137,0
+            -67.0934495,46.1159853,0
+            -67.0930096,46.1157547,0
+            -67.0927414,46.1157064,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Red Rabbit Trail</name>
+        <description>0.73 km</description>
+        <styleUrl>#line-E65100-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.098012,46.1193859,0
+            -67.0981595,46.1193003,0
+            -67.0982239,46.1192446,0
+            -67.0982909,46.1191906,0
+            -67.0983794,46.1191497,0
+            -67.0984358,46.1191126,0
+            -67.0985162,46.1190382,0
+            -67.0985779,46.1189843,0
+            -67.0987228,46.1189415,0
+            -67.098889,46.118873,0
+            -67.0990419,46.1188076,0
+            -67.0991197,46.1187277,0
+            -67.0991626,46.1186645,0
+            -67.0991868,46.118579,0
+            -67.0991868,46.1185102,0
+            -67.0992109,46.1184377,0
+            -67.099291,46.118372,0
+            -67.0992672,46.1182499,0
+            -67.099194,46.118194,0
+            -67.09895,46.118166,0
+            -67.098771,46.1181736,0
+            -67.0984331,46.1182592,0
+            -67.0982695,46.1183094,0
+            -67.098165,46.118357,0
+            -67.098084,46.118499,0
+            -67.0979315,46.1185529,0
+            -67.097529,46.118651,0
+            -67.097384,46.118631,0
+            -67.097273,46.118527,0
+            -67.097158,46.118457,0
+            -67.097077,46.118448,0
+            -67.096833,46.118485,0
+            -67.096639,46.118587,0
+            -67.096671,46.118728,0
+            -67.0967272,46.1188281,0
+            -67.0967728,46.1189973,0
+            -67.096784,46.119055,0
+            -67.096689,46.119218,0
+            -67.096438,46.119472,0
+            -67.096571,46.119608,0
+            -67.096699,46.119734,0
+            -67.096944,46.119808,0
+            -67.0970625,46.119819,0
+            -67.09717,46.119806,0
+            -67.097217,46.119676,0
+            -67.0972,46.119554,0
+            -67.097369,46.11942,0
+            -67.097419,46.11943,0
+            -67.097459,46.119462,0
+            -67.097677,46.119527,0
+            -67.097828,46.119655,0
+            -67.097954,46.119706,0
+            -67.098019,46.119525,0
+            -67.097951,46.119398,0
+            -67.0979851,46.1193803,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blue Fox Trail</name>
+        <description>0.49 km</description>
+        <styleUrl>#line-0288D1-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.099291,46.118372,0
+            -67.099499,46.118245,0
+            -67.099434,46.118147,0
+            -67.099264,46.118114,0
+            -67.099194,46.118084,0
+            -67.098853,46.118043,0
+            -67.0987684,46.1180454,0
+            -67.098553,46.118034,0
+            -67.098132,46.11811,0
+            -67.097831,46.118119,0
+            -67.097511,46.118029,0
+            -67.097205,46.117963,0
+            -67.0970115,46.117984,0
+            -67.0967969,46.1180268,0
+            -67.096581,46.118048,0
+            -67.096357,46.1180695,0
+            -67.0961586,46.1181513,0
+            -67.0960486,46.1182294,0
+            -67.0958984,46.1183075,0
+            -67.0957053,46.1184098,0
+            -67.0956302,46.1185306,0
+            -67.0956087,46.1186812,0
+            -67.095598,46.1188207,0
+            -67.095651,46.11892,0
+            -67.095752,46.118996,0
+            -67.0958796,46.1190679,0
+            -67.0960459,46.11912,0
+            -67.0961478,46.1191646,0
+            -67.0962524,46.1192873,0
+            -67.096439,46.11947,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Green Roadrunner Trail</name>
+        <description>0.16 km</description>
+        <styleUrl>#line-0F9D58-7394</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0957348,46.1189861,0
+            -67.0955041,46.1189843,0
+            -67.0953727,46.1189118,0
+            -67.0949784,46.1187593,0
+            -67.0947611,46.1186552,0
+            -67.0946002,46.1185418,0
+            -67.0944715,46.1184172,0
+            -67.0944527,46.1183001,0
+            -67.0944822,46.1182331,0
+            -67.0945385,46.1181681,0
+            -67.0945761,46.1181309,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Chicken Trail</name>
+        <description>0.43 km</description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.097205,46.117963,0
+            -67.097269,46.1179003,0
+            -67.097337,46.11786,0
+            -67.097497,46.1176847,0
+            -67.097604,46.11753,0
+            -67.097592,46.117439,0
+            -67.097646,46.117266,0
+            -67.097595,46.117091,0
+            -67.097526,46.117071,0
+            -67.097392,46.116945,0
+            -67.097331,46.11691,0
+            -67.09714,46.116906,0
+            -67.096932,46.116826,0
+            -67.096876,46.116789,0
+            -67.096798,46.116772,0
+            -67.096795,46.116817,0
+            -67.096763,46.116808,0
+            -67.096663,46.116829,0
+            -67.096573,46.116899,0
+            -67.09641,46.116971,0
+            -67.096397,46.116994,0
+            -67.096428,46.117122,0
+            -67.096364,46.117278,0
+            -67.096265,46.117342,0
+            -67.096112,46.117386,0
+            -67.096025,46.11745,0
+            -67.0958501,46.1176159,0
+            -67.095799,46.117633,0
+            -67.095583,46.117645,0
+            -67.095522,46.117683,0
+            -67.095506,46.117715,0
+            -67.095326,46.117788,0
+            -67.095171,46.117771,0
+            -67.095068,46.117793,0
+            -67.09485,46.117795,0
+            -67.094704,46.117707,0
+            -67.094547,46.11756,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Black Cat Trail</name>
+        <description>0.60 km</description>
+        <styleUrl>#line-9C27B0-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0954826,46.1189694,0
+            -67.0955014,46.11904,0
+            -67.095367,46.119207,0
+            -67.095245,46.119292,0
+            -67.095107,46.119235,0
+            -67.09484,46.119211,0
+            -67.094679,46.119106,0
+            -67.0946565,46.1189545,0
+            -67.094618,46.118884,0
+            -67.094631,46.118813,0
+            -67.094507,46.118759,0
+            -67.094346,46.118639,0
+            -67.094165,46.118519,0
+            -67.093926,46.118408,0
+            -67.093753,46.118356,0
+            -67.09339,46.118438,0
+            -67.093168,46.11837,0
+            -67.092896,46.118289,0
+            -67.092642,46.118192,0
+            -67.092355,46.118166,0
+            -67.092124,46.118037,0
+            -67.0921165,46.1179914,0
+            -67.092166,46.117954,0
+            -67.0921808,46.1179115,0
+            -67.092526,46.1176,0
+            -67.092595,46.11752,0
+            -67.0928,46.117407,0
+            -67.093006,46.117317,0
+            -67.09315,46.11728,0
+            -67.093225,46.117282,0
+            -67.093269,46.117362,0
+            -67.0933717,46.1174969,0
+            -67.0934656,46.1175936,0
+            -67.0935702,46.1176772,0
+            -67.093871,46.117859,0
+            -67.0939752,46.1179189,0
+            -67.094114,46.117972,0
+            -67.094318,46.11801,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trail / Sentier Adjacent</name>
+      <Placemark>
+        <name>Slippery Mitten Trails continue</name>
+        <description>For more information on these trails go to http://www.hikingnb.ca/Trails/LowerSJRiver/CrabbeMountain/SlipperyMitten.html</description>
+        <styleUrl>#line-FFEA00-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.0926368,46.1156246,0
+            -67.0918,46.1152453,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

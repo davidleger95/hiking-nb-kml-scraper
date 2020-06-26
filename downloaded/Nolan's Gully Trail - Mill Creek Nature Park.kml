@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Nolan's Gully Trail - Mill Creek Nature Park]]></name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FBC02D-4681-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FBC02D-4681-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FBC02D-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FBC02D-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FBC02D-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FBC02D-5650-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FBC02D-5650-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FBC02D-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FBC02D-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FBC02D-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF8D-4681-normal">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF8D-4681-highlight">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF8D-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF8D-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF8D-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF8D-5069-normal">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF8D-5069-highlight">
+      <LineStyle>
+        <color>ff8dffff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF8D-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF8D-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF8D-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Picnic Table</name>
+        <description>10-SEP-17 5:47:49PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7601601202041,46.059801382944,26.5618896484375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Dam</name>
+        <description>10-SEP-17 6:00:53PM</description>
+        <styleUrl>#icon-1892-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7594398,46.0596621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name><![CDATA[Nolan's Gully Trail]]></name>
+        <description>0.24 km</description>
+        <styleUrl>#line-FBC02D-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7615397,46.0606505,0
+            -64.7612447,46.0606356,0
+            -64.7607699,46.0605556,0
+            -64.7603542,46.0604718,0
+            -64.7597641,46.0604495,0
+            -64.7591874,46.0603937,0
+            -64.7585303,46.0603471,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Nolan's Gully Trail]]></name>
+        <description>0.19 km</description>
+        <styleUrl>#line-FBC02D-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7591686,46.0603918,0
+            -64.7592008,46.0601889,0
+            -64.759351,46.0600196,0
+            -64.7594674,46.0599032,0
+            -64.7596729,46.0598446,0
+            -64.7597668,46.0598521,0
+            -64.7598616,46.05982,0
+            -64.760161,46.0597705,0
+            -64.760507,46.0596957,0
+            -64.7607565,46.0596734,0
+            -64.7610328,46.0596082,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentier Adjacent</name>
+      <Placemark>
+        <name>Reservoir Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/Reservoir.html]]></description>
+        <styleUrl>#line-FFFF8D-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7613493,46.0597906,0
+            -64.7611186,46.0597534,0
+            -64.7610596,46.0596864,0
+            -64.7610328,46.0596082,0
+            -64.7612768,46.0593626,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/FundyEast/Riverview/MillCreekPark/MillCreekTrail.html]]></description>
+        <styleUrl>#line-FFFF8D-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.7620118,46.0605053,0
+            -64.7615397,46.0606505,0
+            -64.7616202,46.0610562,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

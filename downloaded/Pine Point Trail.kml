@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pine Point Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1536-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1536-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1536-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1536-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1536-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-3906-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-3906-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-3906-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4100-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-4100-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / sentier</name>
+      <Placemark>
+        <name>Trail / sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.813634,47.394409,0
+            -66.813446,47.394191,0
+            -66.813275,47.394068,0
+            -66.813001,47.393745,0
+            -66.81284,47.393559,0
+            -66.812583,47.393371,0
+            -66.812239,47.393225,0
+            -66.811966,47.393091,0
+            -66.811816,47.392964,0
+            -66.811623,47.392804,0
+            -66.811542,47.392677,0
+            -66.811493,47.392554,0
+            -66.811172,47.392546,0
+            -66.810839,47.392586,0
+            -66.810453,47.392557,0
+            -66.810298,47.392514,0
+            -66.810244,47.392245,0
+            -66.809911,47.391791,0
+            -66.809488,47.391312,0
+            -66.809117,47.391061,0
+            -66.808747,47.390992,0
+            -66.808661,47.391134,0
+            -66.808586,47.391159,0
+            -66.808238,47.391105,0
+            -66.808109,47.390996,0
+            -66.807916,47.390916,0
+            -66.807814,47.390709,0
+            -66.807546,47.390407,0
+            -66.806757,47.389764,0
+            -66.806424,47.389565,0
+            -66.80628,47.38935,0
+            -66.80614,47.389002,0
+            -66.806156,47.388784,0
+            -66.80629,47.388504,0
+            -66.806253,47.388297,0
+            -66.806135,47.388116,0
+            -66.806028,47.387734,0
+            -66.805872,47.38768,0
+            -66.805909,47.387596,0
+            -66.806054,47.3872,0
+            -66.806001,47.386986,0
+            -66.806049,47.386972,0
+            -66.806183,47.386714,0
+            -66.806178,47.386518,0
+            -66.806242,47.386441,0
+            -66.806237,47.386154,0
+            -66.806532,47.386038,0
+            -66.806854,47.385831,0
+            -66.807041,47.385875,0
+            -66.807336,47.385973,0
+            -66.807487,47.386165,0
+            -66.807583,47.386441,0
+            -66.808173,47.387135,0
+            -66.808511,47.387658,0
+            -66.808903,47.388635,0
+            -66.808983,47.388755,0
+            -66.809284,47.389027,0
+            -66.809498,47.389281,0
+            -66.809842,47.390102,0
+            -66.809986,47.390494,0
+            -66.809933,47.390709,0
+            -66.810051,47.391021,0
+            -66.810153,47.391123,0
+            -66.810249,47.391435,0
+            -66.810233,47.391551,0
+            -66.810335,47.391726,0
+            -66.811172,47.392546,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <description>09-AUG-12 1:09:22PM</description>
+        <styleUrl>#icon-1644-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -66.813715,47.39442,306.06
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boat Ramp</name>
+        <styleUrl>#icon-1536-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.8114155,47.3924848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Picnic Table</name>
+        <description>09-AUG-12 1:56:42PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -66.8114873,47.3925331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / sentiers adjacent</name>
+      <Placemark>
+        <name>Dry Brook Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/AppalachianRegion/MountCarletonPark/DryBrook.html]]></description>
+        <styleUrl>#line-F4EB37-3906</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.811531,47.392604,0
+            -66.811971,47.392626,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Big Brook Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/AppalachianRegion/MountCarletonPark/BigBrook.html]]></description>
+        <styleUrl>#line-F4EB37-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.811514,47.392554,0
+            -66.811961,47.392488,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

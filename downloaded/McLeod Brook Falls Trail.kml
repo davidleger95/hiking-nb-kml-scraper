@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>McLeod Brook Falls Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1603-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6000-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-6000-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>McLeod Brook Falls Trail</name>
+        <description>1.2 km</description>
+        <styleUrl>#line-DB4436-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.3090495,45.4909507,0
+            -65.308878,45.49083,0
+            -65.3087705,45.4909845,0
+            -65.3087249,45.4911688,0
+            -65.308631,45.4913173,0
+            -65.3084755,45.4914283,0
+            -65.3086192,45.4916685,0
+            -65.3086648,45.4918678,0
+            -65.3086031,45.4919881,0
+            -65.308469,45.4921404,0
+            -65.3084342,45.4923905,0
+            -65.3082625,45.4929602,0
+            -65.3079326,45.4930993,0
+            -65.3076858,45.4932874,0
+            -65.3075625,45.4933983,0
+            -65.3075088,45.4935863,0
+            -65.3076188,45.4938006,0
+            -65.3078629,45.4940131,0
+            -65.3081928,45.494188,0
+            -65.3088392,45.4942613,0
+            -65.3092925,45.494517,0
+            -65.309617,45.4948554,0
+            -65.3098745,45.4951656,0
+            -65.3099496,45.4954101,0
+            -65.3098799,45.4955699,0
+            -65.309786,45.4956112,0
+            -65.3095392,45.4955887,0
+            -65.3091342,45.4956357,0
+            -65.308866,45.495724,0
+            -65.3086836,45.4958914,0
+            -65.3085012,45.4960456,0
+            -65.3081257,45.4962505,0
+            -65.3077475,45.4965156,0
+            -65.3073801,45.4966848,0
+            -65.306967,45.4968747,0
+            -65.3065754,45.4970251,0
+            -65.3064145,45.4971642,0
+            -65.3063474,45.4973917,0
+            -65.3062777,45.4976455,0
+            -65.3063313,45.4978429,0
+            -65.3065003,45.4978786,0
+            -65.306621,45.498046,0
+            -65.3066183,45.4981794,0
+            -65.306672,45.4982753,0
+            -65.3067444,45.4983317,0
+            -65.3067041,45.4984972,0
+            -65.3066317,45.4985949,0
+            -65.3064011,45.4986683,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Walton Glen Gorge Lookout Trail continues</name>
+        <styleUrl>#line-F4EB37-6000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.3084755,45.4914283,0
+            -65.3083145,45.4912741,0
+            -65.3081028,45.4905773,0
+            -65.3080544,45.4903528,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.3093093,45.4912685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McLeod Brook Falls</name>
+        <styleUrl>#icon-1892-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.3065543,45.4987211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walton Glen Gorge Visitor Centre</name>
+        <styleUrl>#icon-1603-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.3087733,45.4908421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

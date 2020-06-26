@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Purple Trail - Meduxnekeag Valley Nature Preserve</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1616-757575-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1616-757575-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1616-757575">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1616-757575-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1616-757575-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC66CC-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffcc66cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC66CC-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcc66cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC66CC-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC66CC-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC66CC-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / sentier</name>
+      <Placemark>
+        <name>Purple Trail</name>
+        <styleUrl>#line-CC66CC-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.68409,46.19995,0
+            -67.68435,46.19992,0
+            -67.68456,46.19979,0
+            -67.68487,46.19975,0
+            -67.68511,46.19968,0
+            -67.68555,46.19937,0
+            -67.68581,46.19924,0
+            -67.68599,46.19898,0
+            -67.68618,46.19887,0
+            -67.68621,46.19869,0
+            -67.686285,46.198551,0
+            -67.686574,46.19851,0
+            -67.68678,46.19839,0
+            -67.6868,46.19827,0
+            -67.686875,46.198165,0
+            -67.68708,46.19813,0
+            -67.68734,46.19822,0
+            -67.6877,46.19863,0
+            -67.68778,46.19909,0
+            -67.68789,46.19923,0
+            -67.68783,46.19932,0
+            -67.68836,46.19961,0
+            -67.68884,46.19976,0
+            -67.68889,46.19973,0
+            -67.68899,46.19975,0
+            -67.68897,46.19959,0
+            -67.68883,46.19949,0
+            -67.68894,46.19942,0
+            -67.68894,46.19932,0
+            -67.68926,46.19919,0
+            -67.68961,46.19892,0
+            -67.68985,46.19893,0
+            -67.68999,46.19883,0
+            -67.69039,46.1987,0
+            -67.69049,46.19858,0
+            -67.69077,46.19851,0
+            -67.69084,46.19846,0
+            -67.69118,46.1988,0
+            -67.69139,46.19888,0
+            -67.69152,46.19878,0
+            -67.6913,46.19849,0
+            -67.69129,46.19838,0
+            -67.69073,46.19822,0
+            -67.69026,46.19816,0
+            -67.69035,46.19824,0
+            -67.69038,46.19838,0
+            -67.69028,46.19843,0
+            -67.69012,46.19839,0
+            -67.68988,46.19839,0
+            -67.68985,46.19844,0
+            -67.68976,46.19844,0
+            -67.68984,46.19835,0
+            -67.68973,46.19826,0
+            -67.68949,46.19826,0
+            -67.68953,46.19816,0
+            -67.68893,46.19854,0
+            -67.68878,46.19854,0
+            -67.6885,46.19839,0
+            -67.68795,46.19829,0
+            -67.68769,46.19815,0
+            -67.68748,46.19812,0
+            -67.687095,46.198146,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cross Trail</name>
+        <styleUrl>#line-CC66CC-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.688844,46.199498,0
+            -67.688683,46.199505,0
+            -67.688571,46.199438,0
+            -67.688442,46.199257,0
+            -67.688308,46.199234,0
+            -67.688265,46.199086,0
+            -67.688351,46.198948,0
+            -67.688388,46.198774,0
+            -67.68834,46.198614,0
+            -67.688404,46.198469,0
+            -67.688532,46.198421,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Rocky Cliffs</name>
+        <description>27-SEP-12 3:09:14PM</description>
+        <styleUrl>#icon-1616-757575</styleUrl>
+        <Point>
+          <coordinates>
+            -67.689262,46.198369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

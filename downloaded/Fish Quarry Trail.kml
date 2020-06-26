@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fish Quarry Trail</name>
+    <description><![CDATA[French Fort Cove<br>www.hikingnb.ca]]></description>
+    <Style id="icon-143-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-143-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/143-trail.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-143-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-143-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-143-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-16-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-16-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-16-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009900-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009900-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009900-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6600-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF6600-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF6600-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6600-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6600-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF66-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF66-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF66-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF66-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Trail</name>
+        <styleUrl>#line-009900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.55205,47.01996,0
+            -65.55224,47.02022,0
+            -65.5523,47.02069,0
+            -65.5522,47.02139,0
+            -65.55251,47.02172,0
+            -65.55324,47.02225,0
+            -65.55366,47.02266,0
+            -65.55396,47.02317,0
+            -65.55491,47.02345,0
+            -65.55535,47.02366,0
+            -65.55586,47.02399,0
+            -65.55634,47.02411,0
+            -65.55672,47.0241,0
+            -65.55744,47.02389,0
+            -65.55823,47.02372,0
+            -65.55845,47.02392,0
+            -65.55849,47.02406,0
+            -65.55857,47.02405,0
+            -65.55852,47.02421,0
+            -65.559,47.02441,0
+            -65.55904,47.02473,0
+            -65.55927,47.02486,0
+            -65.55945,47.02489,0
+            -65.56002,47.02535,0
+            -65.56032,47.02549,0
+            -65.5605,47.02548,0
+            -65.56066,47.02561,0
+            -65.56078,47.02607,0
+            -65.56099,47.02636,0
+            -65.56094,47.02678,0
+            -65.56053,47.02692,0
+            -65.56035,47.02689,0
+            -65.55972,47.02655,0
+            -65.55957,47.02623,0
+            -65.55962,47.02613,0
+            -65.55952,47.02609,0
+            -65.55891,47.02608,0
+            -65.55874,47.02589,0
+            -65.55837,47.02572,0
+            -65.55816,47.02569,0
+            -65.55723,47.026,0
+            -65.55639,47.02615,0
+            -65.55624,47.02626,0
+            -65.55576,47.02626,0
+            -65.55469,47.02599,0
+            -65.55439,47.02581,0
+            -65.55395,47.02566,0
+            -65.55328,47.02524,0
+            -65.55309,47.02519,0
+            -65.5528,47.02501,0
+            -65.55205,47.02472,0
+            -65.55152,47.02427,0
+            -65.55123,47.02367,0
+            -65.55051,47.02282,0
+            -65.55044,47.02247,0
+            -65.55067,47.02247,0
+            -65.55123,47.022193,0
+            -65.551338,47.022174,0
+            -65.551536,47.022014,0
+            -65.551354,47.02148,0
+            -65.551402,47.021264,0
+            -65.55205,47.01996,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Creaghan Gulch Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/MiramichiRegion/MiramichiCity/FrenchFortCovePark/CreaghanGulch.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.561128,47.027108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Creaghan Gulch Trail Continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.560908,47.026797,0
+            -65.561149,47.027009,0
+            -65.561112,47.027232,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Creaghan Gulch Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/MiramichiRegion/MiramichiCity/FrenchFortCovePark/CreaghanGulch.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.55468,47.026201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Creaghan Gulch Trail Continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.55432,47.025784,0
+            -65.554481,47.026047,0
+            -65.554723,47.026266,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cove Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/MiramichiRegion/MiramichiCity/FrenchFortCovePark/FrenchFortCoveTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.551895,47.019841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cove Trail Continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.552153,47.019717,0
+            -65.552067,47.019958,0
+            -65.551842,47.019805,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cove Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/MiramichiRegion/MiramichiCity/FrenchFortCovePark/FrenchFortCoveTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.55012,47.022383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cove Trail Continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.550442,47.022474,0
+            -65.550388,47.022474,0
+            -65.550002,47.02235,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cove Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/MiramichiRegion/MiramichiCity/FrenchFortCovePark/FrenchFortCoveTrail.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -65.550463,47.022211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cove Trail Continues</name>
+        <styleUrl>#line-FFFF66-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.550678,47.022467,0
+            -65.550511,47.022313,0
+            -65.550436,47.022149,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout and Interpretive Sign</name>
+        <styleUrl>#icon-143-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.551517,47.023436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Access</name>
+        <styleUrl>#line-FF6600-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.551171,47.023579,0
+            -65.551515,47.023429,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Scenic Views</name>
+        <styleUrl>#icon-143-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.556536,47.026087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Covered Bridge</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.550946,47.022346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

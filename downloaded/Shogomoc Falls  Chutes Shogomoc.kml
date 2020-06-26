@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Shogomoc Falls / Chutes Shogomoc</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1207-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1207-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1207-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4488-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.488</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-4488-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6.732</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4488">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4488-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4488-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Lower Shogomoc Falls / Chutes Lower Shogomoc</name>
+        <description>06-DEC-15 3:42:20PM</description>
+        <styleUrl>#icon-1892-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -67.320595,45.944148,101.06
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <styleUrl>#icon-1207-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.32621,45.948473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Upper Shogomoc Falls / Chutes Upper Shogomoc</name>
+        <styleUrl>#icon-1892-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.3204583,45.9417985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>1.11 km</description>
+        <styleUrl>#line-DB4436-4488</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.3261204,45.9484836,0
+            -67.3260764,45.9484306,0
+            -67.3252648,45.9484567,0
+            -67.3237894,45.9486066,0
+            -67.3233284,45.9484996,0
+            -67.3229198,45.9484667,0
+            -67.322835,45.948148,0
+            -67.3227703,45.9478227,0
+            -67.3227677,45.9476545,0
+            -67.322763,45.9474395,0
+            -67.3226953,45.9472446,0
+            -67.3226744,45.9470251,0
+            -67.3225795,45.9468453,0
+            -67.3226631,45.9466179,0
+            -67.3226155,45.9463491,0
+            -67.3225772,45.9459204,0
+            -67.3225772,45.9456406,0
+            -67.3225031,45.9452917,0
+            -67.322191,45.9450848,0
+            -67.3219727,45.944897,0
+            -67.3217049,45.944652,0
+            -67.3214788,45.9444567,0
+            -67.321219,45.9442315,0
+            -67.3208982,45.9441523,0
+            -67.3209549,45.9440572,0
+            -67.3208035,45.9439562,0
+            -67.3205299,45.9437377,0
+            -67.320381,45.9435259,0
+            -67.3204235,45.9434599,0
+            -67.3205518,45.943446,0
+            -67.3206112,45.9433214,0
+            -67.3204646,45.9424701,0
+            -67.3204575,45.9419097,0
+            -67.3206058,45.9419318,0
+            -67.3206568,45.9418153,0
+            -67.3205441,45.9417239,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

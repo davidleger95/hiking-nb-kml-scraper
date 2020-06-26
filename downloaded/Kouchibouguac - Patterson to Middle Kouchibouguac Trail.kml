@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kouchibouguac - Patterson to Middle Kouchibouguac Trail</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-117-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-117-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/117-rangerstation.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-117-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-117-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-117-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Bike Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.010964,46.789997,0
+            -65.010856,46.790415,0
+            -65.010588,46.79057,0
+            -65.010159,46.790621,0
+            -65.009665,46.79068,0
+            -65.009151,46.79079,0
+            -65.008475,46.791062,0
+            -65.007724,46.791605,0
+            -65.005825,46.79292,0
+            -65.003303,46.794712,0
+            -64.999462,46.797386,0
+            -64.996641,46.799376,0
+            -64.994602,46.800625,0
+            -64.993969,46.800889,0
+            -64.993089,46.801183,0
+            -64.992177,46.801425,0
+            -64.99074,46.801903,0
+            -64.989216,46.802175,0
+            -64.986244,46.802953,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Middle Kouchibouguac Shelter</name>
+        <styleUrl>#icon-117-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.986416,46.803122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patterson to Pijeboogwek Trail continues</name>
+        <description>Click for more trail information: http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/PijeboogwekToPatterson.html</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.010974,46.789997,0
+            -65.010931,46.789644,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Middle Kouchibouguac to La Source Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/MiddleToLaSource.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.986212,46.802968,0
+            -64.984989,46.80332,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Middle Kouchibouguac to Petit Large Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/PetitToMiddle.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.986234,46.802968,0
+            -64.985719,46.802072,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Middle Kouchibouguac to Loggiecroft Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/KouchibouguacPark/MiddleToLoggiecroft.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.989216,46.80216,0
+            -64.989688,46.803188,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Patterson Shelter</name>
+        <styleUrl>#icon-117-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.012525,46.790625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patterson Shelter Access Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.01245,46.79066,0
+            -65.01218,46.79037,0
+            -65.01175,46.79012,0
+            -65.010996,46.789989,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Beldings Reef Nature Preserve</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-1125-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1125-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1125">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1125-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1125-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-16-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-16-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-16">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-77-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-77-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-93-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-93">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-5000-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-996633-5000-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-996633-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-5000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-5000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-EE9C96-2744-normal">
+      <LineStyle>
+        <color>ff969cee</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-EE9C96-2744-highlight">
+      <LineStyle>
+        <color>ff969cee</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-EE9C96-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-EE9C96-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-EE9C96-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Light Tower</name>
+        <description>13-JUL-14 4:04:57PM</description>
+        <styleUrl>#icon-16</styleUrl>
+        <Point>
+          <coordinates>
+            -66.347642,45.118663,10.22
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocky Cliff</name>
+        <description>13-JUL-14 4:13:04PM</description>
+        <styleUrl>#icon-16</styleUrl>
+        <Point>
+          <coordinates>
+            -66.350422,45.11853,22.24
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park at the Church</name>
+        <description><![CDATA[Please park at the church.  Parking beyond this point is in someone's front yard or driveway and not permitted.]]></description>
+        <styleUrl>#icon-93</styleUrl>
+        <Point>
+          <coordinates>
+            -66.3559546,45.1197669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Sign</name>
+        <styleUrl>#icon-77-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.355402,45.118014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Access Road</name>
+        <description>0.21 km</description>
+        <styleUrl>#line-996633-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.355368,45.118077,0
+            -66.355333,45.11791,0
+            -66.355285,45.117731,0
+            -66.355234,45.117587,0
+            -66.355156,45.117452,0
+            -66.355054,45.117363,0
+            -66.354922,45.117293,0
+            -66.354756,45.117316,0
+            -66.354507,45.117384,0
+            -66.354311,45.117458,0
+            -66.354104,45.117556,0
+            -66.353946,45.117623,0
+            -66.353855,45.11764,0
+            -66.353742,45.1176,0
+            -66.353699,45.117558,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.351651,45.116767,0
+            -66.351833,45.116733,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail on Private Property / Sentier sur propriété privée</name>
+        <description>Please return on Nature Preserve Trail. 0.64 km</description>
+        <styleUrl>#line-EE9C96-2744</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.347761,45.118637,0
+            -66.347965,45.118533,0
+            -66.348246,45.118465,0
+            -66.348359,45.118471,0
+            -66.34848,45.118437,0
+            -66.348796,45.118486,0
+            -66.349547,45.11849,0
+            -66.349799,45.11856,0
+            -66.350376,45.118527,0
+            -66.350969,45.118584,0
+            -66.351495,45.11865,0
+            -66.351782,45.118762,0
+            -66.351951,45.119107,0
+            -66.352106,45.11923,0
+            -66.352541,45.11932,0
+            -66.352728,45.1195,0
+            -66.353012,45.119561,0
+            -66.353211,45.119517,0
+            -66.353391,45.119428,0
+            -66.353635,45.119252,0
+            -66.353785,45.119211,0
+            -66.353769,45.118925,0
+            -66.353911,45.118836,0
+            -66.354045,45.118866,0
+            -66.354243,45.118985,0
+            -66.354501,45.118934,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.66 km</description>
+        <styleUrl>#line-DB4436-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.347761,45.118637,0
+            -66.347729,45.118512,0
+            -66.347721,45.118406,0
+            -66.347823,45.118172,0
+            -66.347906,45.118122,0
+            -66.348155,45.11791,0
+            -66.348531,45.117776,0
+            -66.3487,45.117782,0
+            -66.349024,45.117609,0
+            -66.349217,45.117602,0
+            -66.349515,45.117562,0
+            -66.349775,45.117547,0
+            -66.34996,45.117464,0
+            -66.35017,45.117267,0
+            -66.350288,45.117242,0
+            -66.350481,45.117229,0
+            -66.350572,45.117233,0
+            -66.350929,45.117049,0
+            -66.351138,45.116892,0
+            -66.35165,45.116765,0
+            -66.352087,45.117235,0
+            -66.352144,45.11725,0
+            -66.352358,45.117568,0
+            -66.352648,45.11792,0
+            -66.353107,45.117903,0
+            -66.353348,45.117799,0
+            -66.353466,45.117645,0
+            -66.353699,45.117558,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail on Private Property / Sentier sur propriété privée
+</name>
+        <description>Please return on Nature Preserve Trail.</description>
+        <styleUrl>#icon-1125</styleUrl>
+        <Point>
+          <coordinates>
+            -66.347965,45.118533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

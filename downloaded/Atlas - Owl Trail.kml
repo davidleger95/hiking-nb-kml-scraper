@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Atlas - Owl Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-0BA9CC-5456-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0BA9CC-5456-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0BA9CC-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0BA9CC-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0BA9CC-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F8971B-5456-normal">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F8971B-5456-highlight">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F8971B-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F8971B-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F8971B-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F8971B-5650-normal">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F8971B-5650-highlight">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F8971B-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F8971B-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F8971B-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Owl Trail</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76494,47.84294,0
+            -65.76468,47.8428,0
+            -65.76423,47.84274,0
+            -65.76383,47.84276,0
+            -65.76373,47.84287,0
+            -65.76358,47.84292,0
+            -65.7634,47.84289,0
+            -65.763,47.84304,0
+            -65.76284,47.84314,0
+            -65.76277,47.84339,0
+            -65.7627,47.84339,0
+            -65.76259,47.84349,0
+            -65.7626,47.84356,0
+            -65.7628,47.84362,0
+            -65.76338,47.84353,0
+            -65.763693,47.843385,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Hummingbird Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Hummingbird.html]]></description>
+        <styleUrl>#line-F8971B-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.765222,47.842913,0
+            -65.76494,47.84294,0
+            -65.764764,47.843036,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Heron Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Heron.html]]></description>
+        <styleUrl>#line-0BA9CC-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76468,47.8428,0
+            -65.764512,47.842649,0
+            -65.7644612,47.842589,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hummingbird Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/AtlasPark/Hummingbird.html]]></description>
+        <styleUrl>#line-F8971B-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76378,47.8433,0
+            -65.763672,47.843399,0
+            -65.76357,47.84353,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

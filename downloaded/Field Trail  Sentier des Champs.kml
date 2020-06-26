@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name> Field Trail / Sentier des Champs</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1603-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1621-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1621-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1621-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1621-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1621-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5069-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5069-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5844-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5844-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6038-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.038</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-6038-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9.057</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6038">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6038-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6038-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-6000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-6000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>9</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-6000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-6000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-6000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Field Trail</name>
+        <styleUrl>#line-FF0000-6000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.616987,47.639358,0
+            -65.616113,47.638997,0
+            -65.615598,47.638827,0
+            -65.61534,47.63853,0
+            -65.61499,47.63842,0
+            -65.61447,47.63837,0
+            -65.61371,47.63838,0
+            -65.61201,47.6382,0
+            -65.61097,47.63797,0
+            -65.60986,47.63767,0
+            -65.60973,47.63767,0
+            -65.60944,47.63786,0
+            -65.60931,47.63787,0
+            -65.60921,47.63784,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Coastal Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : <br>http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/Coastal.html]]></description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.616993,47.639355,0
+            -65.616794,47.639611,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Salt Marsh Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : <br>http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/SaltMarsh.html]]></description>
+        <styleUrl>#line-F4EB37-6038</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.615335,47.638531,0
+            -65.615437,47.638433,0
+            -65.615689,47.638256,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Woodland Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : <br>http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/Woodland.html]]></description>
+        <styleUrl>#line-F4EB37-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.614251,47.638386,0
+            -65.614262,47.638111,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>White Pine Path continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : <br>http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/WhitePinePath.html]]></description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.610453,47.637833,0
+            -65.610732,47.637613,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Lookout Platform</name>
+        <description>09-OCT-10 4:42:23PM</description>
+        <styleUrl>#icon-1621-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.614981,47.638338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amphitheatre</name>
+        <description>Daly Point Reserve / La Reserve de la Pointe Daly</description>
+        <styleUrl>#icon-1603-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.614367,47.638332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

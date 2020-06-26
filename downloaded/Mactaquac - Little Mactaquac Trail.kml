@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mactaquac - Little Mactaquac Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-009900-5000-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-009900-5000-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-009900-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CCCCCC-5000-normal">
+      <LineStyle>
+        <color>ffcccccc</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CCCCCC-5000-highlight">
+      <LineStyle>
+        <color>ffcccccc</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CCCCCC-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CCCCCC-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CCCCCC-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF9900-5000-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Little Mactaquac Trail</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.915364,45.961102,0
+            -66.915506,45.961271,0
+            -66.915777,45.961348,0
+            -66.916209,45.961622,0
+            -66.916448,45.961969,0
+            -66.916638,45.962107,0
+            -66.916896,45.962256,0
+            -66.917636,45.962541,0
+            -66.917928,45.962711,0
+            -66.918513,45.96313,0
+            -66.918612,45.963233,0
+            -66.918701,45.963486,0
+            -66.918956,45.963617,0
+            -66.919251,45.96393,0
+            -66.920061,45.964066,0
+            -66.92045,45.964039,0
+            -66.9205707,45.9643011,0
+            -66.9205894,45.9648655,0
+            -66.920372,45.9654846,0
+            -66.92035,45.965666,0
+            -66.920172,45.965602,0
+            -66.920108,45.965683,0
+            -66.919823,45.965887,0
+            -66.919636,45.96595,0
+            -66.919461,45.965998,0
+            -66.9193393,45.9661434,0
+            -66.9190791,45.966121,0
+            -66.9189803,45.9660402,0
+            -66.9187308,45.9660223,0
+            -66.918652,45.965972,0
+            -66.9184059,45.9660035,0
+            -66.9182143,45.9659202,0
+            -66.918137,45.965784,0
+            -66.9179475,45.9656802,0
+            -66.9179637,45.965504,0
+            -66.9179956,45.9652364,0
+            -66.918071,45.964978,0
+            -66.917867,45.964674,0
+            -66.917709,45.964165,0
+            -66.9171,45.963937,0
+            -66.916571,45.963807,0
+            -66.916158,45.96354,0
+            -66.915978,45.963488,0
+            -66.915539,45.963121,0
+            -66.915337,45.962834,0
+            -66.915067,45.96275,0
+            -66.914742,45.962934,0
+            -66.914517,45.96299,0
+            -66.914452,45.962919,0
+            -66.914251,45.962869,0
+            -66.913565,45.962849,0
+            -66.913111,45.962748,0
+            -66.91273,45.962869,0
+            -66.912543,45.962882,0
+            -66.911754,45.962692,0
+            -66.911644,45.962565,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Stream Access Trail</name>
+        <styleUrl>#line-F4EB37-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.92045,45.964039,0
+            -66.920634,45.963977,0
+            -66.920686,45.963883,0
+            -66.920719,45.963862,0
+            -66.920865,45.963948,0
+            -66.92087,45.963987,0
+            -66.921048,45.964039,0
+            -66.921084,45.9640157,0
+            -66.921142,45.964089,0
+            -66.921087,45.96414,0
+            -66.921076,45.964231,0
+            -66.921135,45.9643196,0
+            -66.921173,45.964441,0
+            -66.921243,45.964568,0
+            -66.921332,45.964665,0
+            -66.9213656,45.9648304,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers adjacent</name>
+      <Placemark>
+        <name>Beaver Pond Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/LowerSJRiver/MactaquacPark/BeaverPond.html]]></description>
+        <styleUrl>#line-FF9900-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.911636,45.962558,0
+            -66.911593,45.962457,0
+            -66.911459,45.962338,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Scotch Lake Road Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/LowerSJRiver/MactaquacPark/ScotchLake.html]]></description>
+        <styleUrl>#line-009900-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.9179475,45.9656802,0
+            -66.917789,45.965929,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Porcupine Pass Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/LowerSJRiver/MactaquacPark/PorcupinePass.html]]></description>
+        <styleUrl>#line-CCCCCC-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.914522,45.962988,0
+            -66.914493,45.963095,0
+            -66.914519,45.963253,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

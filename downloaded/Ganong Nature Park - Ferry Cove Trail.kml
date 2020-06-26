@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ganong Nature Park - Ferry Cove Trail</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="line-EE9C96-5069-normal">
+      <LineStyle>
+        <color>ff969cee</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-EE9C96-5069-highlight">
+      <LineStyle>
+        <color>ff969cee</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-EE9C96-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-EE9C96-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-EE9C96-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Ferry Cove Trail</name>
+        <description>0.14 km</description>
+        <styleUrl>#line-EE9C96-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.162849,45.172021,0
+            -67.162706,45.172105,0
+            -67.162554,45.172084,0
+            -67.1623474,45.1720726,0
+            -67.162098,45.1720934,0
+            -67.1618807,45.1720481,0
+            -67.1616608,45.1720613,0
+            -67.1614274,45.1721067,0
+            -67.1611699,45.1721369,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Tide Pool continues</name>
+        <description>For more information on this trail go to http://www.hikingnb.ca/Trails/FundyWest/GanongPark/TidePool.html</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.1611699,45.1721369,0
+            -67.1610251,45.1720764,0
+            -67.1608159,45.1720462,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Field Edge Trail continues</name>
+        <description>For more information on this trail go to http://www.hikingnb.ca/Trails/FundyWest/GanongPark/FieldEdge.html</description>
+        <styleUrl>#line-F4EB37-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.163052,45.172033,0
+            -67.162849,45.172021,0
+            -67.1625593,45.1719819,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

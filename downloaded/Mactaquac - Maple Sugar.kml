@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mactaquac - Maple Sugar</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="line-990000-5000-normal">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-990000-5000-highlight">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-990000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-990000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-990000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Maple Sugar Trail</name>
+        <description>0.61 km</description>
+        <styleUrl>#line-990000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.891981,45.959601,0
+            -66.89182,45.959194,0
+            -66.891439,45.95881,0
+            -66.891176,45.958008,0
+            -66.890967,45.957803,0
+            -66.890913,45.957165,0
+            -66.890833,45.956934,0
+            -66.890345,45.956129,0
+            -66.890286,45.955815,0
+            -66.89013,45.955431,0
+            -66.889867,45.954995,0
+            -66.889712,45.954913,0
+            -66.889545,45.954682,0
+            -66.88947,45.954465,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

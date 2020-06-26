@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>MacKay Skyway Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1644-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-4875-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F4EB37-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-3000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-3000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>MacKay Skyway Trail</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/MacKaySkyway.html ]]></description>
+        <styleUrl>#line-FF0000-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0497453,45.2943193,0
+            -66.0493658,45.2944136,0
+            -66.0491941,45.2945107,0
+            -66.0489121,45.2945282,0
+            -66.0485124,45.2945942,0
+            -66.0483243,45.294635,0
+            -66.0482937,45.2946864,0
+            -66.048271,45.2948603,0
+            -66.0483032,45.2952131,0
+            -66.0483944,45.2954074,0
+            -66.0482844,45.295515,0
+            -66.0482013,45.295598,0
+            -66.0481906,45.2957471,0
+            -66.0481342,45.2958414,0
+            -66.0480001,45.2958357,0
+            -66.0479331,45.2958565,0
+            -66.0479679,45.2959452,0
+            -66.0479572,45.2960244,0
+            -66.0478875,45.2960886,0
+            -66.0478553,45.2961942,0
+            -66.0478607,45.2962621,0
+            -66.047807,45.2962905,0
+            -66.0477614,45.2962867,0
+            -66.0477212,45.2963188,0
+            -66.0476166,45.2963527,0
+            -66.0476193,45.2964697,0
+            -66.0474851,45.2965301,0
+            -66.0472947,45.2965754,0
+            -66.047166,45.2966357,0
+            -66.0471096,45.2967414,0
+            -66.0470131,45.2967301,0
+            -66.0469058,45.2968244,0
+            -66.0468387,45.2969244,0
+            -66.0468575,45.2970093,0
+            -66.0467905,45.2971112,0
+            -66.0468092,45.2971942,0
+            -66.0467905,45.297281,0
+            -66.0466778,45.2973414,0
+            -66.0466885,45.2973867,0
+            -66.0467529,45.2974414,0
+            -66.0467234,45.2975602,0
+            -66.0465812,45.2975602,0
+            -66.0464579,45.2977583,0
+            -66.0465678,45.297947,0
+            -66.0465464,45.2980583,0
+            -66.046474,45.29823,0
+            -66.0464579,45.2983961,0
+            -66.046516,45.2985263,0
+            -66.046547,45.2986463,0
+            -66.0465369,45.2988236,0
+            -66.0463372,45.2989753,0
+            -66.0461682,45.299096,0
+            -66.0460772,45.2991222,0
+            -66.0459416,45.2992164,0
+            -66.0459202,45.299444,0
+            -66.04579,45.2996243,0
+            -66.0455933,45.2997966,0
+            -66.0454973,45.2999144,0
+            -66.0452777,45.3000412,0
+            -66.0451225,45.2999929,0
+            -66.04492,45.3001325,0
+            -66.0447242,45.3003149,0
+            -66.0447359,45.3004148,0
+            -66.0446576,45.300561,0
+            -66.0443738,45.3009267,0
+            -66.0444409,45.3010529,0
+            -66.0444554,45.3011908,0
+            -66.0444323,45.3012482,0
+            -66.0444613,45.3016018,0
+            -66.0443113,45.3016602,0
+            -66.0442685,45.3018002,0
+            -66.0440219,45.3019772,0
+            -66.043912,45.3020032,0
+            -66.0438685,45.3021204,0
+            -66.0438511,45.3022637,0
+            -66.0438576,45.3022948,0
+            -66.0439393,45.3023486,0
+            -66.04397,45.3024042,0
+            -66.043984,45.3024939,0
+            -66.0440546,45.30259,0
+            -66.0440467,45.3027439,0
+            -66.044129,45.302833,0
+            -66.0443131,45.3028776,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>MacKay Skyway Trail</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/MacKaySkyway.html ]]></description>
+        <styleUrl>#line-FF0000-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0492401,45.2944868,0
+            -66.0492187,45.2945679,0
+            -66.0490068,45.2947887,0
+            -66.0488217,45.2949132,0
+            -66.0487439,45.2950415,0
+            -66.0486849,45.2952264,0
+            -66.0486447,45.2953189,0
+            -66.0485481,45.2953604,0
+            -66.0485615,45.2954264,0
+            -66.0486447,45.2955472,0
+            -66.0486742,45.2956774,0
+            -66.0487922,45.2956453,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>MacKay Skyway Trail</name>
+        <description><![CDATA[For more information go to / Pour plus d'information: http://www.hikingnb.ca/Trails/LowerSJRiver/SaintJohn/RockwoodPark/MacKaySkyway.html ]]></description>
+        <styleUrl>#line-FF0000-3000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0485535,45.2954038,0
+            -66.0483944,45.2954074,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>27-OCT-14 3:41:14PM</description>
+        <styleUrl>#icon-1644-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -66.051624,45.297133,51.32
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentier Adjacent</name>
+      <Placemark>
+        <name>Tall Grass Trail continues</name>
+        <styleUrl>#line-F4EB37-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.0446832,45.3026097,0
+            -66.0444424,45.3028384,0
+            -66.0443131,45.3028776,0
+            -66.0440965,45.3032647,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Carriage Road continues</name>
+        <styleUrl>#line-F4EB37-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.049673,45.2939965,0
+            -66.0497642,45.2941097,0
+            -66.0497374,45.2945588,0
+            -66.0496569,45.2946645,0
+            -66.049614,45.2948041,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

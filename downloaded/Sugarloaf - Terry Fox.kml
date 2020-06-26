@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sugarloaf - Terry Fox</name>
+    <description>www.hikingnb.ca</description>
+    <Style id="icon-67-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-67-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/67-hiker.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-67">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-67-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-67-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Terry Fox Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.694085,47.985945,0
+            -66.693513,47.986617,0
+            -66.692239,47.986471,0
+            -66.690735,47.986173,0
+            -66.689318,47.986094,0
+            -66.688361,47.985789,0
+            -66.687808,47.98576,0
+            -66.68345,47.986712,0
+            -66.681722,47.986891,0
+            -66.680971,47.987186,0
+            -66.680094,47.987681,0
+            -66.677946,47.988263,0
+            -66.676508,47.989333,0
+            -66.675505,47.98992,0
+            -66.675358,47.99022,0
+            -66.675521,47.99086,0
+            -66.675248,47.991097,0
+            -66.674472,47.991374,0
+            -66.674384,47.991544,0
+            -66.674598,47.991832,0
+            -66.674641,47.992119,0
+            -66.674582,47.992363,0
+            -66.674722,47.992589,0
+            -66.674765,47.992833,0
+            -66.674931,47.99302,0
+            -66.675741,47.993135,0
+            -66.676133,47.993232,0
+            -66.676615,47.993706,0
+            -66.677136,47.993885,0
+            -66.68198,47.993383,0
+            -66.685392,47.993214,0
+            -66.687221,47.992912,0
+            -66.68956,47.992625,0
+            -66.690198,47.992133,0
+            -66.69059,47.991982,0
+            -66.691636,47.991789,0
+            -66.692693,47.991501,0
+            -66.694297,47.990787,0
+            -66.695327,47.989717,0
+            -66.695187,47.988751,0
+            -66.694956,47.988213,0
+            -66.693932,47.987392,0
+            -66.693513,47.986619,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sugarloaf Mountain Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.675848,47.990667,0
+            -66.675513,47.990826,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sugarloaf Mountain Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AppalachianRegion/Campbellton/SugarloafPark/SugarloafMountain.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.675679,47.990747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bird Sanctuary to Sugarloaf Park Trail continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.695918,47.985656,0
+            -66.696315,47.985592,0
+            -66.696712,47.985994,0
+            -66.696959,47.986195,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bird Sanctuary to Sugarloaf Park Trail</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AppalachianRegion/Atholville/BirdToSugarloaf.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.696571,47.985829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Access Trail / Sentier access</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.6771,47.993885,0
+            -66.675845,47.9941,0
+            -66.674729,47.994359,0
+            -66.673538,47.994445,0
+            -66.671961,47.994625,0
+            -66.670158,47.994797,0
+            -66.669665,47.995041,0
+            -66.669246,47.995163,0
+            -66.66841,47.995199,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walker Brook Trail continues / Sentier Walker Brook continues</name>
+        <styleUrl>#line-FFFF00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.668302,47.99563,0
+            -66.667938,47.995666,0
+            -66.667465,47.995831,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walker Brook Trail / Sentier Walker Brook</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AppalachianRegion/Campbellton/WalkerBrook.html)</description>
+        <styleUrl>#icon-67</styleUrl>
+        <Point>
+          <coordinates>
+            -66.667829,47.995694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

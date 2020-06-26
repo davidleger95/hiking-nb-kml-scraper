@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Atlas - Botanical Garden Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentier</name>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.76419,47.844985,0
+            -65.763991,47.8451,0
+            -65.763613,47.845259,0
+            -65.763586,47.845352,0
+            -65.763632,47.845507,0
+            -65.763736,47.84559,0
+            -65.763975,47.845707,0
+            -65.764031,47.8457,0
+            -65.764061,47.845675,0
+            -65.764034,47.845639,0
+            -65.763972,47.845615,0
+            -65.763873,47.845599,0
+            -65.763787,47.845612,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.763626,47.845502,0
+            -65.763433,47.845405,0
+            -65.763339,47.845313,0
+            -65.763216,47.845181,0
+            -65.763176,47.845133,0
+            -65.763063,47.845108,0
+            -65.762883,47.845118,0
+            -65.762725,47.845104,0
+            -65.762677,47.845057,0
+            -65.762701,47.845019,0
+            -65.762731,47.845,0
+            -65.762916,47.844992,0
+            -65.763058,47.844955,0
+            -65.763192,47.844881,0
+            -65.763256,47.844814,0
+            -65.763326,47.844758,0
+            -65.763377,47.844748,0
+            -65.763433,47.844766,0
+            -65.7635,47.844866,0
+            -65.763482,47.844951,0
+            -65.763474,47.845021,0
+            -65.763476,47.845075,0
+            -65.763524,47.845113,0
+            -65.763594,47.845149,0
+            -65.763771,47.845196,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Botanical Garden Trail</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.763095,47.845113,0
+            -65.763221,47.845084,0
+            -65.763342,47.845057,0
+            -65.763452,47.844996,0
+            -65.763474,47.844973,0
+            -65.76338,47.844978,0
+            -65.763275,47.844956,0
+            -65.76324,47.844913,0
+            -65.763216,47.844863,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

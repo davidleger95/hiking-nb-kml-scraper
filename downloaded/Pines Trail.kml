@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pines Trail</name>
+    <description><![CDATA[Kouchibouguac National Park<br>www.hikingnb.ca]]></description>
+    <Style id="icon-77-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-77-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/77-info.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33CC00-5000-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 12:15:25PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.96211,46.771434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign and Bench</name>
+        <description>09-OCT-11 12:27:18PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.963195,46.770052,26.08
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign and Bench</name>
+        <description>09-OCT-11 12:32:42PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.964347,46.769482,28.24
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign and Bench</name>
+        <description>09-OCT-11 12:37:31PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.963914,46.77077,32.57
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 12:43:02PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.961828,46.77101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign and Bench</name>
+        <description>09-OCT-11 12:22:52PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.962695,46.769983,23.44
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign</name>
+        <description>09-OCT-11 12:41:21PM</description>
+        <styleUrl>#icon-77</styleUrl>
+        <Point>
+          <coordinates>
+            -64.962758,46.771035,32.57
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Lot</name>
+        <styleUrl>#icon-93-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -64.962239,46.771532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pines Trail</name>
+        <description>Forested Trail</description>
+        <styleUrl>#line-33CC00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -64.961989,46.771482,0
+            -64.961807,46.771205,0
+            -64.961804,46.771085,0
+            -64.96185,46.770994,0
+            -64.961769,46.770896,0
+            -64.961818,46.770742,0
+            -64.961952,46.770575,0
+            -64.96211,46.770507,0
+            -64.962164,46.77043,0
+            -64.962325,46.770411,0
+            -64.962536,46.770295,0
+            -64.962695,46.769976,0
+            -64.962598,46.769928,0
+            -64.962601,46.769867,0
+            -64.962823,46.769809,0
+            -64.963242,46.770079,0
+            -64.963435,46.770068,0
+            -64.963751,46.769844,0
+            -64.963821,46.769493,0
+            -64.963907,46.76937,0
+            -64.964068,46.769316,0
+            -64.964285,46.769408,0
+            -64.96443,46.769584,0
+            -64.964435,46.769678,0
+            -64.964339,46.769719,0
+            -64.964441,46.769831,0
+            -64.964379,46.770187,0
+            -64.96406,46.770738,0
+            -64.963928,46.770731,0
+            -64.96391,46.770797,0
+            -64.963851,46.770795,0
+            -64.963279,46.770751,0
+            -64.962966,46.770858,0
+            -64.962746,46.771032,0
+            -64.962502,46.771058,0
+            -64.96185,46.770994,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ganong Nature Park - Tide Pool Trail</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1603-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-795548-nodesc-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-795548-nodesc-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-795548-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-795548-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-795548-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1723-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1723-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1723-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1723-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1723-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0BA9CC-5263-nodesc-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0BA9CC-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0BA9CC-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0BA9CC-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0BA9CC-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0BA9CC-5650-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0BA9CC-5650-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0BA9CC-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0BA9CC-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0BA9CC-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5456-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5456-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-5844-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-5844-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F4EB37-6231-normal">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>6.231</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F4EB37-6231-highlight">
+      <LineStyle>
+        <color>ff37ebf4</color>
+        <width>9.3465</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F4EB37-6231">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F4EB37-6231-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F4EB37-6231-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Historic Ganong Cottage</name>
+        <styleUrl>#icon-1603-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.1605423,45.1712009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gazebo</name>
+        <styleUrl>#icon-1603-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.1619022,45.1691209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tidal Beach</name>
+        <styleUrl>#icon-1723-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.160039,45.170665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Tide Pool Trail</name>
+        <description>0.96 km</description>
+        <styleUrl>#line-0BA9CC-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.1631655,45.1712274,0
+            -67.1629241,45.1708019,0
+            -67.1628383,45.170662,0
+            -67.1626076,45.1701968,0
+            -67.1624145,45.1697298,0
+            -67.1622723,45.1694575,0
+            -67.1621141,45.1692022,0
+            -67.1619746,45.1690736,0
+            -67.1617654,45.1689564,0
+            -67.1616581,45.1688315,0
+            -67.161554,45.16873,0
+            -67.1614274,45.1687332,0
+            -67.161265,45.168771,0
+            -67.161196,45.168807,0
+            -67.161092,45.168978,0
+            -67.16089,45.169167,0
+            -67.160851,45.169231,0
+            -67.160908,45.169311,0
+            -67.160919,45.169416,0
+            -67.160939,45.169488,0
+            -67.160903,45.16955,0
+            -67.160927,45.169589,0
+            -67.16096,45.169743,0
+            -67.160819,45.169857,0
+            -67.160659,45.169948,0
+            -67.160495,45.170014,0
+            -67.160415,45.169978,0
+            -67.160314,45.170027,0
+            -67.160272,45.170085,0
+            -67.160218,45.17013,0
+            -67.160255,45.170175,0
+            -67.160289,45.170279,0
+            -67.160189,45.170387,0
+            -67.16013,45.170559,0
+            -67.160086,45.170589,0
+            -67.160039,45.170665,0
+            -67.160001,45.170779,0
+            -67.160036,45.170804,0
+            -67.1600488,45.1708984,0
+            -67.1600085,45.1709929,0
+            -67.160022,45.1710875,0
+            -67.160051,45.171206,0
+            -67.160096,45.171317,0
+            -67.1600917,45.1714581,0
+            -67.1601024,45.1715564,0
+            -67.160138,45.171658,0
+            -67.160242,45.171824,0
+            -67.160279,45.171933,0
+            -67.160349,45.171977,0
+            -67.160547,45.172,0
+            -67.160664,45.172068,0
+            -67.1609098,45.1720878,0
+            -67.161009,45.1720991,0
+            -67.161074,45.172083,0
+            -67.16129,45.172125,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Beach Access Trail</name>
+        <styleUrl>#line-0BA9CC-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.1602848,45.1711121,0
+            -67.1602821,45.1713314,0
+            -67.160309,45.1715262,0
+            -67.160379,45.171639,0
+            -67.1603277,45.171702,0
+            -67.1602204,45.1717909,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Field Edge Trail continues</name>
+        <description>For more information on this trail go to http://www.hikingnb.ca/Trails/FundyWest/GanongPark/FieldEdge.html</description>
+        <styleUrl>#line-F4EB37-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.1622616,45.1689119,0
+            -67.1620739,45.1690065,0
+            -67.1617842,45.1690868,0
+            -67.1617037,45.169101,0
+            -67.1616192,45.1691313,0
+            -67.1615683,45.1691757,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Field Edge Trail continues</name>
+        <description>For more information on this trail go to http://www.hikingnb.ca/Trails/FundyWest/GanongPark/FieldEdge.html</description>
+        <styleUrl>#line-F4EB37-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.160545,45.1712822,0
+            -67.1603519,45.1712066,0
+            -67.1602848,45.1711121,0
+            -67.1602634,45.1710478,0
+            -67.1602848,45.1709457,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ferry Cove Trail continues</name>
+        <description>For more information on this trail go to http://www.hikingnb.ca/Trails/FundyWest/GanongPark/FerryCove.html</description>
+        <styleUrl>#line-F4EB37-6231</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.16129,45.172125,0
+            -67.1617252,45.1720726,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

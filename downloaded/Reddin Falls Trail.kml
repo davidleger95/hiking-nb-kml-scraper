@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Reddin Falls Trail</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1541-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1541-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1541-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1576-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1576-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1576-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1576-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1576-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1619-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1619-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1619-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1619-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1619-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-6000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFDD5E-6000-normal">
+      <LineStyle>
+        <color>ff5eddff</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFDD5E-6000-highlight">
+      <LineStyle>
+        <color>ff5eddff</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFDD5E-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFDD5E-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFDD5E-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>16-AUG-15 4:00:27PM</description>
+        <styleUrl>#icon-1644-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8666088,45.6260649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cow Fence</name>
+        <description>16-AUG-15 4:09:09PM</description>
+        <styleUrl>#icon-1619-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -65.864239,45.625071,17.43
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 4:13:45PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8619079,45.6237717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 4:18:23PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.859998,45.623572,18.63
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 4:22:07PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.859408,45.622272,21.27
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 4:30:52PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.859885,45.619411,33.53
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 4:51:20PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8573137,45.6119283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 5:00:16PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8567876,45.6102612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterfall</name>
+        <description>16-AUG-15 5:12:25PM</description>
+        <styleUrl>#icon-1892-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8564171,45.6099271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 6:01:03PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8580165,45.6127996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 6:08:20PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.858115,45.615744,72.95
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 6:10:25PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8580922,45.6166336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stream Crossing</name>
+        <description>16-AUG-15 6:19:17PM</description>
+        <styleUrl>#icon-1576-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -65.8598557,45.6209226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Trespassing sign</name>
+        <styleUrl>#icon-1541-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.86595,45.6259636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Path</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>2.31 km</description>
+        <styleUrl>#line-DB4436-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.8566123,45.6099502,0
+            -65.8565998,45.6101235,0
+            -65.8567125,45.6102399,0
+            -65.8569056,45.610345,0
+            -65.857147,45.6104351,0
+            -65.8573937,45.6105814,0
+            -65.8574367,45.6109191,0
+            -65.8575171,45.6111593,0
+            -65.857383,45.6114933,0
+            -65.8573294,45.6118873,0
+            -65.8572865,45.6120336,0
+            -65.8573294,45.6123526,0
+            -65.8576459,45.6124689,0
+            -65.8578658,45.612619,0
+            -65.858075,45.6128929,0
+            -65.8581555,45.6130918,0
+            -65.858108,45.613462,0
+            -65.8581179,45.6136659,0
+            -65.8579838,45.6140974,0
+            -65.8579248,45.6144464,0
+            -65.8579087,45.614619,0
+            -65.858016,45.6147879,0
+            -65.8579838,45.6150243,0
+            -65.8579946,45.6152081,0
+            -65.8579248,45.6155346,0
+            -65.8579624,45.6157747,0
+            -65.8580375,45.6160299,0
+            -65.8580697,45.6162663,0
+            -65.858098,45.616495,0
+            -65.858075,45.6168103,0
+            -65.8582628,45.6169754,0
+            -65.858354,45.6172606,0
+            -65.8584344,45.6175608,0
+            -65.8584237,45.6179059,0
+            -65.8584183,45.6182812,0
+            -65.8585632,45.6185776,0
+            -65.8589923,45.618874,0
+            -65.8592391,45.6190916,0
+            -65.8596361,45.6192042,0
+            -65.859856,45.6193542,0
+            -65.8601296,45.6196244,0
+            -65.860194,45.619947,0
+            -65.8600813,45.6202847,0
+            -65.859891,45.620645,0
+            -65.8598399,45.6209225,0
+            -65.8594537,45.6211627,0
+            -65.8591318,45.6214853,0
+            -65.859046,45.6217555,0
+            -65.8592445,45.6220481,0
+            -65.859402,45.622288,0
+            -65.8593303,45.6225246,0
+            -65.859459,45.6227534,0
+            -65.8595878,45.6231286,0
+            -65.8596736,45.6233537,0
+            -65.859974,45.6235075,0
+            -65.8604729,45.6236126,0
+            -65.8608967,45.6236501,0
+            -65.8615029,45.6236351,0
+            -65.8618945,45.6237439,0
+            -65.8623236,45.623999,0
+            -65.86277,45.624209,0
+            -65.863262,45.624401,0
+            -65.86361,45.62456,0
+            -65.8638203,45.6247944,0
+            -65.864017,45.624981,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>New Access</name>
+        <description>0.37 km</description>
+        <styleUrl>#line-FFDD5E-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.8682728,45.6246631,0
+            -65.8674145,45.6244605,0
+            -65.8663738,45.6243479,0
+            -65.8651078,45.624438,0
+            -65.8640671,45.6245205,0
+            -65.86361,45.62456,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ballfield to Bar Road Trail </name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1528-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1528-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1528-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF9900-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.05573,45.087248,0
+            -67.055811,45.087392,0
+            -67.055865,45.087623,0
+            -67.056079,45.087911,0
+            -67.056374,45.088176,0
+            -67.056691,45.08824,0
+            -67.056819,45.088331,0
+            -67.056841,45.088449,0
+            -67.056943,45.088562,0
+            -67.057243,45.088767,0
+            -67.057426,45.088986,0
+            -67.057554,45.089195,0
+            -67.057613,45.089456,0
+            -67.057758,45.089657,0
+            -67.058155,45.089835,0
+            -67.05859,45.089986,0
+            -67.058804,45.090028,0
+            -67.059191,45.090013,0
+            -67.059684,45.090278,0
+            -67.060151,45.090376,0
+            -67.060564,45.09052,0
+            -67.060671,45.0906,0
+            -67.061116,45.090812,0
+            -67.061631,45.091217,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Side Trail</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.057452,45.088986,0
+            -67.057329,45.089104,0
+            -67.056975,45.089244,0
+            -67.056841,45.089217,0
+            -67.056626,45.089039,0
+            -67.056492,45.089028,0
+            -67.05646,45.088975,0
+            -67.056363,45.088971,0
+            -67.056315,45.088873,0
+            -67.056449,45.08877,0
+            -67.056208,45.088399,0
+            -67.056154,45.088146,0
+            -67.056165,45.088005,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Side Trail</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.057619,45.08946,0
+            -67.057608,45.089634,0
+            -67.057726,45.089948,0
+            -67.057908,45.090062,0
+            -67.058069,45.090107,0
+            -67.057978,45.090437,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Side Trail</name>
+        <styleUrl>#line-FF9900-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.055854,45.087577,0
+            -67.055596,45.087612,0
+            -67.055366,45.087653,0
+            -67.055108,45.087797,0
+            -67.054899,45.087941,0
+            -67.0547,45.088077,0
+            -67.054582,45.088134,0
+            -67.054427,45.088168,0
+            -67.054373,45.088089,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>26-JUL-14 4:09:59PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -67.058391,45.089891,16.47
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>26-JUL-14 4:11:18PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -67.059182,45.090046,19.59
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / Banc</name>
+        <description>26-JUL-14 4:13:04PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -67.060551,45.090569,24.4
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small Bridge / Pont</name>
+        <description>26-JUL-14 4:21:15PM</description>
+        <styleUrl>#icon-1528-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -67.059266,45.090079,20.79
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

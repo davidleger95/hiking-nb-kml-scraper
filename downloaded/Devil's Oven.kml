@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Devil's Oven]]></name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada.<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1644-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1694-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1694-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1694-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1694-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1694-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5844-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-5844-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>Best to park along the road at the top of the hill. 06-MAR-17 3:13:57PM</description>
+        <styleUrl>#icon-1644-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -66.079597,46.137432,67.9
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ice Caves</name>
+        <styleUrl>#icon-1694-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -66.0796952,46.1410914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>ACTIVE LOG 012 001</name>
+      <Placemark>
+        <name>Caution: required to walk on the ice</name>
+        <description><![CDATA[Make sure the ice on the river is safe.  If you are not sure, don't go to this site. 0.55 km]]></description>
+        <styleUrl>#line-E65100-5844</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -66.079765,46.1374636,0
+            -66.0807145,46.1380657,0
+            -66.0809773,46.1381996,0
+            -66.0811651,46.1382479,0
+            -66.0813475,46.1382293,0
+            -66.0813957,46.1382144,0
+            -66.0814708,46.1383036,0
+            -66.081664,46.1384858,0
+            -66.081723,46.1386568,0
+            -66.0817981,46.1388612,0
+            -66.0818088,46.139021,0
+            -66.0818303,46.1392329,0
+            -66.0817713,46.1393556,0
+            -66.0816908,46.1394485,0
+            -66.0815352,46.1395526,0
+            -66.0813528,46.1397161,0
+            -66.0811624,46.1398406,0
+            -66.0809639,46.139928,0
+            -66.0807386,46.1400525,0
+            -66.0805938,46.1401956,0
+            -66.0804784,46.1402848,0
+            -66.0803336,46.1404669,0
+            -66.080178,46.1407067,0
+            -66.0799474,46.1409632,0
+            -66.0797784,46.1411193,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

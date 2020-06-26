@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cape Jourimain - Trenholm Trail / Sentier Trenholm</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1597-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1597-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1597-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1597-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1597-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1608-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1608-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1608-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1608-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1608-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>Trenholm Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.814182,46.159673,0
+            -63.815298,46.160297,0
+            -63.815534,46.160267,0
+            -63.815996,46.160015,0
+            -63.816854,46.160022,0
+            -63.817229,46.160082,0
+            -63.817605,46.16003,0
+            -63.817916,46.159918,0
+            -63.819128,46.160007,0
+            -63.820008,46.159294,0
+            -63.821317,46.158276,0
+            -63.822862,46.157012,0
+            -63.823935,46.15621,0
+            -63.824675,46.155652,0
+            -63.825695,46.154783,0
+            -63.826488,46.154129,0
+            -63.82754,46.153311,0
+            -63.827239,46.153081,0
+            -63.826757,46.152449,0
+            -63.826381,46.152338,0
+            -63.825995,46.152092,0
+            -63.826006,46.151825,0
+            -63.826114,46.151713,0
+            -63.825931,46.150665,0
+            -63.825383,46.150011,0
+            -63.82518,46.149655,0
+            -63.824665,46.149409,0
+            -63.824375,46.149075,0
+            -63.824032,46.14909,0
+            -63.823688,46.148978,0
+            -63.823152,46.149015,0
+            -63.822433,46.149275,0
+            -63.8221,46.14935,0
+            -63.8218,46.149387,0
+            -63.821585,46.149528,0
+            -63.821424,46.149736,0
+            -63.820942,46.150034,0
+            -63.820749,46.150011,0
+            -63.820502,46.149818,0
+            -63.820244,46.149432,0
+            -63.819633,46.149446,0
+            -63.819086,46.14929,0
+            -63.818817,46.14903,0
+            -63.818646,46.14906,0
+            -63.81841,46.148889,0
+            -63.817777,46.148703,0
+            -63.817305,46.148391,0
+            -63.816596,46.148116,0
+            -63.816371,46.147982,0
+            -63.8162,46.148034,0
+            -63.816242,46.148265,0
+            -63.816403,46.148406,0
+            -63.816414,46.148644,0
+            -63.816575,46.148911,0
+            -63.816983,46.149283,0
+            -63.817069,46.149469,0
+            -63.816951,46.149684,0
+            -63.817197,46.149721,0
+            -63.817669,46.149944,0
+            -63.817916,46.150234,0
+            -63.817852,46.150532,0
+            -63.817916,46.150725,0
+            -63.818227,46.150836,0
+            -63.819161,46.15103,0
+            -63.819772,46.150978,0
+            -63.820352,46.151267,0
+            -63.820448,46.151215,0
+            -63.820588,46.151349,0
+            -63.820813,46.15129,0
+            -63.821082,46.151119,0
+            -63.82151,46.151238,0
+            -63.821907,46.151275,0
+            -63.822669,46.151483,0
+            -63.823066,46.151498,0
+            -63.823173,46.151602,0
+            -63.823506,46.151594,0
+            -63.823742,46.151751,0
+            -63.823935,46.15178,0
+            -63.824074,46.151959,0
+            -63.824472,46.1523,0
+            -63.824793,46.152635,0
+            -63.825137,46.15285,0
+            -63.825748,46.152962,0
+            -63.826746,46.152746,0
+            -63.827003,46.152769,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Access Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.823576,46.148982,0
+            -63.823233,46.148725,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Access Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.821731,46.149428,0
+            -63.821634,46.149383,0
+            -63.82157,46.149242,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lookout Access Trail</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.816216,46.14803,0
+            -63.815959,46.147908,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lighthouse Trail continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/CapeJourimain/Lighthouse.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.814826,46.160015,0
+            -63.814612,46.160163,0
+            -63.814311,46.160505,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lighthouse Access Road continues</name>
+        <description>Click for more trail information (http://www.hikingnb.ca/Trails/AcadianSouth/CapeJourimain/Lighthouse.html)</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -63.814751,46.160632,0
+            -63.814172,46.159665,0
+            -63.81371,46.159405,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name> Waypoint / Repères</name>
+      <Placemark>
+        <name>Lookout / Pointe de vue</name>
+        <description>Lookout on an osprey nest / Vue sur un nid de balbuzard pêcheur</description>
+        <styleUrl>#icon-1597-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -63.81663,46.159911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sign / Signe</name>
+        <styleUrl>#icon-1608-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -63.827198,46.152776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout / Pointe de vue</name>
+        <description>Lookout on an old foundation in the woodland / Vue sur une ancienne fondation dans les bois</description>
+        <styleUrl>#icon-1597-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -63.823441,46.148818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout / Pointe de vue</name>
+        <description><![CDATA[Birds observatory / observatoire d'oiseaux]]></description>
+        <styleUrl>#icon-1597-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -63.821581,46.149258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lookout / Pointe de vue</name>
+        <description>Old cemetery and lookout on the salt marshes / Ancien cimetière et vue sur les marais salants. </description>
+        <styleUrl>#icon-1597-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -63.815978,46.147933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

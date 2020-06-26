@@ -1,0 +1,29 @@
+{
+  "name": "hiking-nb-kml-scraper",
+  "version": "1.0.0",
+  "description": "Downloads all KML files for trails on Hiking NB",
+  "main": "dist/index.js",
+  "scripts": {
+    "exec": "node dist/index.js",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "scraper"
+  ],
+  "author": "@davidleger95",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.3",
+    "@types/node-fetch": "^2.5.7",
+    "@types/puppeteer": "^3.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  }
+}

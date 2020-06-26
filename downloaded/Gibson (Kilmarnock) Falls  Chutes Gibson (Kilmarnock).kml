@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Gibson (Kilmarnock) Falls / Chutes Gibson (Kilmarnock)</name>
+    <description><![CDATA[The Most Definitive Guide to Hiking in New Brunswick, Canada<br>www.hikingnb.ca]]></description>
+    <Style id="icon-1207-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1207-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1207">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1207-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1207-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1391-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1391-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1391">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1391-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1391-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6000-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-6000-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-6000-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-6000-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>9</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-6000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-6000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-6000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Parking</name>
+        <description>20-JUN-15 1:33:15PM</description>
+        <styleUrl>#icon-1207</styleUrl>
+        <Point>
+          <coordinates>
+            -67.49164,46.091751,142.4
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterfall / Chutes</name>
+        <description>20-JUN-15 2:20:08PM</description>
+        <styleUrl>#icon-1391</styleUrl>
+        <Point>
+          <coordinates>
+            -67.494486,46.091469,144.8
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <description>0.50 km</description>
+        <styleUrl>#line-DB4436-6000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.491707,46.091711,0
+            -67.4919668,46.0917271,0
+            -67.4921653,46.0917997,0
+            -67.4922726,46.0918238,0
+            -67.4924147,46.091809,0
+            -67.4925783,46.0917439,0
+            -67.4927151,46.0917197,0
+            -67.4928573,46.091742,0
+            -67.4930048,46.0917215,0
+            -67.4932113,46.0916825,0
+            -67.4933615,46.0916843,0
+            -67.4934688,46.0917327,0
+            -67.493615,46.091781,0
+            -67.4937558,46.0918387,0
+            -67.493816,46.091936,0
+            -67.493982,46.091918,0
+            -67.4941984,46.0918629,0
+            -67.4943271,46.091742,0
+            -67.4943164,46.0916732,0
+            -67.4943888,46.0915988,0
+            -67.4943057,46.0915727,0
+            -67.494241,46.091496,0
+            -67.494178,46.091427,0
+            -67.4942172,46.0913197,0
+            -67.4942306,46.0912267,0
+            -67.4943244,46.0911282,0
+            -67.4944559,46.0909886,0
+            -67.4944988,46.0908677,0
+            -67.4946249,46.0907412,0
+            -67.4947321,46.0906371,0
+            -67.4948582,46.0905627,0
+            -67.4949789,46.0905124,0
+            -67.4950835,46.0904473,0
+            -67.4952284,46.0902985,0
+            -67.495349,46.0901702,0
+            -67.4954671,46.0900809,0
+            -67.4955744,46.0899711,0
+            -67.4957567,46.0899209,0
+            -67.495893,46.089879,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Trail / Sentier</name>
+        <styleUrl>#line-DB4436-6000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.494268,46.091532,0
+            -67.494016,46.0916043,0
+            -67.493737,46.0916788,0
+            -67.4935412,46.0917513,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Steep Access Trail / Sentier</name>
+        <styleUrl>#line-DB4436-6000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.4944317,46.0910091,0
+            -67.4945712,46.0910407,0
+            -67.494636,46.091126,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Steep Access Trail</name>
+        <styleUrl>#line-DB4436-6000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.4943486,46.091104,0
+            -67.494509,46.091152,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

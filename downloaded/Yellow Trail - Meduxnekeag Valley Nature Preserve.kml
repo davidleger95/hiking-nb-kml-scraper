@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Yellow Trail - Meduxnekeag Valley Nature Preserve</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1644-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4294-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.294</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-4294-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6.441</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4294">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4294-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4294-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4681-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-4681-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF9900-5000-normal">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF9900-5000-highlight">
+      <LineStyle>
+        <color>ff0099ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF9900-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF9900-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF9900-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-5000-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFF00-5000-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Yellow Trail</name>
+        <description>Meduxnekeag Park</description>
+        <styleUrl>#line-FFFF00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.671726,46.191793,0
+            -67.672139,46.191767,0
+            -67.672219,46.191871,0
+            -67.672396,46.191964,0
+            -67.672992,46.191808,0
+            -67.673394,46.191771,0
+            -67.673609,46.191652,0
+            -67.673925,46.191633,0
+            -67.674231,46.1915,0
+            -67.674408,46.191377,0
+            -67.674408,46.191299,0
+            -67.674639,46.191169,0
+            -67.674977,46.191217,0
+            -67.675003,46.19108,0
+            -67.674928,46.190946,0
+            -67.67496,46.190946,0
+            -67.674977,46.190872,0
+            -67.675121,46.190813,0
+            -67.675266,46.190515,0
+            -67.675524,46.190508,0
+            -67.675653,46.190556,0
+            -67.675856,46.190508,0
+            -67.676087,46.190319,0
+            -67.676001,46.190215,0
+            -67.675653,46.190352,0
+            -67.675095,46.190215,0
+            -67.674944,46.190315,0
+            -67.674934,46.190564,0
+            -67.674757,46.190772,0
+            -67.674247,46.190939,0
+            -67.673737,46.190972,0
+            -67.673212,46.191251,0
+            -67.673158,46.191422,0
+            -67.673029,46.191496,0
+            -67.672901,46.191552,0
+            -67.672702,46.191526,0
+            -67.672541,46.19154,0
+            -67.672139,46.191767,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.672562,46.1924007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / sentiers adjacent</name>
+      <Placemark>
+        <name>Red Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/UpperSJRiver/MeduxnekeagPark/Red.html]]></description>
+        <styleUrl>#line-DB4436-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.673361,46.191174,0
+            -67.673292,46.190903,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Red Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/UpperSJRiver/MeduxnekeagPark/Red.html]]></description>
+        <styleUrl>#line-DB4436-4294</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.671723,46.191791,0
+            -67.671674,46.191507,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Orange Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/UpperSJRiver/MeduxnekeagPark/Orange.html]]></description>
+        <styleUrl>#line-FF9900-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.676001,46.190214,0
+            -67.675657,46.190082,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Orange Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'information : http://www.hikingnb.ca/Trails/UpperSJRiver/MeduxnekeagPark/Orange.html]]></description>
+        <styleUrl>#line-FF9900-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.675995,46.190387,0
+            -67.676119,46.190452,0
+            -67.676148,46.19042,0
+            -67.676331,46.190422,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Railbed Trail continues</name>
+        <styleUrl>#line-795046-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -67.6726466,46.1924615,0
+            -67.671726,46.191793,0
+            -67.6709032,46.191095,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

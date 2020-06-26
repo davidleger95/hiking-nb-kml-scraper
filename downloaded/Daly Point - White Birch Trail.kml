@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Daly Point - White Birch Trail</name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5650-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5650-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-5069-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFFFFF-5069-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Trail / Sentier</name>
+      <Placemark>
+        <name>White Birch Trail</name>
+        <description>0.32 km</description>
+        <styleUrl>#line-FFFFFF-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.6103516,47.6384801,0
+            -65.610424,47.638538,0
+            -65.6104159,47.6386591,0
+            -65.6105581,47.6387404,0
+            -65.6106493,47.6387946,0
+            -65.6106305,47.6389085,0
+            -65.6105903,47.6390314,0
+            -65.6106037,47.6391235,0
+            -65.6108317,47.6391705,0
+            -65.6110999,47.6391561,0
+            -65.6113413,47.6390964,0
+            -65.6115022,47.6390892,0
+            -65.6117168,47.6391055,0
+            -65.6118724,47.6391199,0
+            -65.6120709,47.6390729,0
+            -65.6121996,47.6390006,0
+            -65.6123418,47.6389844,0
+            -65.6125054,47.6390187,0
+            -65.612728,47.6391416,0
+            -65.6129453,47.6392338,0
+            -65.6131169,47.6392591,0
+            -65.6133261,47.6392645,0
+            -65.6134522,47.6392392,0
+            -65.6135058,47.6391904,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / Sentiers Adjacent</name>
+      <Placemark>
+        <name>Gulch Trail continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/Gulch.html]]></description>
+        <styleUrl>#line-FFEA00-5650</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.6106761,47.6383735,0
+            -65.610475,47.638358,0
+            -65.610365,47.638392,0
+            -65.6103516,47.6384801,0
+            -65.610016,47.638641,0
+            -65.60977,47.638683,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Coastal Path continues</name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/AcadianNorth/Bathurst/DalyPoint/Coastal.html]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.613986,47.6394181,0
+            -65.613496,47.639222,0
+            -65.613488,47.639111,0
+            -65.6136,47.638985,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

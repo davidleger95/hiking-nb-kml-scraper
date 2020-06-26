@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Saunder's Brook Trail]]></name>
+    <description><![CDATA[www.hikingnb.ca<br>The Most Definitive Guide to Hiking in New Brunswick, Canada.  Le guide par excellence de la randonnée pédestre au Nouveau-Brunswick, Canada]]></description>
+    <Style id="icon-1528-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1528-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1528-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1644-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1644-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1650-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1650-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1650-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1650-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1650-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1892-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1892-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5069-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5069-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5263-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5263-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5456-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5456-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5263-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.263</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5263-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.8945</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5263">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5263-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5263-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-5456-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>5.456</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-5456-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>8.184</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-5456">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-5456-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-5456-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoint / Repères</name>
+      <Placemark>
+        <name>Bridge / Pont</name>
+        <description>10-MAY-18 12:37:31PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9775191,45.4425887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench monument</name>
+        <description>10-MAY-18 12:43:27PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9773091878742,45.4423902276903,15.0262451171875
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench</name>
+        <description>10-MAY-18 12:38:53PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9778204,45.4428033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking / Stationnement</name>
+        <styleUrl>#icon-1644-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9759757,45.4422227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 1:43:57PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9769112151116,45.4385522380471,17.6697998046875
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / banc</name>
+        <description>10-MAY-18 1:46:50PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9777568653226,45.4373502731323,21.5150146484375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bench / banc</name>
+        <description>10-MAY-18 1:56:04PM</description>
+        <styleUrl>#icon-1650-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9820266067982,45.4327045194805,29.4459228515625
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridge / pont</name>
+        <description>10-MAY-18 1:42:27PM</description>
+        <styleUrl>#icon-1528-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9772191662341,45.4395458288491,16.4681396484375
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small waterfall</name>
+        <description>10-MAY-18 12:39:37PM</description>
+        <styleUrl>#icon-1892-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -65.9776473976672,45.4428815748543,9.0179443359375
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Trails / Sentiers</name>
+      <Placemark>
+        <name><![CDATA[Saunder's Brook Trail]]></name>
+        <description>1.7 km</description>
+        <styleUrl>#line-7CB342-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9764482,45.4422131,0
+            -65.9765635,45.4421528,0
+            -65.9767244,45.442071,0
+            -65.9769268,45.4419868,0
+            -65.977281,45.4418847,0
+            -65.9773038,45.4418132,0
+            -65.9773199,45.4417511,0
+            -65.9774071,45.4415685,0
+            -65.9774419,45.4414951,0
+            -65.9774071,45.4413587,0
+            -65.9773615,45.4411959,0
+            -65.9773172,45.4411103,0
+            -65.9773722,45.4408703,0
+            -65.9774017,45.4407075,0
+            -65.9774916,45.4404911,0
+            -65.9775063,45.4402812,0
+            -65.9774996,45.4402069,0
+            -65.9774097,45.4400469,0
+            -65.9772166,45.4398842,0
+            -65.9771697,45.4397656,0
+            -65.9771831,45.4396724,0
+            -65.9772622,45.4394673,0
+            -65.9771777,45.4392057,0
+            -65.9772475,45.4391276,0
+            -65.9769685,45.4390109,0
+            -65.976825,45.4389441,0
+            -65.9769632,45.4386975,0
+            -65.9769739,45.4386213,0
+            -65.9769578,45.4385639,0
+            -65.9770088,45.4384538,0
+            -65.9771657,45.4382016,0
+            -65.9771804,45.4381452,0
+            -65.9771724,45.4380652,0
+            -65.9772381,45.4379259,0
+            -65.9773145,45.4378017,0
+            -65.9773843,45.437701,0
+            -65.9775291,45.4375664,0
+            -65.97769,45.4374573,0
+            -65.9779663,45.4372512,0
+            -65.9782198,45.4370846,0
+            -65.9783874,45.4369679,0
+            -65.9785376,45.4368588,0
+            -65.9786985,45.4366828,0
+            -65.9788957,45.4364993,0
+            -65.9790834,45.4363035,0
+            -65.9794147,45.4359299,0
+            -65.9794563,45.4358725,0
+            -65.9802301,45.4361934,0
+            -65.980391,45.4362603,0
+            -65.9805278,45.4363045,0
+            -65.9806633,45.4363045,0
+            -65.9807907,45.4363365,0
+            -65.980957,45.4361746,0
+            -65.9810187,45.4360655,0
+            -65.9810039,45.4359761,0
+            -65.980969,45.4355902,0
+            -65.980969,45.435307,0
+            -65.9810093,45.4352439,0
+            -65.9810508,45.4351771,0
+            -65.9809543,45.4351347,0
+            -65.9809851,45.4350886,0
+            -65.9809677,45.434987,0
+            -65.9808497,45.4347188,0
+            -65.9807196,45.4343612,0
+            -65.9806686,45.4341814,0
+            -65.9806753,45.4340412,0
+            -65.9807746,45.4337984,0
+            -65.9810347,45.4335565,0
+            -65.9813834,45.433262,0
+            -65.9816262,45.4330681,0
+            -65.9820571,45.4326979,0
+            -65.9822122,45.4325411,0
+            -65.982624,45.4322813,0
+            -65.9827943,45.4321731,0
+            -65.9828855,45.4321063,0
+            -65.9833911,45.4318051,0
+            -65.9836673,45.431615,0
+            -65.983835,45.4315058,0
+            -65.984075,45.4313901,0
+            -65.9842534,45.4313035,0
+            -65.9845096,45.4312743,0
+            -65.9846356,45.4312386,0
+            -65.9849119,45.4310946,0
+            -65.9852016,45.4309233,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Saunder's Brook Trail]]></name>
+        <description>150 metres</description>
+        <styleUrl>#line-7CB342-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9780041,45.4428887,0
+            -65.9779505,45.4428313,0
+            -65.9776795,45.4426563,0
+            -65.9775656,45.442549,0
+            -65.9774636,45.4426374,0
+            -65.9773952,45.4426384,0
+            -65.9772786,45.4425866,0
+            -65.9771713,45.4425085,0
+            -65.9770586,45.4423956,0
+            -65.9766268,45.4421256,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Saunder's Brook Trail]]></name>
+        <description>50 metres</description>
+        <styleUrl>#line-7CB342-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.977439,45.4380453,0
+            -65.9772835,45.4379795,0
+            -65.9771762,45.4379494,0
+            -65.9769629,45.4378167,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adjacent Trails / sentiers adjacent</name>
+      <Placemark>
+        <name><![CDATA[Matthew's Brook Trail continues]]></name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/LowerSJRiver/Quispamsis/Qplex/MatthewsBrook.html]]></description>
+        <styleUrl>#line-FFEA00-5456</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9773172,45.4411103,0
+            -65.9772285,45.4411046,0
+            -65.9770582,45.441019,0
+            -65.9769737,45.4409155,0
+            -65.9767846,45.4408365,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Matthew's Cove Trail continues]]></name>
+        <description><![CDATA[For more information go to / Pour plus d'informations, allez à : http://www.hikingnb.ca/Trails/LowerSJRiver/Quispamsis/Qplex/MatthewsBrook.html]]></description>
+        <styleUrl>#line-FFEA00-5263</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -65.9772954,45.4433104,0
+            -65.9772042,45.4435513,0
+            -65.9770593,45.4436341,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
