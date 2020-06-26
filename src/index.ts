@@ -74,9 +74,7 @@ const downloadKMLFiles = async (mapUrls: string[]) => {
   const dom = await new JSDOM(text);
   // links are in the 3rd column of the table on this page
   const linkSelector = 'tbody > tr > td:nth-child(3) > a';
-  const trailLinks = [
-    ...dom.window.document.querySelectorAll(linkSelector),
-  ].slice(300, 325);
+  const trailLinks = [...dom.window.document.querySelectorAll(linkSelector)];
   const trailUrls = trailLinks
     .filter((tl) => !!tl)
     .map((linkElement) => {
